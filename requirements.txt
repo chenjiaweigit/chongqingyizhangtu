@@ -7,4 +7,3 @@ allure-pytest
 requests
 pyyaml
 xlrd==1.2.0
-colorama

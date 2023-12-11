@@ -7,7 +7,6 @@ import requests
 from common.Send_Email import locathost_ip
 from common.set_title import getrootdirectory
 from common.yaml_util1 import load_ini
-from colorama import init, Fore, Style
 
 data_file_path = os.path.join(getrootdirectory(), 'config', 'setting.ini')
 work_wechat = load_ini(data_file_path)["work_wechat"]
@@ -50,29 +49,30 @@ def send_workwhat(message):
             print("企业微信小程序消息推送成功！")
 
 
-def send_workwhat_robot(message):
-    init()
-    title_text = Fore.RED + '重庆农业产业数字化一张图监控' + Style.RESET_ALL
+def send_workwhat_robot(message, result_type):
     data = {
         "msgtype": "markdown",
         "markdown": {
             "content": "<font color=\"warning\">重庆农业产业数字化一张图监控</font>\n"
                        ">" + now_time + "\n"
                                         ">" + message + "\n"
-                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")"},
-        "mentioned_list": ["ChenJiaWei", "Anna"],
+                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")\n"},
     }
     data1 = {
-        "msgtype": "text",
-        "text": {
-            "content": title_text +"\n"
-                       "" + now_time + "\n"
-                                        "" + message + "\n"
-                                                        "Jenkins地址：""\n" + locathost_ip,
-            "mentioned_list": ["ChenJiaWei", "Anna"],
-        }
+        "msgtype": "markdown",
+        "markdown": {
+            "content": "<font color=\"warning\">重庆农业产业数字化一张图监控</font>\n"
+                       ">" + now_time + "\n"
+                                        ">" + message + "\n"
+                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")\n"
+                                                                                                 "<@ChenJiaWei><@Anna>"},
     }
     if state == 'True':
-        send_robot_message = requests.post(robot_url, json=data)
-        if send_robot_message.status_code == 200:
-            print("群机器人消息发送成功！")
+        if result_type == 0:
+            send_robot_message = requests.post(robot_url, json=data)
+            if send_robot_message.status_code == 200:
+                print("群机器人消息发送成功！")
+        elif result_type == 1:
+            send_robot_message = requests.post(robot_url, json=data1)
+            if send_robot_message.status_code == 200:
+                print("群机器人消息发送成功！")
