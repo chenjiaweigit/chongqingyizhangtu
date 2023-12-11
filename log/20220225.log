@@ -1,0 +1,2240 @@
+[2022-02-25 14:34:16,102][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:34:16,104][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:34:16,109][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:34:16,200][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:34:16,218][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:34:16,219][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:34:16,222][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:34:16,222][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:34:16,223][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:34:16,223][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:34:16,223][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:34:16,224][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:34:16,227][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:34:16,228][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:34:16,230][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:34:16,746][yaml_util1.py 40][INFO]: 获取token：{'token': '84167f14-1a73-4ae3-b295-12085e5c14a5'}......
+[2022-02-25 14:34:16,747][yaml_util1.py 43][INFO]: 已将{'token': '84167f14-1a73-4ae3-b295-12085e5c14a5'}写入/extract_token.yaml文件......
+[2022-02-25 14:34:16,748][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:34:16,748][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:34:16,748][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:34:16,748][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:34:16,749][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:34:16,760][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:34:16,761][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:34:16,761][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:34:16,761][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:34:16,762][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:34:16,762][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:34:16,762][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:34:16,762][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:34:16,763][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:34:16,943][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:34:16,944][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:34:16,944][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:34:16,944][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:34:16,945][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:34:16,964][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:34:16,966][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:34:16,967][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:34:16,967][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:34:16,967][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:34:16,967][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:34:16,968][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:34:16,968][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:34:16,968][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:34:17,049][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:34:17,049][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:34:17,050][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:34:17,050][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:34:17,050][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:34:17,068][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:34:17,072][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:34:17,074][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:34:17,074][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:34:17,076][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:34:17,076][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:34:17,079][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:34:17,080][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:34:17,104][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:34:22,935][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:34:22,935][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:34:22,935][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:34:22,935][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:34:22,936][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:34:22,939][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:34:22,946][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT106178T9b0TS7cQXhkrT4M9kUGDGTcj.send
+[2022-02-25 14:34:22,946][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:34:22,946][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:34:22,946][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:34:22,946][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:34:22,947][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:34:22,947][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:34:22,947][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:36:57,779][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:36:57,780][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:36:57,786][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:36:57,860][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:36:57,872][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:36:57,872][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:36:57,875][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:36:57,875][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:36:57,875][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:36:57,876][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:36:57,876][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:36:57,876][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:36:57,876][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:36:57,876][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:36:57,876][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:36:58,961][yaml_util1.py 40][INFO]: 获取token：{'token': '063809f0-6c8d-43d0-865d-d08e31ca2cd9'}......
+[2022-02-25 14:36:58,962][yaml_util1.py 43][INFO]: 已将{'token': '063809f0-6c8d-43d0-865d-d08e31ca2cd9'}写入/extract_token.yaml文件......
+[2022-02-25 14:36:58,962][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:36:58,962][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:36:58,962][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:36:58,962][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:36:58,963][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:36:58,973][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:36:58,975][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:36:58,976][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:36:58,976][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:36:58,976][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:36:58,976][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:36:58,977][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:36:58,977][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:36:58,977][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:36:59,145][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:36:59,145][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:36:59,146][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:36:59,146][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:36:59,146][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:36:59,169][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:36:59,181][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:36:59,182][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:36:59,183][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:36:59,183][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:36:59,184][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:36:59,184][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:36:59,185][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:36:59,185][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:36:59,274][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:36:59,275][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:36:59,277][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:36:59,278][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:36:59,279][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:36:59,333][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:36:59,341][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:36:59,342][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:36:59,343][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:36:59,343][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:36:59,344][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:36:59,344][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:36:59,345][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:36:59,345][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:36:59,509][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:36:59,512][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:36:59,514][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:36:59,515][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:36:59,515][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:36:59,549][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:36:59,561][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124064TB2y3wbCYTFQwxqCSWSTnTkr0.send
+[2022-02-25 14:36:59,561][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:36:59,561][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:36:59,561][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:36:59,562][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:36:59,562][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:36:59,562][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:36:59,562][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:44:13,249][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:44:13,250][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:44:13,256][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:44:13,324][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:44:13,335][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:44:13,336][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:44:13,339][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:44:13,339][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:44:13,340][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:44:13,340][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:44:13,340][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:44:13,340][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:44:13,340][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:44:13,340][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:44:13,340][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:44:13,564][yaml_util1.py 40][INFO]: 获取token：{'token': 'dcccfa15-b69a-4b04-b944-4d8189a47500'}......
+[2022-02-25 14:44:13,572][yaml_util1.py 43][INFO]: 已将{'token': 'dcccfa15-b69a-4b04-b944-4d8189a47500'}写入/extract_token.yaml文件......
+[2022-02-25 14:44:13,576][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:44:13,578][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:44:13,579][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:44:13,581][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:44:13,584][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:44:13,613][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:44:13,615][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:44:13,616][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:44:13,616][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:44:13,616][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:44:13,616][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:44:13,617][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:44:13,617][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:44:13,617][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:44:13,763][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:44:13,763][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:44:13,763][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:44:13,763][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:44:13,764][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:44:13,772][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:44:13,773][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:44:13,773][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:44:13,773][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:44:13,773][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:44:13,773][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:44:13,774][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:44:13,774][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:44:13,774][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:44:13,888][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:44:13,889][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:44:13,891][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:44:13,895][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:44:13,895][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:44:13,916][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:44:13,918][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:44:13,918][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:44:13,919][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:44:13,919][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:44:13,919][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:44:13,920][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:44:13,920][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:44:13,920][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:44:20,144][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:44:20,144][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:44:20,145][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:44:20,145][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:44:20,145][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:44:20,150][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:44:20,154][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124064TB2y3wbCYTFQwxqCSWSTnTkr0.send
+[2022-02-25 14:44:20,154][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:44:20,154][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:44:20,155][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:44:20,155][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:44:20,155][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:44:20,155][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:44:20,155][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:46:39,958][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:46:39,960][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:46:39,966][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:46:40,048][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:46:40,059][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:46:40,060][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:46:40,064][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:46:40,065][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:46:40,065][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:46:40,066][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:46:40,066][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:46:40,066][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:46:40,066][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:46:40,066][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:46:40,067][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:46:40,383][yaml_util1.py 40][INFO]: 获取token：{'token': '31367a49-1d58-472c-8a95-64163b7c3c5b'}......
+[2022-02-25 14:46:40,385][yaml_util1.py 43][INFO]: 已将{'token': '31367a49-1d58-472c-8a95-64163b7c3c5b'}写入/extract_token.yaml文件......
+[2022-02-25 14:46:40,385][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:46:40,385][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:46:40,385][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:46:40,385][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:46:40,385][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:46:40,394][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:46:40,395][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:46:40,395][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:46:40,395][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:46:40,395][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:46:40,396][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:46:40,396][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:46:40,396][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:46:40,396][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:46:40,556][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:46:40,557][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:46:40,557][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:46:40,557][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:46:40,558][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:46:40,590][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:46:40,613][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:46:40,614][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:46:40,615][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:46:40,615][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:46:40,616][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:46:40,617][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:46:40,619][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:46:40,619][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:46:40,687][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:46:40,688][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:46:40,688][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:46:40,689][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:46:40,689][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:46:40,725][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:46:40,727][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:46:40,730][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:46:40,732][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:46:40,734][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:46:40,736][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:46:40,740][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:46:40,746][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:46:40,747][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:46:51,687][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:46:51,688][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:46:51,688][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:46:51,688][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:46:51,688][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:46:51,693][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:46:51,697][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124064TB2y3wbCYTFQwxqCSWSTnTkr0.send
+[2022-02-25 14:46:51,697][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:46:51,697][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:46:51,697][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:46:51,697][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:46:51,698][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:46:51,698][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:46:51,698][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:49:12,274][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:49:12,276][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:49:12,283][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:49:12,375][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:49:12,388][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:49:12,389][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:49:12,391][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:49:12,391][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:49:12,391][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:49:12,392][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:49:12,392][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:49:12,392][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:49:12,392][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:49:12,392][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:49:12,393][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:49:12,872][yaml_util1.py 40][INFO]: 获取token：{'token': '138dc7ac-b6f2-4837-8a64-9856961032e0'}......
+[2022-02-25 14:49:12,873][yaml_util1.py 43][INFO]: 已将{'token': '138dc7ac-b6f2-4837-8a64-9856961032e0'}写入/extract_token.yaml文件......
+[2022-02-25 14:49:12,874][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:49:12,874][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:49:12,874][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:49:12,874][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:49:12,874][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:49:12,888][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:49:12,891][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:49:12,892][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:49:12,893][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:49:12,893][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:49:12,895][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:49:12,896][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:49:12,896][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:49:12,896][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:49:13,051][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:49:13,052][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:49:13,052][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:49:13,052][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:49:13,053][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:49:13,068][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:49:13,071][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:49:13,072][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:49:13,072][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:49:13,072][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:49:13,072][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:49:13,073][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:49:13,073][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:49:13,073][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:49:13,246][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:49:13,246][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:49:13,246][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:49:13,247][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:49:13,247][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:49:13,299][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:49:13,301][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:49:13,302][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:49:13,302][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:49:13,302][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:49:13,302][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:49:13,303][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:49:13,303][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:49:13,303][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:49:18,739][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:49:18,739][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:49:18,739][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:49:18,739][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:49:18,739][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:49:18,745][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:49:18,749][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124064TB2y3wbCYTFQwxqCSWSTnTkr0.send
+[2022-02-25 14:49:18,749][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:49:18,749][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:49:18,749][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:49:18,749][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:49:18,749][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:49:18,749][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:49:18,749][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:51:22,992][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:51:22,994][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:51:23,002][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:51:23,134][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:51:23,245][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:51:23,251][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:51:23,287][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:51:23,292][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:51:23,308][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:51:23,308][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:51:23,309][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:51:23,310][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:51:23,311][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:51:23,311][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:51:23,312][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:51:28,539][yaml_util1.py 40][INFO]: 获取token：{'token': '8599ea70-27a6-42ed-8631-531303196e65'}......
+[2022-02-25 14:51:28,541][yaml_util1.py 43][INFO]: 已将{'token': '8599ea70-27a6-42ed-8631-531303196e65'}写入/extract_token.yaml文件......
+[2022-02-25 14:51:28,541][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:51:28,541][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:51:28,542][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:51:28,542][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:51:28,542][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:51:28,558][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:51:28,565][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:51:28,565][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:51:28,565][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:51:28,566][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:51:28,566][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:51:28,566][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:51:28,566][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:51:28,567][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:51:28,768][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:51:28,769][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:51:28,769][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:51:28,770][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:51:28,770][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:51:28,821][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:51:28,823][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:51:28,823][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:51:28,823][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:51:28,824][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:51:28,824][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:51:28,833][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:51:28,834][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:51:28,834][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:51:28,938][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:51:28,938][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:51:28,938][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:51:28,939][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:51:28,939][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:51:28,952][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:51:28,954][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:51:28,955][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:51:28,955][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:51:28,956][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:51:28,956][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:51:28,974][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:51:28,974][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:51:28,974][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:51:34,758][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:51:34,761][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:51:34,763][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:51:34,763][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:51:34,763][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:51:34,793][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:51:34,808][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124064TB2y3wbCYTFQwxqCSWSTnTkr0.send
+[2022-02-25 14:51:34,809][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:51:34,809][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:51:34,810][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:51:34,811][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:51:34,812][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:51:34,813][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:51:34,813][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:20,858][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:53:20,859][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:53:20,865][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:53:20,941][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:53:20,955][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:53:20,956][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:53:20,958][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:53:20,959][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:53:20,959][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:53:20,959][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:20,959][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:20,959][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:53:20,959][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:20,959][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:20,960][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:21,194][yaml_util1.py 40][INFO]: 获取token：{'token': '50415c2b-e453-4180-aa61-e69c7ab85a19'}......
+[2022-02-25 14:53:21,196][yaml_util1.py 43][INFO]: 已将{'token': '50415c2b-e453-4180-aa61-e69c7ab85a19'}写入/extract_token.yaml文件......
+[2022-02-25 14:53:21,197][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:53:21,198][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:53:21,199][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:53:21,199][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:53:21,200][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:53:21,223][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:53:21,224][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:53:21,224][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:53:21,224][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:21,225][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:21,225][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:53:21,225][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:21,225][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:21,225][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:21,390][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:53:21,390][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:53:21,391][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:53:21,391][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:53:21,391][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:53:21,402][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:53:21,404][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:53:21,404][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:53:21,405][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:21,405][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:21,405][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:53:21,406][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:21,406][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:21,406][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:21,511][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:53:21,520][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:53:21,522][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:53:21,522][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:53:21,522][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:53:21,568][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:53:21,570][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:53:21,570][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:53:21,570][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:21,570][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:21,570][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:53:21,571][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:21,571][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:21,571][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:21,762][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:53:21,763][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:53:21,763][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:53:21,764][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:53:21,772][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:53:21,802][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:53:21,811][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124064TB2y3wbCYTFQwxqCSWSTnTkr0.send
+[2022-02-25 14:53:21,811][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:53:21,811][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:21,811][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:21,812][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:53:21,812][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:21,812][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:21,812][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:47,054][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:53:47,055][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:53:47,062][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:53:47,132][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:53:47,153][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:53:47,153][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:53:47,155][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:53:47,156][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:53:47,156][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:53:47,156][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:47,156][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:47,156][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:53:47,157][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:47,157][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:47,157][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:48,271][yaml_util1.py 40][INFO]: 获取token：{'token': '58d1b17a-e47c-4f9d-9ac4-dd9c964c2a8c'}......
+[2022-02-25 14:53:48,272][yaml_util1.py 43][INFO]: 已将{'token': '58d1b17a-e47c-4f9d-9ac4-dd9c964c2a8c'}写入/extract_token.yaml文件......
+[2022-02-25 14:53:48,272][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:53:48,272][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:53:48,272][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:53:48,273][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:53:48,273][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:53:48,281][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:53:48,282][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:53:48,282][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:53:48,282][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:48,282][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:48,282][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:53:48,282][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:48,283][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:48,283][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:49,516][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:53:49,516][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:53:49,517][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:53:49,517][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:53:49,517][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:53:49,525][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:53:49,527][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:53:49,527][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:53:49,527][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:49,527][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:49,527][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:53:49,527][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:49,527][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:49,527][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:49,609][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:53:49,610][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:53:49,610][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:53:49,610][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:53:49,610][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:53:49,635][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:53:49,639][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:53:49,640][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:53:49,640][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:49,641][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:49,641][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:53:49,642][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:49,642][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:49,643][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:53:54,919][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:53:54,920][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:53:54,920][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:53:54,921][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:53:54,921][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:53:54,926][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:53:54,931][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124064TB2y3wbCYTFQwxqCSWSTnTkr0.send
+[2022-02-25 14:53:54,931][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:53:54,931][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:53:54,931][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:53:54,931][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:53:54,931][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:53:54,931][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:53:54,932][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:56:00,934][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:56:00,936][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:56:00,943][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:56:01,033][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:56:01,047][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:56:01,048][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:56:01,051][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:56:01,051][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:56:01,052][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:56:01,052][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:56:01,053][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:56:01,053][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:56:01,053][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:56:01,053][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:56:01,053][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:56:01,330][yaml_util1.py 40][INFO]: 获取token：{'token': '0a3a1d13-7ac3-438b-96e9-c82b024332ed'}......
+[2022-02-25 14:56:01,331][yaml_util1.py 43][INFO]: 已将{'token': '0a3a1d13-7ac3-438b-96e9-c82b024332ed'}写入/extract_token.yaml文件......
+[2022-02-25 14:56:01,331][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:56:01,331][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:56:01,331][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:56:01,332][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:56:01,332][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:56:01,339][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:56:01,340][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:56:01,341][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:56:01,341][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:56:01,341][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:56:01,341][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:56:01,341][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:56:01,341][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:56:01,341][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:56:02,205][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:56:02,206][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:56:02,206][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:56:02,206][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:56:02,206][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:56:02,218][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:56:02,220][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:56:02,220][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:56:02,221][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:56:02,221][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:56:02,221][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:56:02,222][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:56:02,222][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:56:02,222][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:56:07,235][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:56:07,235][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:56:07,235][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:56:07,236][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:56:07,236][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:56:07,245][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:56:07,247][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:56:07,248][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:56:07,248][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:56:07,248][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:56:07,248][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:56:07,249][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:56:07,249][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:56:07,249][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:56:07,496][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:56:07,504][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:56:07,505][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:56:07,506][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:56:07,506][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:56:07,563][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:56:07,581][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT106178T9b0TS7cQXhkrT4M9kUGDGTcj.send
+[2022-02-25 14:56:07,584][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:56:07,585][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:56:07,585][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:56:07,585][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:56:07,586][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:56:07,586][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:56:07,587][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:57:36,058][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:57:36,059][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 14:57:36,066][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 14:57:36,141][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 14:57:36,153][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 14:57:36,154][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 14:57:36,156][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 14:57:36,156][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 14:57:36,157][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 14:57:36,157][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:57:36,157][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:57:36,157][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 14:57:36,157][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:57:36,157][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:57:36,157][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:57:36,419][yaml_util1.py 40][INFO]: 获取token：{'token': '2acd6910-6e1e-44b6-b3d1-f9a5e0e781d0'}......
+[2022-02-25 14:57:36,420][yaml_util1.py 43][INFO]: 已将{'token': '2acd6910-6e1e-44b6-b3d1-f9a5e0e781d0'}写入/extract_token.yaml文件......
+[2022-02-25 14:57:36,420][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:57:36,420][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 14:57:36,420][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:57:36,421][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 14:57:36,421][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 14:57:36,429][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 14:57:36,430][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 14:57:36,430][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:57:36,430][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:57:36,430][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:57:36,430][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 14:57:36,431][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:57:36,431][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:57:36,431][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:57:36,726][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:57:36,726][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 14:57:36,727][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:57:36,729][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 14:57:36,730][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 14:57:36,775][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 14:57:36,776][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 14:57:36,777][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:57:36,777][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:57:36,777][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:57:36,777][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:57:36,777][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:57:36,778][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:57:36,778][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:57:36,825][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:57:36,825][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:57:36,825][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:57:36,825][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 14:57:36,826][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 14:57:36,849][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 14:57:36,852][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 14:57:36,852][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:57:36,853][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:57:36,853][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:57:36,853][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 14:57:36,854][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:57:36,854][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:57:36,855][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 14:57:42,964][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 14:57:42,964][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 14:57:42,964][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 14:57:42,964][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 14:57:42,964][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 14:57:42,969][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 14:57:42,974][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT106178T9b0TS7cQXhkrT4M9kUGDGTcj.send
+[2022-02-25 14:57:42,974][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 14:57:42,974][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 14:57:42,974][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 14:57:42,974][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试报告",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 14:57:42,974][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 14:57:42,974][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 14:57:42,975][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:19:39,247][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:19:56,736][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:20:33,759][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:20:33,761][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:20:33,771][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:20:33,860][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:20:33,872][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:20:33,873][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:20:33,875][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:20:33,876][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:20:33,876][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:20:33,876][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:20:33,876][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:20:33,876][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:20:33,877][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:20:33,877][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:20:33,877][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:20:34,546][yaml_util1.py 40][INFO]: 获取token：{'token': '17334144-f2ac-4de3-aef6-2fdf7065d605'}......
+[2022-02-25 15:20:34,547][yaml_util1.py 43][INFO]: 已将{'token': '17334144-f2ac-4de3-aef6-2fdf7065d605'}写入/extract_token.yaml文件......
+[2022-02-25 15:20:34,547][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:20:34,547][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:20:34,547][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:20:34,547][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:20:34,547][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:20:34,555][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:20:34,557][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:20:34,557][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:20:34,558][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:20:34,558][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:20:34,558][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:20:34,558][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:20:34,559][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:20:34,559][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:20:34,714][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:20:34,715][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:20:34,715][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:20:34,715][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:20:34,715][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:20:34,723][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:20:34,724][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:20:34,725][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:20:34,725][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:20:34,725][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:20:34,725][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:20:34,725][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:20:34,725][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:20:34,725][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:20:34,768][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:20:34,768][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:20:34,768][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:20:34,769][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:20:34,769][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:20:34,836][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:20:34,842][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:20:34,855][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:20:34,857][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:20:34,863][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:20:34,864][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:20:34,866][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:20:34,866][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:20:34,867][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:20:45,610][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:20:45,611][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:20:45,611][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:20:45,611][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:20:45,611][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:20:45,615][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:20:45,621][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT106178T9b0TS7cQXhkrT4M9kUGDGTcj.send
+[2022-02-25 15:20:45,621][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:20:45,622][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:20:45,622][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:20:45,622][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:20:45,622][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:20:45,622][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:20:45,622][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:23:00,660][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:23:00,661][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:23:00,667][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:23:00,762][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:23:00,776][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:23:00,776][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:23:00,779][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:23:00,779][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:23:00,780][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:23:00,780][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:23:00,780][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:23:00,780][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:23:00,780][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:23:00,781][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:23:00,781][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:23:01,288][yaml_util1.py 40][INFO]: 获取token：{'token': '168e1679-d22d-424a-9088-dc49c8ea18ec'}......
+[2022-02-25 15:23:01,291][yaml_util1.py 43][INFO]: 已将{'token': '168e1679-d22d-424a-9088-dc49c8ea18ec'}写入/extract_token.yaml文件......
+[2022-02-25 15:23:01,292][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:23:01,292][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:23:01,292][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:23:01,293][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:23:01,293][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:23:01,302][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:23:01,304][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:23:01,304][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:23:01,304][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:23:01,304][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:23:01,305][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:23:01,305][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:23:01,305][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:23:01,305][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:23:01,385][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:23:01,385][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:23:01,386][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:23:01,386][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:23:01,386][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:23:01,394][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:23:01,396][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:23:01,397][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:23:01,397][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:23:01,397][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:23:01,397][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:23:01,397][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:23:01,397][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:23:01,397][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:23:01,459][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:23:01,460][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:23:01,462][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:23:01,463][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:23:01,463][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:23:01,485][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:23:01,486][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:23:01,487][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:23:01,487][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:23:01,487][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:23:01,487][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:23:01,487][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:23:01,487][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:23:01,488][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:23:01,715][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:23:01,716][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:23:01,716][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:23:01,716][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:23:01,716][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:23:01,725][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:23:01,730][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 15:23:01,730][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:23:01,730][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:23:01,731][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:23:01,731][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:23:01,731][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:23:01,731][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:23:01,731][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:26:05,419][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:26:05,420][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:26:05,426][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:26:05,498][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:26:05,511][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:26:05,511][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:26:05,515][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:26:05,515][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:26:05,516][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:26:05,516][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:26:05,516][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:26:05,516][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:26:05,518][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:26:05,519][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:26:05,519][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:26:05,737][yaml_util1.py 40][INFO]: 获取token：{'token': '6aba5c47-8cad-45c4-b891-638b53ae4799'}......
+[2022-02-25 15:26:05,746][yaml_util1.py 43][INFO]: 已将{'token': '6aba5c47-8cad-45c4-b891-638b53ae4799'}写入/extract_token.yaml文件......
+[2022-02-25 15:26:05,748][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:26:05,751][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:26:05,752][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:26:05,766][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:26:05,767][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:26:05,809][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:26:05,815][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:26:05,817][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:26:05,818][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:26:05,819][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:26:05,822][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:26:05,834][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:26:05,839][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:26:05,844][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:26:06,030][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:26:06,032][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:26:06,033][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:26:06,035][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:26:06,037][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:26:06,096][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:26:06,105][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:26:06,106][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:26:06,107][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:26:06,108][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:26:06,108][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:26:06,108][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:26:06,109][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:26:06,110][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:26:06,169][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:26:06,171][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:26:06,172][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:26:06,173][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:26:06,174][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:26:06,205][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:26:06,207][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:26:06,208][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:26:06,208][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:26:06,209][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:26:06,210][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:26:06,211][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:26:06,211][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:26:06,211][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:26:06,753][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:26:06,753][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:26:06,753][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:26:06,753][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:26:06,753][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:26:06,759][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:26:06,766][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 15:26:06,766][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:26:06,766][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:26:06,766][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:26:06,767][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:26:06,767][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:26:06,767][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:26:06,767][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:26:07,065][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/push
+[2022-02-25 15:26:07,068][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:26:07,072][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:26:07,073][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:26:07,075][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> "id=46057354&readkey=SCTye72bFCbpiUt"
+[2022-02-25 15:26:07,077][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:26:07,078][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:26:07,078][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:26:07,244][serverchanConf.py 43][INFO]: {'code': 0, 'message': '', 'data': {'id': 46057354, 'uid': '124079', 'title': '自动化测试结果', 'desp': '用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 ', 'encoded': '', 'readkey': 'SCTye72bFCbpiUt', 'wxstatus': '', 'created_at': '2022-02-25T15:26:07+08:00', 'updated_at': '2022-02-25T15:26:07+08:00'}}
+[2022-02-25 15:28:59,339][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:28:59,340][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:28:59,347][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:28:59,435][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:28:59,447][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:28:59,448][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:28:59,451][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:28:59,451][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:28:59,451][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:28:59,451][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:28:59,452][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:28:59,452][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:28:59,452][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:28:59,452][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:28:59,453][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:29:01,782][yaml_util1.py 40][INFO]: 获取token：{'token': 'bbcc2d17-e3b2-479e-84fa-43cd3f94a6a5'}......
+[2022-02-25 15:29:01,783][yaml_util1.py 43][INFO]: 已将{'token': 'bbcc2d17-e3b2-479e-84fa-43cd3f94a6a5'}写入/extract_token.yaml文件......
+[2022-02-25 15:29:01,783][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:29:01,783][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:29:01,784][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:29:01,784][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:29:01,784][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:29:01,794][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:29:01,796][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:29:01,796][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:29:01,796][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:29:01,796][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:29:01,796][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:29:01,797][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:29:01,798][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:29:01,798][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:29:01,933][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:29:01,933][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:29:01,934][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:29:01,934][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:29:01,934][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:29:01,942][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:29:01,943][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:29:01,943][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:29:01,944][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:29:01,944][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:29:01,944][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:29:01,944][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:29:01,944][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:29:01,944][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:29:02,025][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:29:02,028][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:29:02,031][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:29:02,041][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:29:02,042][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:29:02,119][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:29:02,136][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:29:02,136][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:29:02,137][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:29:02,137][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:29:02,138][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:29:02,140][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:29:02,140][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:29:02,141][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:29:08,208][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:29:08,208][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:29:08,208][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:29:08,208][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:29:08,208][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:29:08,213][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:29:08,219][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 15:29:08,219][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:29:08,219][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:29:08,219][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:29:08,220][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:29:08,220][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:29:08,220][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:29:08,220][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:29:08,527][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/push
+[2022-02-25 15:29:08,530][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:29:08,534][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:29:08,535][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:29:08,536][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> "id=46057628&readkey=SCTVMc7tE7uTgM8"
+[2022-02-25 15:29:08,538][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:29:08,546][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:29:08,549][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:29:08,722][serverchanConf.py 44][INFO]: {
+  "code": 0,
+  "data": {
+    "created_at": "2022-02-25T15:29:08+08:00",
+    "desp": "\u7528\u4f8b\u603b\u6570:4; \u901a\u8fc7:4; \u5931\u8d25:0; \u9519\u8bef:0; \u8df3\u8fc7:0; \u7701\u7565:0 ",
+    "encoded": "",
+    "id": 46057628,
+    "readkey": "SCTVMc7tE7uTgM8",
+    "title": "\u81ea\u52a8\u5316\u6d4b\u8bd5\u7ed3\u679c",
+    "uid": "124079",
+    "updated_at": "2022-02-25T15:29:08+08:00",
+    "wxstatus": ""
+  },
+  "message": ""
+}
+[2022-02-25 15:31:59,066][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:31:59,067][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:31:59,074][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:31:59,201][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:31:59,213][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:31:59,214][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:31:59,216][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:31:59,217][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:31:59,217][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:31:59,217][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:31:59,217][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:31:59,217][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:31:59,218][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:31:59,218][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:31:59,218][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:31:59,717][yaml_util1.py 40][INFO]: 获取token：{'token': '0bc112fc-f46b-4752-bd9d-baebf7bd3a71'}......
+[2022-02-25 15:31:59,718][yaml_util1.py 43][INFO]: 已将{'token': '0bc112fc-f46b-4752-bd9d-baebf7bd3a71'}写入/extract_token.yaml文件......
+[2022-02-25 15:31:59,718][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:31:59,718][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:31:59,719][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:31:59,719][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:31:59,719][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:31:59,730][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:31:59,732][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:31:59,733][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:31:59,733][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:31:59,733][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:31:59,733][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:31:59,734][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:31:59,734][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:31:59,734][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:31:59,858][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:31:59,859][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:31:59,859][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:31:59,859][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:31:59,860][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:31:59,872][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:31:59,875][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:31:59,877][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:31:59,878][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:31:59,878][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:31:59,878][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:31:59,878][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:31:59,879][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:31:59,879][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:31:59,953][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:31:59,953][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:31:59,953][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:31:59,954][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:31:59,954][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:32:00,073][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:32:00,075][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:32:00,076][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:32:00,076][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:32:00,076][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:32:00,076][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:32:00,077][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:32:00,077][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:32:00,079][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:32:00,564][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:32:00,564][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:32:00,565][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:32:00,565][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:32:00,565][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:32:00,576][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:32:00,583][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 15:32:00,583][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:32:00,583][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:32:00,583][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:32:00,584][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:32:00,584][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:32:00,584][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:32:00,584][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:32:00,888][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/push
+[2022-02-25 15:32:00,889][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:32:00,890][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:32:00,890][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:32:00,890][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> "id=46058175&readkey=SCT7WZMVe5cSbqC"
+[2022-02-25 15:32:00,891][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:32:00,893][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:32:00,895][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:33:42,772][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:33:42,773][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:33:42,780][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:33:42,854][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:33:42,866][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:33:42,866][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:33:42,868][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:33:42,869][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:33:42,869][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:33:42,869][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:33:42,869][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:33:42,869][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:33:42,869][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:33:42,870][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:33:42,870][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:33:47,149][yaml_util1.py 40][INFO]: 获取token：{'token': '7106cb22-0354-45a1-99ad-23d45ccd1d0c'}......
+[2022-02-25 15:33:47,150][yaml_util1.py 43][INFO]: 已将{'token': '7106cb22-0354-45a1-99ad-23d45ccd1d0c'}写入/extract_token.yaml文件......
+[2022-02-25 15:33:47,150][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:33:47,150][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:33:47,150][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:33:47,150][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:33:47,151][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:33:47,159][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:33:47,160][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:33:47,161][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:33:47,161][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:33:47,161][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:33:47,161][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:33:47,161][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:33:47,161][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:33:47,162][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:33:47,300][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:33:47,301][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:33:47,301][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:33:47,301][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:33:47,301][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:33:47,312][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:33:47,313][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:33:47,313][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:33:47,314][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:33:47,314][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:33:47,314][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:33:47,314][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:33:47,314][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:33:47,314][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:33:47,372][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:33:47,373][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:33:47,373][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:33:47,373][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:33:47,374][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:33:47,479][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:33:47,498][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:33:47,499][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:33:47,501][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:33:47,507][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:33:47,510][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:33:47,514][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:33:47,524][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:33:47,526][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:33:47,731][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:33:47,733][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:33:47,739][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:33:47,741][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:33:47,742][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:33:47,773][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:33:47,780][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 15:33:47,781][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:33:47,781][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:33:47,781][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:33:47,781][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:33:47,781][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:33:47,781][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:33:47,782][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:33:48,281][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/push
+[2022-02-25 15:33:48,282][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:33:48,282][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:33:48,282][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:33:48,282][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> "id=46058304&readkey=SCTYYQSRLbFiVwC"
+[2022-02-25 15:33:48,283][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:33:48,283][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:33:48,283][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:34:35,024][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:34:35,026][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:34:35,035][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:34:35,110][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:34:35,121][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:34:35,122][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:34:35,124][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:34:35,125][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:34:35,125][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:34:35,125][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:34:35,125][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:34:35,125][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:34:35,125][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:34:35,125][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:34:35,125][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:34:41,732][yaml_util1.py 40][INFO]: 获取token：{'token': 'c8ab52b0-bc97-481a-b2c5-8148eb1d0905'}......
+[2022-02-25 15:34:41,734][yaml_util1.py 43][INFO]: 已将{'token': 'c8ab52b0-bc97-481a-b2c5-8148eb1d0905'}写入/extract_token.yaml文件......
+[2022-02-25 15:34:41,735][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:34:41,735][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:34:41,735][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:34:41,735][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:34:41,735][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:34:41,746][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:34:41,747][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:34:41,747][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:34:41,747][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:34:41,748][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:34:41,748][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:34:41,748][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:34:41,748][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:34:41,748][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:34:41,908][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:34:41,911][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:34:41,913][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:34:41,913][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:34:41,913][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:34:41,958][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:34:41,970][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:34:41,970][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:34:41,971][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:34:41,974][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:34:41,976][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:34:41,977][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:34:41,979][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:34:41,980][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:34:42,069][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:34:42,070][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:34:42,071][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:34:42,071][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:34:42,072][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:34:42,130][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:34:42,137][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:34:42,138][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:34:42,139][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:34:42,139][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:34:42,139][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:34:42,140][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:34:42,140][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:34:42,141][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:34:52,953][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:34:52,953][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:34:52,954][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:34:52,954][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:34:52,954][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:34:52,958][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:34:52,962][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 15:34:52,962][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:34:52,962][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:34:52,963][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:34:52,963][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:34:52,963][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:34:52,963][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:34:52,963][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:35:15,334][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:35:15,336][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:35:15,341][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:35:15,410][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:35:15,422][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:35:15,422][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:35:15,424][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:35:15,425][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:35:15,425][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:35:15,425][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:35:15,425][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:35:15,425][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:35:15,425][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:35:15,425][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:35:15,426][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:35:18,391][yaml_util1.py 40][INFO]: 获取token：{'token': 'd652a4e1-c88f-480b-a284-519729c98f5a'}......
+[2022-02-25 15:35:18,393][yaml_util1.py 43][INFO]: 已将{'token': 'd652a4e1-c88f-480b-a284-519729c98f5a'}写入/extract_token.yaml文件......
+[2022-02-25 15:35:18,394][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:35:18,394][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:35:18,394][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:35:18,394][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:35:18,394][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:35:18,402][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:35:18,403][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:35:18,403][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:35:18,403][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:35:18,404][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:35:18,404][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:35:18,404][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:35:18,404][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:35:18,404][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:35:18,571][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:35:18,572][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:35:18,572][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:35:18,572][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:35:18,572][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:35:18,586][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:35:18,588][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:35:18,589][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:35:18,589][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:35:18,589][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:35:18,589][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:35:18,590][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:35:18,590][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:35:18,590][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:35:18,688][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:35:18,689][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:35:18,689][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:35:18,690][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:35:18,690][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:35:18,725][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:35:18,727][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:35:18,727][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:35:18,727][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:35:18,728][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:35:18,728][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:35:18,728][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:35:18,728][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:35:18,728][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:35:30,581][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:35:30,581][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:35:30,581][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:35:30,581][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:35:30,582][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:35:30,586][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:35:30,591][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 15:35:30,591][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:35:30,591][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:35:30,592][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:35:30,592][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:35:30,592][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:35:30,592][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:35:30,592][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:36:34,025][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:36:34,026][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 15:36:34,033][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 15:36:34,104][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 15:36:34,120][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 15:36:34,120][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 15:36:34,123][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 15:36:34,124][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 15:36:34,124][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 15:36:34,124][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:36:34,124][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:36:34,124][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 15:36:34,124][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:36:34,125][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:36:34,125][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:36:34,319][yaml_util1.py 40][INFO]: 获取token：{'token': '62ec0e2f-5bac-4fc9-a6c8-74e5dea1fcce'}......
+[2022-02-25 15:36:34,324][yaml_util1.py 43][INFO]: 已将{'token': '62ec0e2f-5bac-4fc9-a6c8-74e5dea1fcce'}写入/extract_token.yaml文件......
+[2022-02-25 15:36:34,326][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:36:34,328][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 15:36:34,330][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:36:34,332][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 15:36:34,336][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 15:36:34,381][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 15:36:34,385][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 15:36:34,385][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:36:34,385][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:36:34,385][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:36:34,386][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 15:36:34,386][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:36:34,386][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:36:34,386][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:36:34,537][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:36:34,539][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 15:36:34,542][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:36:34,543][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 15:36:34,545][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 15:36:34,610][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 15:36:34,614][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 15:36:34,615][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:36:34,616][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:36:34,619][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:36:34,620][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:36:34,621][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:36:34,623][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:36:34,625][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:36:34,705][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:36:34,705][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:36:34,705][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:36:34,705][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 15:36:34,705][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 15:36:34,714][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 15:36:34,716][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 15:36:34,716][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:36:34,716][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:36:34,716][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:36:34,716][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 15:36:34,716][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:36:34,716][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:36:34,717][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 15:36:40,754][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 15:36:40,754][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 15:36:40,754][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 15:36:40,754][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 15:36:40,754][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 15:36:40,759][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 15:36:40,763][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 15:36:40,764][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 15:36:40,764][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 15:36:40,764][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 15:36:40,764][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 15:36:40,764][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 15:36:40,764][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 15:36:40,764][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:42:48,881][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:42:48,933][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 18:42:48,947][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 18:42:49,041][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:42:49,054][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 18:42:49,054][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 18:42:49,056][test_demo.py 37][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 18:42:49,057][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 18:42:49,057][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 18:42:49,057][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:42:49,057][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:42:49,058][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 18:42:49,058][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:42:49,058][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:42:49,058][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:42:50,230][yaml_util1.py 40][INFO]: 获取token：{'token': 'c7037350-75c5-49a5-9332-ddad8e4c6525'}......
+[2022-02-25 18:42:50,231][yaml_util1.py 43][INFO]: 已将{'token': 'c7037350-75c5-49a5-9332-ddad8e4c6525'}写入/extract_token.yaml文件......
+[2022-02-25 18:42:50,231][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:42:50,231][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 18:42:50,231][test_demo.py 39][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:42:50,232][test_demo.py 43][INFO]: except_result数据为：admin
+[2022-02-25 18:42:50,232][test_demo.py 46][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 18:42:50,241][test_demo.py 60][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 18:42:50,242][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 18:42:50,242][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:42:50,242][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:42:50,243][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:42:50,243][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 18:42:50,243][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:42:50,243][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:42:50,243][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:42:50,426][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:42:50,427][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 18:42:50,430][test_demo.py 62][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:42:50,433][test_demo.py 66][INFO]: except_result数据为：连栋温室
+[2022-02-25 18:42:50,436][test_demo.py 69][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 18:42:50,500][test_demo.py 83][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 18:42:50,515][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 18:42:50,516][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:42:50,517][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:42:50,519][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:42:50,524][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:42:50,526][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:42:50,527][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:42:50,529][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:42:50,584][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:42:50,585][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:42:50,585][test_demo.py 85][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:42:50,585][test_demo.py 89][INFO]: except_result数据为：500
+[2022-02-25 18:42:50,585][test_demo.py 92][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 18:42:50,599][test_demo.py 107][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 18:42:50,601][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 18:42:50,601][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:42:50,601][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:42:50,601][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:42:50,602][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:42:50,602][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:42:50,602][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:42:50,603][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:42:56,265][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:42:56,265][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:42:56,265][test_demo.py 109][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:42:56,266][test_demo.py 113][INFO]: except_result数据为：延庆
+[2022-02-25 18:42:56,266][test_demo.py 116][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 18:42:56,270][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 18:42:56,275][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 18:42:56,275][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:42:56,275][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:42:56,275][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:42:56,275][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 18:42:56,275][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:42:56,275][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:42:56,276][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:46:41,576][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:46:41,578][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 18:46:41,584][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 18:46:41,753][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:46:41,776][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 18:46:41,777][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 18:46:41,779][test_demo.py 36][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 18:46:41,779][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 18:46:41,780][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 18:46:41,780][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:46:41,781][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:46:41,781][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 18:46:41,781][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:46:41,781][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:46:41,781][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:46:42,070][yaml_util1.py 40][INFO]: 获取token：{'token': '1feb14d1-e482-4fab-b6ec-0c8ada3475db'}......
+[2022-02-25 18:46:42,083][yaml_util1.py 43][INFO]: 已将{'token': '1feb14d1-e482-4fab-b6ec-0c8ada3475db'}写入/extract_token.yaml文件......
+[2022-02-25 18:46:42,103][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:46:42,105][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 18:46:42,106][test_demo.py 38][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:46:42,107][test_demo.py 42][INFO]: except_result数据为：admin
+[2022-02-25 18:46:42,108][test_demo.py 45][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 18:46:42,135][test_demo.py 59][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 18:46:42,138][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 18:46:42,138][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:46:42,138][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:46:42,138][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:46:42,139][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 18:46:42,139][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:46:42,139][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:46:42,139][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:46:42,294][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:46:42,294][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 18:46:42,296][test_demo.py 61][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:46:42,300][test_demo.py 65][INFO]: except_result数据为：连栋温室
+[2022-02-25 18:46:42,300][test_demo.py 68][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 18:46:42,411][test_demo.py 82][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 18:46:42,413][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 18:46:42,413][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:46:42,414][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:46:42,414][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:46:42,414][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:46:42,414][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:46:42,414][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:46:42,415][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:46:42,471][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:46:42,472][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:46:42,473][test_demo.py 84][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:46:42,474][test_demo.py 88][INFO]: except_result数据为：500
+[2022-02-25 18:46:42,474][test_demo.py 91][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 18:46:42,599][test_case.py 24][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 18:46:42,607][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 18:46:42,609][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:46:42,633][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:46:42,633][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:46:42,633][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:46:42,634][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:46:42,634][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:46:42,636][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:46:42,872][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:46:42,872][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:46:42,873][test_case.py 26][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:46:42,873][test_case.py 30][INFO]: except_result数据为：延庆
+[2022-02-25 18:46:42,873][test_case.py 33][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 18:46:42,891][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 18:46:42,897][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 18:46:42,897][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:46:42,897][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:46:42,898][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:46:42,898][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 18:46:42,898][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:46:42,898][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:46:42,898][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:47:25,457][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:47:25,459][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 18:47:25,465][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 18:47:25,550][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:47:25,576][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 18:47:25,577][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 18:47:25,580][test_demo.py 36][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 18:47:25,581][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 18:47:25,581][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 18:47:25,581][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:47:25,581][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:47:25,581][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 18:47:25,582][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:47:25,582][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:47:25,582][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:47:28,150][yaml_util1.py 40][INFO]: 获取token：{'token': '5237dd81-96cf-462a-b668-3adc1ef13342'}......
+[2022-02-25 18:47:28,150][yaml_util1.py 43][INFO]: 已将{'token': '5237dd81-96cf-462a-b668-3adc1ef13342'}写入/extract_token.yaml文件......
+[2022-02-25 18:47:28,151][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:47:28,151][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 18:47:28,151][test_demo.py 38][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:47:28,151][test_demo.py 42][INFO]: except_result数据为：admin
+[2022-02-25 18:47:28,151][test_demo.py 45][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 18:47:28,160][test_demo.py 59][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 18:47:28,161][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 18:47:28,161][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:47:28,161][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:47:28,161][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:47:28,162][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 18:47:28,162][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:47:28,162][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:47:28,162][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:47:28,307][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:47:28,307][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 18:47:28,307][test_demo.py 61][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:47:28,307][test_demo.py 65][INFO]: except_result数据为：连栋温室
+[2022-02-25 18:47:28,307][test_demo.py 68][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 18:47:28,317][test_demo.py 82][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 18:47:28,318][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 18:47:28,319][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:47:28,319][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:47:28,319][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:47:28,319][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:47:28,319][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:47:28,319][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:47:28,320][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:47:28,393][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:47:28,397][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:47:28,398][test_demo.py 84][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:47:28,399][test_demo.py 88][INFO]: except_result数据为：500
+[2022-02-25 18:47:28,401][test_demo.py 91][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 18:47:28,522][test_case.py 24][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 18:47:28,551][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 18:47:28,552][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:47:28,553][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:47:28,554][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:47:28,556][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:47:28,559][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:47:28,561][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:47:28,574][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:47:33,974][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:47:33,975][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:47:33,976][test_case.py 26][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:47:33,976][test_case.py 30][INFO]: except_result数据为：延庆
+[2022-02-25 18:47:33,976][test_case.py 33][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 18:47:33,982][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 18:47:33,989][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 18:47:33,989][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:47:33,990][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:47:33,990][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:47:33,990][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 18:47:33,990][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:47:33,990][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:47:33,991][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:49:08,886][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:49:08,891][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 18:49:08,912][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 18:49:08,995][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:49:09,020][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 18:49:09,020][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 18:49:09,023][test_demo.py 36][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 18:49:09,023][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 18:49:09,023][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 18:49:09,024][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:49:09,024][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:49:09,024][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 18:49:09,024][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:49:09,024][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:49:09,024][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:49:09,268][yaml_util1.py 40][INFO]: 获取token：{'token': 'bac288ac-e6bb-4c82-ab01-7d4d3bc65ae8'}......
+[2022-02-25 18:49:09,270][yaml_util1.py 43][INFO]: 已将{'token': 'bac288ac-e6bb-4c82-ab01-7d4d3bc65ae8'}写入/extract_token.yaml文件......
+[2022-02-25 18:49:09,270][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:49:09,270][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 18:49:09,271][test_demo.py 38][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:49:09,271][test_demo.py 42][INFO]: except_result数据为：admin
+[2022-02-25 18:49:09,271][test_demo.py 45][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 18:49:09,285][test_demo.py 59][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 18:49:09,287][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 18:49:09,287][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:49:09,288][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:49:09,288][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:49:09,288][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 18:49:09,288][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:49:09,288][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:49:09,289][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:49:09,423][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:49:09,423][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 18:49:09,423][test_demo.py 61][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:49:09,423][test_demo.py 65][INFO]: except_result数据为：连栋温室
+[2022-02-25 18:49:09,423][test_demo.py 68][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 18:49:09,431][test_demo.py 82][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 18:49:09,432][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 18:49:09,432][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:49:09,432][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:49:09,432][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:49:09,432][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:49:09,433][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:49:09,433][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:49:09,433][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:49:09,540][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:49:09,544][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:49:09,545][test_demo.py 84][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:49:09,545][test_demo.py 88][INFO]: except_result数据为：500
+[2022-02-25 18:49:09,546][test_demo.py 91][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 18:49:09,644][test_case.py 24][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 18:49:09,646][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 18:49:09,646][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:49:09,646][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:49:09,647][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:49:09,647][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:49:09,647][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:49:09,648][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:49:09,648][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:49:15,158][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:49:15,158][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:49:15,158][test_case.py 26][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:49:15,158][test_case.py 30][INFO]: except_result数据为：延庆
+[2022-02-25 18:49:15,158][test_case.py 33][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 18:49:15,163][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 18:49:15,169][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 18:49:15,170][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:49:15,170][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:49:15,170][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:49:15,170][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 18:49:15,170][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:49:15,170][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:49:15,170][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:50:40,589][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:50:40,590][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 18:50:40,596][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 18:50:40,747][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:50:40,786][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 18:50:40,791][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 18:50:40,806][test_demo.py 36][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 18:50:40,808][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 18:50:40,808][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 18:50:40,808][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:50:40,809][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:50:40,809][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 18:50:40,809][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:50:40,810][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:50:40,810][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:50:41,037][yaml_util1.py 40][INFO]: 获取token：{'token': 'e4a6e8cb-64ee-46b4-9fae-7ac941d9782d'}......
+[2022-02-25 18:50:41,038][yaml_util1.py 43][INFO]: 已将{'token': 'e4a6e8cb-64ee-46b4-9fae-7ac941d9782d'}写入/extract_token.yaml文件......
+[2022-02-25 18:50:41,039][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:50:41,039][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 18:50:41,039][test_demo.py 38][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:50:41,039][test_demo.py 42][INFO]: except_result数据为：admin
+[2022-02-25 18:50:41,039][test_demo.py 45][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 18:50:41,050][test_demo.py 59][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 18:50:41,052][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 18:50:41,052][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:50:41,053][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:50:41,053][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:50:41,053][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 18:50:41,054][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:50:41,054][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:50:41,054][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:50:41,193][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:50:41,193][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 18:50:41,194][test_demo.py 61][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:50:41,194][test_demo.py 65][INFO]: except_result数据为：连栋温室
+[2022-02-25 18:50:41,195][test_demo.py 68][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 18:50:41,220][test_demo.py 82][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 18:50:41,233][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 18:50:41,235][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:50:41,239][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:50:41,242][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:50:41,244][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:50:41,245][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:50:41,245][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:50:41,246][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:50:41,325][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:50:41,328][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:50:41,328][test_demo.py 84][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:50:41,329][test_demo.py 88][INFO]: except_result数据为：500
+[2022-02-25 18:50:41,330][test_demo.py 91][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 18:50:41,364][test_case.py 24][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 18:50:41,367][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 18:50:41,367][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:50:41,368][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:50:41,369][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:50:41,369][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 18:50:41,369][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:50:41,370][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:50:41,370][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:50:41,606][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 18:50:41,608][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 18:50:41,609][test_case.py 26][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 18:50:41,609][test_case.py 30][INFO]: except_result数据为：延庆
+[2022-02-25 18:50:41,610][test_case.py 33][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 18:50:41,627][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 18:50:41,661][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 18:50:41,662][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:50:41,662][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:50:41,662][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:50:41,662][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 18:50:41,662][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:50:41,663][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:50:41,664][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 18:59:07,850][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:59:07,851][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 18:59:07,859][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 18:59:07,960][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 18:59:08,291][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 18:59:08,291][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 18:59:08,292][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 18:59:08,292][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 18:59:08,292][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:3; 通过:0; 失败:0; 错误:1; 跳过:0; 省略:0 "
+}
+[2022-02-25 18:59:08,292][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 18:59:08,292][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 18:59:08,292][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 19:00:57,839][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 19:00:57,841][yaml_util1.py 29][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-25 19:00:57,850][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['采收计划管理', '获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [['大屏', '大屏地图上方数据', 'get', '/api/v1/control_pannel/area_count', '', True, 200, 500]], 'test_04': [['大屏', '大屏气象数据', 'get', '/api/v1/control_pannel/weather', '', True, 200, '延庆']]}
+[2022-02-25 19:00:57,967][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-25 19:00:57,990][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-25 19:00:57,990][yaml_util1.py 49][INFO]: 重置 /extract_token.yaml文件.......
+[2022-02-25 19:00:57,993][test_login.py 32][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-25 19:00:57,993][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-25 19:00:57,993][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-02-25 19:00:57,993][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 19:00:57,994][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 19:00:57,994][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-25 19:00:57,994][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 19:00:57,994][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 19:00:57,994][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 19:00:58,266][yaml_util1.py 40][INFO]: 获取token：{'token': 'd88a0b82-42db-471e-b740-7149819e5871'}......
+[2022-02-25 19:00:58,269][yaml_util1.py 43][INFO]: 已将{'token': 'd88a0b82-42db-471e-b740-7149819e5871'}写入/extract_token.yaml文件......
+[2022-02-25 19:00:58,270][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 19:00:58,270][keyword_request.py 43][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-02-25 19:00:58,270][test_login.py 34][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 19:00:58,270][test_login.py 38][INFO]: except_result数据为：admin
+[2022-02-25 19:00:58,270][test_login.py 41][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-02-25 19:00:58,278][test_screen.py 28][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-25 19:00:58,279][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-25 19:00:58,279][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 19:00:58,279][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 19:00:58,280][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 19:00:58,280][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-25 19:00:58,280][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 19:00:58,280][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 19:00:58,281][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 19:00:58,407][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 19:00:58,408][keyword_request.py 43][INFO]: 获取采收计划 ==>> 返回状态码为 >> 200
+[2022-02-25 19:00:58,408][test_screen.py 30][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 19:00:58,408][test_screen.py 34][INFO]: except_result数据为：连栋温室
+[2022-02-25 19:00:58,408][test_screen.py 37][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-25 19:00:58,418][test_screen.py 51][INFO]: *************** 大屏地图上方数据-开始执行用例 ***************
+[2022-02-25 19:00:58,420][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/area_count
+[2022-02-25 19:00:58,420][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 19:00:58,420][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 19:00:58,421][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 19:00:58,421][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 19:00:58,421][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 19:00:58,421][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 19:00:58,422][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 19:00:58,475][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 19:00:58,476][keyword_request.py 43][INFO]: 大屏地图上方数据 ==>> 返回状态码为 >> 200
+[2022-02-25 19:00:58,476][test_screen.py 53][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 19:00:58,476][test_screen.py 57][INFO]: except_result数据为：500
+[2022-02-25 19:00:58,476][test_screen.py 60][INFO]: *************** 大屏地图上方数据-结束执行用例 ***************
+[2022-02-25 19:00:58,538][test_recovery_plan.py 25][INFO]: *************** 大屏气象数据-开始执行用例 ***************
+[2022-02-25 19:00:58,544][all_requests.py 52][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/control_pannel/weather
+[2022-02-25 19:00:58,546][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 19:00:58,549][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 19:00:58,551][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 19:00:58,553][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> ""
+[2022-02-25 19:00:58,556][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 19:00:58,557][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 19:00:58,558][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-25 19:00:59,174][keyword_request.py 41][INFO]: resulr.data数据为:True
+[2022-02-25 19:00:59,174][keyword_request.py 43][INFO]: 大屏气象数据 ==>> 返回状态码为 >> 200
+[2022-02-25 19:00:59,174][test_recovery_plan.py 27][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-25 19:00:59,175][test_recovery_plan.py 31][INFO]: except_result数据为：延庆
+[2022-02-25 19:00:59,175][test_recovery_plan.py 34][INFO]: *************** 大屏气象数据-结束执行用例 ***************
+[2022-02-25 19:00:59,180][conftest.py 29][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-25 19:00:59,186][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124079TRhQevR1LY470uNK68pGRgg1A.send
+[2022-02-25 19:00:59,187][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-02-25 19:00:59,187][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-02-25 19:00:59,187][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-25 19:00:59,187][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数:4; 通过:4; 失败:0; 错误:0; 跳过:0; 省略:0 "
+}
+[2022-02-25 19:00:59,187][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-25 19:00:59,188][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-25 19:00:59,188][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null

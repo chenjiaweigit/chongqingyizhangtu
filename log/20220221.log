@@ -1,0 +1,343 @@
+[2022-02-21 00:28:48,220][yaml_util1.py 29][INFO]: 加载/Users/chenjiawei/Desktop/automation/github/pytestdemo.26/data_file/test_case.yaml文件.....
+[2022-02-21 00:28:48,228][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录平台', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_04': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-21 00:28:48,295][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo.26/config/setting.ini 文件......
+[2022-02-21 00:28:48,303][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-21 00:28:48,304][yaml_util1.py 49][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-21 00:28:48,306][test_demo.py 31][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-21 00:28:48,307][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-21 00:28:48,307][all_requests.py 94][INFO]: 接口请求方式 ==>> post
+[2022-02-21 00:28:48,307][all_requests.py 96][INFO]: 接口请求头 ==>> null
+[2022-02-21 00:28:48,307][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 00:28:48,308][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-21 00:28:48,308][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 00:28:48,309][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 00:28:48,309][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 00:28:48,453][yaml_util1.py 40][INFO]: 获取token：{'token': '7d5c18a3-5d8e-42c4-9431-165fd09ea1a8'}......
+[2022-02-21 00:28:48,461][yaml_util1.py 43][INFO]: 已将{'token': '7d5c18a3-5d8e-42c4-9431-165fd09ea1a8'}写入/extract_token.yaml文件......
+[2022-02-21 00:28:48,462][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 00:28:48,463][keyword_request.py 69][INFO]: 登录平台 ==>> 返回结果 ==>> 200
+[2022-02-21 00:28:48,464][test_demo.py 33][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 00:28:48,465][test_demo.py 37][INFO]: except_result数据为：admin
+[2022-02-21 00:28:48,466][test_demo.py 39][INFO]: *************** 登录平台-结束执行用例 ***************
+[2022-02-21 00:28:48,506][test_demo.py 48][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-21 00:28:48,515][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-21 00:28:48,516][all_requests.py 94][INFO]: 接口请求方式 ==>> get
+[2022-02-21 00:28:48,516][all_requests.py 96][INFO]: 接口请求头 ==>> {
+    "token": "7d5c18a3-5d8e-42c4-9431-165fd09ea1a8"
+}
+[2022-02-21 00:28:48,517][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 00:28:48,526][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-21 00:28:48,528][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 00:28:48,528][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 00:28:48,528][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 00:28:48,665][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 00:28:48,665][keyword_request.py 69][INFO]: 获取采收计划 ==>> 返回结果 ==>> 200
+[2022-02-21 00:28:48,666][test_demo.py 52][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 00:28:48,668][test_demo.py 54][INFO]: except_result数据为：连栋温室
+[2022-02-21 00:28:48,669][test_demo.py 56][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-21 00:28:48,690][conftest.py 30][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-21 00:38:39,970][yaml_util1.py 29][INFO]: 加载/Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-21 00:38:39,977][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录平台', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_04': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-21 00:38:40,043][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-21 00:38:40,051][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-21 00:38:40,051][yaml_util1.py 49][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-21 00:38:40,053][test_demo.py 31][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-21 00:38:40,054][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-21 00:38:40,054][all_requests.py 94][INFO]: 接口请求方式 ==>> post
+[2022-02-21 00:38:40,054][all_requests.py 96][INFO]: 接口请求头 ==>> null
+[2022-02-21 00:38:40,054][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 00:38:40,055][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-21 00:38:40,055][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 00:38:40,055][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 00:38:40,055][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 00:38:40,176][yaml_util1.py 40][INFO]: 获取token：{'token': '240de4f0-a845-4594-ab93-634ca476e54e'}......
+[2022-02-21 00:38:40,177][yaml_util1.py 43][INFO]: 已将{'token': '240de4f0-a845-4594-ab93-634ca476e54e'}写入/extract_token.yaml文件......
+[2022-02-21 00:38:40,177][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 00:38:40,178][keyword_request.py 69][INFO]: 登录平台 ==>> 返回结果 ==>> 200
+[2022-02-21 00:38:40,178][test_demo.py 33][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 00:38:40,178][test_demo.py 37][INFO]: except_result数据为：admin
+[2022-02-21 00:38:40,178][test_demo.py 39][INFO]: *************** 登录平台-结束执行用例 ***************
+[2022-02-21 00:38:40,191][test_demo.py 48][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-21 00:38:40,194][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-21 00:38:40,195][all_requests.py 94][INFO]: 接口请求方式 ==>> get
+[2022-02-21 00:38:40,196][all_requests.py 96][INFO]: 接口请求头 ==>> {
+    "token": "240de4f0-a845-4594-ab93-634ca476e54e"
+}
+[2022-02-21 00:38:40,197][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 00:38:40,201][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-21 00:38:40,202][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 00:38:40,202][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 00:38:40,202][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 00:38:40,341][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 00:38:40,341][keyword_request.py 69][INFO]: 获取采收计划 ==>> 返回结果 ==>> 200
+[2022-02-21 00:38:40,341][test_demo.py 52][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 00:38:40,342][test_demo.py 54][INFO]: except_result数据为：连栋温室
+[2022-02-21 00:38:40,342][test_demo.py 56][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-21 00:38:40,346][conftest.py 30][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-21 00:39:46,914][yaml_util1.py 29][INFO]: 加载/Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-21 00:39:46,923][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录平台', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_04': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-21 00:39:46,979][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-21 00:39:46,987][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-21 00:39:46,987][yaml_util1.py 49][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-21 00:39:46,990][test_demo.py 31][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-21 00:39:46,991][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-21 00:39:46,991][all_requests.py 94][INFO]: 接口请求方式 ==>> post
+[2022-02-21 00:39:46,991][all_requests.py 96][INFO]: 接口请求头 ==>> null
+[2022-02-21 00:39:46,991][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 00:39:46,991][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-21 00:39:46,991][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 00:39:46,991][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 00:39:46,992][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 00:39:55,564][yaml_util1.py 40][INFO]: 获取token：{'token': '831f22b0-578f-4e0f-99b6-0050123f4228'}......
+[2022-02-21 00:39:55,566][yaml_util1.py 43][INFO]: 已将{'token': '831f22b0-578f-4e0f-99b6-0050123f4228'}写入/extract_token.yaml文件......
+[2022-02-21 00:39:55,566][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 00:39:55,566][keyword_request.py 69][INFO]: 登录平台 ==>> 返回结果 ==>> 200
+[2022-02-21 00:39:55,566][test_demo.py 33][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 00:39:55,566][test_demo.py 37][INFO]: except_result数据为：admin
+[2022-02-21 00:39:55,567][test_demo.py 39][INFO]: *************** 登录平台-结束执行用例 ***************
+[2022-02-21 00:39:55,575][test_demo.py 48][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-21 00:39:55,576][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-21 00:39:55,576][all_requests.py 94][INFO]: 接口请求方式 ==>> get
+[2022-02-21 00:39:55,576][all_requests.py 96][INFO]: 接口请求头 ==>> {
+    "token": "831f22b0-578f-4e0f-99b6-0050123f4228"
+}
+[2022-02-21 00:39:55,577][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 00:39:55,577][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-21 00:39:55,578][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 00:39:55,578][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 00:39:55,578][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 00:39:55,737][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 00:39:55,737][keyword_request.py 69][INFO]: 获取采收计划 ==>> 返回结果 ==>> 200
+[2022-02-21 00:39:55,737][test_demo.py 52][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 00:39:55,737][test_demo.py 54][INFO]: except_result数据为：连栋温室
+[2022-02-21 00:39:55,737][test_demo.py 56][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-21 00:39:55,741][conftest.py 30][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-21 01:19:52,764][yaml_util1.py 29][INFO]: 加载/Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-21 01:19:52,772][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录平台', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_04': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-21 01:19:52,860][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-21 01:19:52,879][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-21 01:19:52,883][yaml_util1.py 49][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-21 01:19:52,890][test_demo.py 31][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-21 01:19:52,891][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-21 01:19:52,891][all_requests.py 94][INFO]: 接口请求方式 ==>> post
+[2022-02-21 01:19:52,892][all_requests.py 96][INFO]: 接口请求头 ==>> null
+[2022-02-21 01:19:52,892][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 01:19:52,892][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-21 01:19:52,892][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 01:19:52,892][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 01:19:52,892][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 01:19:56,253][yaml_util1.py 40][INFO]: 获取token：{'token': 'e4470b0b-8ad0-4b4d-b458-1f7c6d128187'}......
+[2022-02-21 01:19:56,254][yaml_util1.py 43][INFO]: 已将{'token': 'e4470b0b-8ad0-4b4d-b458-1f7c6d128187'}写入/extract_token.yaml文件......
+[2022-02-21 01:19:56,255][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 01:19:56,255][keyword_request.py 69][INFO]: 登录平台 ==>> 返回结果 ==>> 200
+[2022-02-21 01:19:56,255][test_demo.py 33][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 01:19:56,255][test_demo.py 37][INFO]: except_result数据为：admin
+[2022-02-21 01:19:56,256][test_demo.py 39][INFO]: *************** 登录平台-结束执行用例 ***************
+[2022-02-21 01:19:56,267][test_demo.py 48][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-21 01:19:56,268][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-21 01:19:56,268][all_requests.py 94][INFO]: 接口请求方式 ==>> get
+[2022-02-21 01:19:56,269][all_requests.py 96][INFO]: 接口请求头 ==>> {
+    "token": "e4470b0b-8ad0-4b4d-b458-1f7c6d128187"
+}
+[2022-02-21 01:19:56,269][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 01:19:56,270][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-21 01:19:56,270][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 01:19:56,271][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 01:19:56,271][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 01:19:56,418][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 01:19:56,418][keyword_request.py 69][INFO]: 获取采收计划 ==>> 返回结果 ==>> 200
+[2022-02-21 01:19:56,419][test_demo.py 52][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 01:19:56,419][test_demo.py 54][INFO]: except_result数据为：连栋温室
+[2022-02-21 01:19:56,419][test_demo.py 56][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-21 01:19:56,423][conftest.py 30][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-21 01:45:46,431][yaml_util1.py 29][INFO]: 加载/Users/chenjiawei/Desktop/automation/github/pytestdemo/data_file/test_case.yaml文件.....
+[2022-02-21 01:45:46,439][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录平台', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_04': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-21 01:45:46,500][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo/config/setting.ini 文件......
+[2022-02-21 01:45:46,511][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-21 01:45:46,512][yaml_util1.py 49][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-21 01:45:46,517][test_demo.py 31][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-21 01:45:46,518][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-21 01:45:46,518][all_requests.py 94][INFO]: 接口请求方式 ==>> post
+[2022-02-21 01:45:46,518][all_requests.py 96][INFO]: 接口请求头 ==>> null
+[2022-02-21 01:45:46,518][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 01:45:46,518][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-21 01:45:46,518][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 01:45:46,518][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 01:45:46,519][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 01:45:46,622][yaml_util1.py 40][INFO]: 获取token：{'token': '21a462e7-14e7-45a4-a1b6-0d5ca20a1b78'}......
+[2022-02-21 01:45:46,623][yaml_util1.py 43][INFO]: 已将{'token': '21a462e7-14e7-45a4-a1b6-0d5ca20a1b78'}写入/extract_token.yaml文件......
+[2022-02-21 01:45:46,623][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 01:45:46,623][keyword_request.py 69][INFO]: 登录平台 ==>> 返回结果 ==>> 200
+[2022-02-21 01:45:46,623][test_demo.py 33][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 01:45:46,623][test_demo.py 37][INFO]: except_result数据为：admin
+[2022-02-21 01:45:46,624][test_demo.py 39][INFO]: *************** 登录平台-结束执行用例 ***************
+[2022-02-21 01:45:46,634][test_demo.py 48][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-21 01:45:46,635][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-21 01:45:46,635][all_requests.py 94][INFO]: 接口请求方式 ==>> get
+[2022-02-21 01:45:46,635][all_requests.py 96][INFO]: 接口请求头 ==>> {
+    "token": "21a462e7-14e7-45a4-a1b6-0d5ca20a1b78"
+}
+[2022-02-21 01:45:46,635][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 01:45:46,636][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-21 01:45:46,637][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 01:45:46,637][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 01:45:46,637][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 01:45:46,785][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 01:45:46,786][keyword_request.py 69][INFO]: 获取采收计划 ==>> 返回结果 ==>> 200
+[2022-02-21 01:45:46,789][test_demo.py 52][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 01:45:46,790][test_demo.py 54][INFO]: except_result数据为：连栋温室
+[2022-02-21 01:45:46,791][test_demo.py 56][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-21 01:45:46,821][conftest.py 30][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-21 01:54:58,493][yaml_util1.py 29][INFO]: 加载/Users/chenjiawei/Desktop/automation/github/pytestdemo 1/data_file/test_case.yaml文件.....
+[2022-02-21 01:54:58,501][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录平台', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_04': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-21 01:54:58,564][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo 1/config/setting.ini 文件......
+[2022-02-21 01:54:58,573][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-21 01:54:58,573][yaml_util1.py 49][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-21 01:54:58,575][test_demo.py 31][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-21 01:54:58,576][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-21 01:54:58,576][all_requests.py 94][INFO]: 接口请求方式 ==>> post
+[2022-02-21 01:54:58,576][all_requests.py 96][INFO]: 接口请求头 ==>> null
+[2022-02-21 01:54:58,577][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 01:54:58,577][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-21 01:54:58,577][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 01:54:58,577][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 01:54:58,577][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 01:54:58,685][yaml_util1.py 40][INFO]: 获取token：{'token': '4265c932-44e6-4a79-afde-11e507db61a3'}......
+[2022-02-21 01:54:58,687][yaml_util1.py 43][INFO]: 已将{'token': '4265c932-44e6-4a79-afde-11e507db61a3'}写入/extract_token.yaml文件......
+[2022-02-21 01:54:58,688][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 01:54:58,688][keyword_request.py 69][INFO]: 登录平台 ==>> 返回结果 ==>> 200
+[2022-02-21 01:54:58,689][test_demo.py 33][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 01:54:58,690][test_demo.py 37][INFO]: except_result数据为：admin
+[2022-02-21 01:54:58,691][test_demo.py 39][INFO]: *************** 登录平台-结束执行用例 ***************
+[2022-02-21 01:54:58,708][test_demo.py 48][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-21 01:54:58,733][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-21 01:54:58,733][all_requests.py 94][INFO]: 接口请求方式 ==>> get
+[2022-02-21 01:54:58,733][all_requests.py 96][INFO]: 接口请求头 ==>> {
+    "token": "4265c932-44e6-4a79-afde-11e507db61a3"
+}
+[2022-02-21 01:54:58,733][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 01:54:58,735][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-21 01:54:58,735][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 01:54:58,736][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 01:54:58,736][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 01:54:58,883][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 01:54:58,884][keyword_request.py 69][INFO]: 获取采收计划 ==>> 返回结果 ==>> 200
+[2022-02-21 01:54:58,884][test_demo.py 52][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 01:54:58,884][test_demo.py 54][INFO]: except_result数据为：连栋温室
+[2022-02-21 01:54:58,884][test_demo.py 56][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-21 01:54:58,889][conftest.py 30][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~
+[2022-02-21 11:37:27,868][yaml_util1.py 29][INFO]: 加载/Users/chenjiawei/Desktop/automation/github/pytestdemo 1/data_file/test_case.yaml文件.....
+[2022-02-21 11:37:27,876][yaml_util1.py 32][INFO]: 读到数据 ==>>  {'test_01': [['登录平台', 'post', '/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [['获取采收计划', 'get', '/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}, True, 200, '连栋温室']], 'test_03': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_04': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-21 11:37:28,034][yaml_util1.py 52][INFO]: 加载 /Users/chenjiawei/Desktop/automation/github/pytestdemo 1/config/setting.ini 文件......
+[2022-02-21 11:37:28,074][conftest.py 26][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~
+[2022-02-21 11:37:28,079][yaml_util1.py 49][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-21 11:37:28,084][test_demo.py 31][INFO]: *************** {'password': 'lvfulong2021', 'username': 'admin'}-开始执行用例 ***************
+[2022-02-21 11:37:28,093][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-21 11:37:28,093][all_requests.py 94][INFO]: 接口请求方式 ==>> post
+[2022-02-21 11:37:28,093][all_requests.py 96][INFO]: 接口请求头 ==>> null
+[2022-02-21 11:37:28,094][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 11:37:28,094][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-21 11:37:28,094][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 11:37:28,094][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 11:37:28,095][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 11:37:29,884][yaml_util1.py 40][INFO]: 获取token：{'token': '272572d1-ebff-4362-9b3c-9e60ac5320c8'}......
+[2022-02-21 11:37:29,886][yaml_util1.py 43][INFO]: 已将{'token': '272572d1-ebff-4362-9b3c-9e60ac5320c8'}写入/extract_token.yaml文件......
+[2022-02-21 11:37:29,886][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 11:37:29,886][keyword_request.py 69][INFO]: 登录平台 ==>> 返回结果 ==>> 200
+[2022-02-21 11:37:29,886][test_demo.py 33][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 11:37:29,886][test_demo.py 37][INFO]: except_result数据为：admin
+[2022-02-21 11:37:29,887][test_demo.py 39][INFO]: *************** 登录平台-结束执行用例 ***************
+[2022-02-21 11:37:29,927][test_demo.py 48][INFO]: *************** 获取采收计划-开始执行用例 ***************
+[2022-02-21 11:37:29,936][all_requests.py 93][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list
+[2022-02-21 11:37:29,943][all_requests.py 94][INFO]: 接口请求方式 ==>> get
+[2022-02-21 11:37:29,946][all_requests.py 96][INFO]: 接口请求头 ==>> {
+    "token": "272572d1-ebff-4362-9b3c-9e60ac5320c8"
+}
+[2022-02-21 11:37:29,946][all_requests.py 97][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-21 11:37:29,949][all_requests.py 98][INFO]: 接口请求体 data 参数 ==>> {
+    "year": "",
+    "page": 1,
+    "size": 15,
+    "product_name": "",
+    "sow_start_data": "",
+    "sow_end_data": "",
+    "house_type": "01"
+}
+[2022-02-21 11:37:29,949][all_requests.py 99][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-21 11:37:29,950][all_requests.py 100][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-21 11:37:29,950][all_requests.py 101][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-21 11:37:30,114][keyword_request.py 67][INFO]: resulr.data数据为:True
+[2022-02-21 11:37:30,114][keyword_request.py 69][INFO]: 获取采收计划 ==>> 返回结果 ==>> 200
+[2022-02-21 11:37:30,115][test_demo.py 52][INFO]: code ==>> 期望结果：200， 实际结果：【 200 】
+[2022-02-21 11:37:30,115][test_demo.py 54][INFO]: except_result数据为：连栋温室
+[2022-02-21 11:37:30,116][test_demo.py 56][INFO]: *************** 获取采收计划-结束执行用例 ***************
+[2022-02-21 11:37:30,126][conftest.py 30][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~

@@ -1,0 +1,160 @@
+[2023-05-23 19:05:24,848][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:05:24,997][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:05:25,001][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:05:25,002][yaml_util1.py 26][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/gitlab/zizhong/data_file/test_case.yaml文件.....
+[2023-05-23 19:05:25,004][yaml_util1.py 29][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']]}
+[2023-05-23 19:05:25,093][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:05:25,094][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:05:25,094][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:05:25,191][conftest.py 31][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2023-05-23 19:05:25,191][yaml_util1.py 46][INFO]: 重置 /extract_token.yaml文件.......
+[2023-05-23 19:05:25,194][test_login.py 33][INFO]: *************** 用户登录-开始执行用例 ***************
+[2023-05-23 19:05:25,194][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2023-05-23 19:05:25,195][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2023-05-23 19:05:25,195][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2023-05-23 19:05:25,195][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2023-05-23 19:05:25,195][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2023-05-23 19:05:25,195][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2023-05-23 19:05:25,196][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2023-05-23 19:05:25,196][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-05-23 19:05:25,196][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2023-05-23 19:05:25,514][yaml_util1.py 37][INFO]: 获取token：{'token': 'd92f82d2ef5ac89ff63f5153315eccbb2c7d93925b0759e948d6d35e2cc701d637e8f711f2bf903a60e6e2bff6200a18'}......
+[2023-05-23 19:05:25,516][yaml_util1.py 40][INFO]: 已将{'token': 'd92f82d2ef5ac89ff63f5153315eccbb2c7d93925b0759e948d6d35e2cc701d637e8f711f2bf903a60e6e2bff6200a18'}写入/extract_token.yaml文件......
+[2023-05-23 19:05:25,516][keyword_request.py 58][INFO]: 请求返回信息 >>> {"data":{"token":"d92f82d2ef5ac89ff63f5153315eccbb2c7d93925b0759e948d6d35e2cc701d637e8f711f2bf903a60e6e2bff6200a18","userId":21,"username":"sny","displayName":"苏农云","role":"admin","enterpriseId":1,"dataAuthorityId":3,"departments":[{"departmentId":1,"departmentName":"江苏省","haveUsers":true},{"departmentId":2,"departmentName":"南京市","haveUsers":false},{"departmentId":3,"departmentName":"市辖区","haveUsers":false},{"departmentId":4,"departmentName":"无锡市","haveUsers":false},{"departmentId":5,"departmentName":"市辖区","haveUsers":false},{"departmentId":6,"departmentName":"徐州市","haveUsers":false},{"departmentId":7,"departmentName":"市辖区","haveUsers":false},{"departmentId":8,"departmentName":"常州市","haveUsers":false},{"departmentId":9,"departmentName":"市辖区","haveUsers":false},{"departmentId":10,"departmentName":"苏州市","haveUsers":false},{"departmentId":11,"departmentName":"市辖区","haveUsers":false},{"departmentId":12,"departmentName":"南通市","haveUsers":false},{"departmentId":13,"departmentName":"市辖区","haveUsers":false},{"departmentId":14,"departmentName":"淮安市","haveUsers":false},{"departmentId":15,"departmentName":"市辖区","haveUsers":false},{"departmentId":16,"departmentName":"扬州市","haveUsers":false},{"departmentId":17,"departmentName":"市辖区","haveUsers":false},{"departmentId":18,"departmentName":"镇江市","haveUsers":false},{"departmentId":19,"departmentName":"市辖区","haveUsers":false},{"departmentId":20,"departmentName":"泰州市","haveUsers":false},{"departmentId":21,"departmentName":"市辖区","haveUsers":false},{"departmentId":22,"departmentName":"宿迁市","haveUsers":false},{"departmentId":23,"departmentName":"市辖区","haveUsers":false},{"departmentId":24,"departmentName":"连云港市","haveUsers":false},{"departmentId":25,"departmentName":"市辖区","haveUsers":false},{"departmentId":26,"departmentName":"盐城市","haveUsers":false},{"departmentId":27,"departmentName":"市辖区","haveUsers":false},{"departmentId":28,"departmentName":"锡山区","haveUsers":false},{"departmentId":29,"departmentName":"贾汪区","haveUsers":false},{"departmentId":30,"departmentName":"铜山县","haveUsers":false},{"departmentId":31,"departmentName":"睢宁县","haveUsers":false},{"departmentId":32,"departmentName":"邳州市","haveUsers":false},{"departmentId":33,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":34,"departmentName":"邗江区","haveUsers":false},{"departmentId":35,"departmentName":"维扬区","haveUsers":false},{"departmentId":36,"departmentName":"润州区","haveUsers":false},{"departmentId":37,"departmentName":"九里区","haveUsers":false},{"departmentId":38,"departmentName":"姜堰市","haveUsers":false},{"departmentId":39,"departmentName":"宿豫区","haveUsers":false},{"departmentId":40,"departmentName":"沭阳县","haveUsers":false},{"departmentId":41,"departmentName":"玄武区","haveUsers":false},{"departmentId":42,"departmentName":"白下区","haveUsers":false},{"departmentId":43,"departmentName":"浦口区","haveUsers":false},{"departmentId":44,"departmentName":"溧水县","haveUsers":false},{"departmentId":45,"departmentName":"栖霞区","haveUsers":false},{"departmentId":46,"departmentName":"雨花台区","haveUsers":false},{"departmentId":47,"departmentName":"北塘区","haveUsers":false},{"departmentId":48,"departmentName":"高淳县","haveUsers":false},{"departmentId":49,"departmentName":"崇安区","haveUsers":false},{"departmentId":50,"departmentName":"南长区","haveUsers":false},{"departmentId":51,"departmentName":"惠山区","haveUsers":false},{"departmentId":52,"departmentName":"滨湖区","haveUsers":false},{"departmentId":53,"departmentName":"江阴市","haveUsers":false},{"departmentId":54,"departmentName":"云龙区","haveUsers":false},{"departmentId":55,"departmentName":"宜兴市","haveUsers":false},{"departmentId":56,"departmentName":"启东市","haveUsers":false},{"departmentId":57,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":58,"departmentName":"丰县","haveUsers":false},{"departmentId":59,"departmentName":"丹徒区","haveUsers":false},{"departmentId":60,"departmentName":"扬中市","haveUsers":false},{"departmentId":61,"departmentName":"泗洪县","haveUsers":false},{"departmentId":62,"departmentName":"沛县","haveUsers":false},{"departmentId":63,"departmentName":"新沂市","haveUsers":false},{"departmentId":64,"departmentName":"钟楼区","haveUsers":false},{"departmentId":65,"departmentName":"金阊区","haveUsers":false},{"departmentId":66,"departmentName":"张家港市","haveUsers":false},{"departmentId":67,"departmentName":"新北区","haveUsers":false},{"departmentId":68,"departmentName":"丹阳市","haveUsers":false},{"departmentId":69,"departmentName":"溧阳市","haveUsers":false},{"departmentId":70,"departmentName":"金坛市","haveUsers":false},{"departmentId":71,"departmentName":"沧浪区","haveUsers":false},{"departmentId":72,"departmentName":"虎丘区","haveUsers":false},{"departmentId":73,"departmentName":"港闸区","haveUsers":false},{"departmentId":74,"departmentName":"相城区","haveUsers":false},{"departmentId":75,"departmentName":"崇川区","haveUsers":false},{"departmentId":76,"departmentName":"海门市","haveUsers":false},{"departmentId":77,"departmentName":"如东县","haveUsers":false},{"departmentId":78,"departmentName":"如皋市","haveUsers":false},{"departmentId":79,"departmentName":"清河区","haveUsers":false},{"departmentId":80,"departmentName":"金湖县","haveUsers":false},{"departmentId":81,"departmentName":"海州区","haveUsers":false},{"departmentId":82,"departmentName":"清浦区","haveUsers":false},{"departmentId":83,"departmentName":"赣榆县","haveUsers":false},{"departmentId":84,"departmentName":"灌南县","haveUsers":false},{"departmentId":85,"departmentName":"淮阴区","haveUsers":false},{"departmentId":86,"departmentName":"洪泽县","haveUsers":false},{"departmentId":87,"departmentName":"广陵区","haveUsers":false},{"departmentId":88,"departmentName":"盱眙县","haveUsers":false},{"departmentId":89,"departmentName":"京口区","haveUsers":false},{"departmentId":90,"departmentName":"亭湖区","haveUsers":false},{"departmentId":91,"departmentName":"盐都区","haveUsers":false},{"departmentId":92,"departmentName":"响水县","haveUsers":false},{"departmentId":93,"departmentName":"阜宁县","haveUsers":false},{"departmentId":94,"departmentName":"建湖县","haveUsers":false},{"departmentId":95,"departmentName":"东台市","haveUsers":false},{"departmentId":96,"departmentName":"大丰市","haveUsers":false},{"departmentId":97,"departmentName":"宝应县","haveUsers":false},{"departmentId":98,"departmentName":"江都市","haveUsers":false},{"departmentId":99,"departmentName":"海陵区","haveUsers":false},{"departmentId":100,"departmentName":"高港区","haveUsers":false},{"departmentId":101,"departmentName":"靖江市","haveUsers":false},{"departmentId":102,"departmentName":"泰兴市","haveUsers":false},{"departmentId":103,"departmentName":"宿城区","haveUsers":false},{"departmentId":104,"departmentName":"泗阳县","haveUsers":false},{"departmentId":105,"departmentName":"戚墅堰区","haveUsers":false},{"departmentId":106,"departmentName":"武进区","haveUsers":false},{"departmentId":107,"departmentName":"平江区","haveUsers":false},{"departmentId":108,"departmentName":"吴中区","haveUsers":false},{"departmentId":109,"departmentName":"海安县","haveUsers":false},{"departmentId":110,"departmentName":"常熟市","haveUsers":false},{"departmentId":111,"departmentName":"昆山市","haveUsers":false},{"departmentId":112,"departmentName":"吴江市","haveUsers":false},{"departmentId":113,"departmentName":"太仓市","haveUsers":false},{"departmentId":114,"departmentName":"秦淮区","haveUsers":false},{"departmentId":115,"departmentName":"通州市","haveUsers":false},{"departmentId":116,"departmentName":"连云区","haveUsers":false},{"departmentId":117,"departmentName":"新浦区","haveUsers":false},{"departmentId":118,"departmentName":"楚州区","haveUsers":false},{"departmentId":119,"departmentName":"建邺区","haveUsers":false},{"departmentId":120,"departmentName":"涟水县","haveUsers":false},{"departmentId":121,"departmentName":"东海县","haveUsers":false},{"departmentId":122,"departmentName":"灌云县","haveUsers":false},{"departmentId":123,"departmentName":"滨海县","haveUsers":false},{"departmentId":124,"departmentName":"射阳县","haveUsers":false},{"departmentId":125,"departmentName":"下关区","haveUsers":false},{"departmentId":126,"departmentName":"六合区","haveUsers":false},{"departmentId":127,"departmentName":"仪征市","haveUsers":false},{"departmentId":128,"departmentName":"高邮市","haveUsers":false},{"departmentId":129,"departmentName":"江宁区","haveUsers":false},{"departmentId":130,"departmentName":"天宁区","haveUsers":false},{"departmentId":131,"departmentName":"句容市","haveUsers":false},{"departmentId":132,"departmentName":"兴化市","haveUsers":false},{"departmentId":133,"departmentName":"泉山区","haveUsers":false}],"departmentId":1,"code":200}}
+[2023-05-23 19:05:25,517][keyword_request.py 62][INFO]: resulr.data数据为:True
+[2023-05-23 19:05:25,517][keyword_request.py 64][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2023-05-23 19:05:25,517][test_login.py 35][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2023-05-23 19:05:25,518][test_login.py 39][INFO]: except_result数据为：sny
+[2023-05-23 19:05:25,518][test_login.py 42][INFO]: *************** 用户登录-结束执行用例 ***************
+[2023-05-23 19:05:25,526][conftest.py 34][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2023-05-23 19:08:44,672][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:08:44,827][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:08:44,831][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:08:44,831][yaml_util1.py 26][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/gitlab/zizhong/data_file/test_case.yaml文件.....
+[2023-05-23 19:08:44,833][yaml_util1.py 29][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/login', {'username': 'admin', 'password': '!Admin123', 'code': '7', 'uuid': 'a1bd9632460a495a8c4492a981600767'}, True, 200, '操作成功']]}
+[2023-05-23 19:08:44,908][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:08:44,909][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:08:44,909][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:08:44,975][conftest.py 31][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2023-05-23 19:08:44,976][yaml_util1.py 46][INFO]: 重置 /extract_token.yaml文件.......
+[2023-05-23 19:08:44,977][test_login.py 33][INFO]: *************** 用户登录-开始执行用例 ***************
+[2023-05-23 19:08:44,978][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2023-05-23 19:08:44,978][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zzxc.gagogroup.cn/api/login
+[2023-05-23 19:08:44,978][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2023-05-23 19:08:44,978][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2023-05-23 19:08:44,978][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2023-05-23 19:08:44,978][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "admin",
+    "password": "!Admin123",
+    "code": "7",
+    "uuid": "a1bd9632460a495a8c4492a981600767"
+}
+[2023-05-23 19:08:44,978][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2023-05-23 19:08:44,978][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-05-23 19:08:44,978][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2023-05-23 19:08:45,097][keyword_request.py 58][INFO]: 请求返回信息 >>> {"msg":"验证码已失效","code":500}
+[2023-05-23 19:08:45,097][keyword_request.py 62][INFO]: resulr.data数据为:True
+[2023-05-23 19:08:45,098][keyword_request.py 64][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2023-05-23 19:08:45,098][test_login.py 35][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 None 】
+[2023-05-23 19:08:45,098][test_login.py 39][INFO]: except_result数据为：操作成功
+[2023-05-23 19:08:45,235][conftest.py 34][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2023-05-23 19:08:45,266][conftest.py 31][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2023-05-23 19:08:45,266][yaml_util1.py 46][INFO]: 重置 /extract_token.yaml文件.......
+[2023-05-23 19:08:45,268][test_login.py 33][INFO]: *************** 用户登录-开始执行用例 ***************
+[2023-05-23 19:08:45,268][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2023-05-23 19:08:45,268][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zzxc.gagogroup.cn/api/login
+[2023-05-23 19:08:45,269][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2023-05-23 19:08:45,269][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2023-05-23 19:08:45,269][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2023-05-23 19:08:45,269][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "admin",
+    "password": "!Admin123",
+    "code": "7",
+    "uuid": "a1bd9632460a495a8c4492a981600767"
+}
+[2023-05-23 19:08:45,269][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2023-05-23 19:08:45,269][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-05-23 19:08:45,269][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2023-05-23 19:08:45,335][keyword_request.py 58][INFO]: 请求返回信息 >>> {"msg":"验证码已失效","code":500}
+[2023-05-23 19:08:45,335][keyword_request.py 62][INFO]: resulr.data数据为:True
+[2023-05-23 19:08:45,335][keyword_request.py 64][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2023-05-23 19:08:45,335][test_login.py 35][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 None 】
+[2023-05-23 19:08:45,336][test_login.py 39][INFO]: except_result数据为：操作成功
+[2023-05-23 19:08:45,345][conftest.py 34][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2023-05-23 19:08:49,127][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124229Tk0tLjdG0HqtmugCoVqbgOnxx.send
+[2023-05-23 19:08:49,127][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2023-05-23 19:08:49,127][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2023-05-23 19:08:49,127][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2023-05-23 19:08:49,127][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数: 1\n 通过： 0\n 失败： 1\n 错误： 0\n 跳过： 0\n 省略： 0\n 重试： 1\n 总运行时间： 0.476s"
+}
+[2023-05-23 19:08:49,127][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2023-05-23 19:08:49,127][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-05-23 19:08:49,127][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2023-05-23 19:10:14,011][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:10:14,090][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:10:14,092][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:10:14,092][yaml_util1.py 26][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/gitlab/zizhong/data_file/test_case.yaml文件.....
+[2023-05-23 19:10:14,094][yaml_util1.py 29][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/login', {'username': 'admin', 'password': '!Admin123', 'code': '7', 'uuid': 'a1bd9632460a495a8c4492a981600767'}, True, 200, '操作成功']]}
+[2023-05-23 19:10:14,167][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:10:14,168][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:10:14,168][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/zizhong/config/setting.ini 文件......
+[2023-05-23 19:10:14,228][conftest.py 31][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2023-05-23 19:10:14,228][yaml_util1.py 46][INFO]: 重置 /extract_token.yaml文件.......
+[2023-05-23 19:10:14,230][test_login.py 33][INFO]: *************** 用户登录-开始执行用例 ***************
+[2023-05-23 19:10:14,231][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2023-05-23 19:10:14,231][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zzxc.gagogroup.cn/api/login
+[2023-05-23 19:10:14,231][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2023-05-23 19:10:14,231][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2023-05-23 19:10:14,231][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2023-05-23 19:10:14,231][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "admin",
+    "password": "!Admin123",
+    "code": "7",
+    "uuid": "a1bd9632460a495a8c4492a981600767"
+}
+[2023-05-23 19:10:14,232][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2023-05-23 19:10:14,232][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-05-23 19:10:14,232][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2023-05-23 19:10:14,341][keyword_request.py 58][INFO]: 请求返回信息 >>> {"msg":"验证码已失效","code":500}
+[2023-05-23 19:10:14,341][keyword_request.py 62][INFO]: resulr.data数据为:True
+[2023-05-23 19:10:14,341][keyword_request.py 64][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2023-05-23 19:10:14,342][test_login.py 35][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 None 】
+[2023-05-23 19:10:14,463][conftest.py 34][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2023-05-23 19:10:14,505][conftest.py 31][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2023-05-23 19:10:14,505][yaml_util1.py 46][INFO]: 重置 /extract_token.yaml文件.......
+[2023-05-23 19:10:14,507][test_login.py 33][INFO]: *************** 用户登录-开始执行用例 ***************
+[2023-05-23 19:10:14,507][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2023-05-23 19:10:14,508][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zzxc.gagogroup.cn/api/login
+[2023-05-23 19:10:14,508][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2023-05-23 19:10:14,508][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2023-05-23 19:10:14,508][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2023-05-23 19:10:14,508][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "admin",
+    "password": "!Admin123",
+    "code": "7",
+    "uuid": "a1bd9632460a495a8c4492a981600767"
+}
+[2023-05-23 19:10:14,508][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2023-05-23 19:10:14,508][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-05-23 19:10:14,509][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2023-05-23 19:10:14,578][keyword_request.py 58][INFO]: 请求返回信息 >>> {"msg":"验证码已失效","code":500}
+[2023-05-23 19:10:14,579][keyword_request.py 62][INFO]: resulr.data数据为:True
+[2023-05-23 19:10:14,579][keyword_request.py 64][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2023-05-23 19:10:14,579][test_login.py 35][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 None 】
+[2023-05-23 19:10:14,590][conftest.py 34][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2023-05-23 19:10:18,431][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124229Tk0tLjdG0HqtmugCoVqbgOnxx.send
+[2023-05-23 19:10:18,432][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2023-05-23 19:10:18,432][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2023-05-23 19:10:18,433][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2023-05-23 19:10:18,433][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数: 1\n 通过： 0\n 失败： 1\n 错误： 0\n 跳过： 0\n 省略： 0\n 重试： 1\n 总运行时间： 0.468s"
+}
+[2023-05-23 19:10:18,433][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2023-05-23 19:10:18,433][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-05-23 19:10:18,433][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null

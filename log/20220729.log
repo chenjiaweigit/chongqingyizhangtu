@@ -1,0 +1,681 @@
+[2022-07-29 10:59:21,959][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 10:59:22,136][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 10:59:22,141][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 10:59:22,141][yaml_util1.py 26][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/data_file/test_case.yaml文件.....
+[2022-07-29 10:59:22,166][yaml_util1.py 29][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']], 'test_02': [['侵染气象分区', '获取小麦：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'chimei', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, '5360']], 'test_03': [['侵染气象分区', '获取水稻：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'daowen', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, 4869]], 'test_04': [['病害风险地图', '获取小麦风险分布、指数', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'wheat'}, True, 200, 2138]], 'test_05': [['病害风险地图', '获取水稻风险分布、指数', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'rice'}, True, 200, 7251]], 'test_06': [['病害风险地图', '小麦-病害风险最高前十', 'get', '/api/zhibao/v1/disaster/history/risk_map/top_ten', {'crop_type': 'wheat'}, True, 200, '南京市']], 'test_07': [['病害风险地图', '水稻-病害风险最高前十', 'get', '/api/zhibao/v1/disaster/history/risk_map/top_ten', {'crop_type': 'rice'}, True, 200, '盐城市']], 'test_08': [['侵染气象分区', '小麦-平均温度地图lerc', 'get', '/publisher/v1/data/tave/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_09': [['侵染气象分区', '水稻-平均温度地图lerc', 'get', '/publisher/v1/data/tave/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_10': [['侵染气象分区', '小麦-相对湿度地图lerc', 'get', '/publisher/v1/data/rh/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_11': [['侵染气象分区', '水稻-平均温度地图lerc', 'get', '/publisher/v1/data/rh/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_12': [['侵染气象分区', '小麦-累计降水地图lerc', 'get', '/publisher/v1/data/apcp/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_13': [['侵染气象分区', '水稻-累计降水地图lerc', 'get', '/publisher/v1/data/apcp/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_14': [['侵染气象分区', '小麦-太阳辐射地图lerc', 'get', '/publisher/v1/data/ssrd/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_15': [['侵染气象分区', '水稻-太阳辐射地图lerc', 'get', '/publisher/v1/data/ssrd/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_16': [['病害风险地图', '小麦-地图lerc', 'get', '/publisher/v1/data/wheatrisk/20180927/7/106/51/lerc', {}, True, 200, '']], 'test_17': [['病害风险地图', '水稻-地图lerc', 'get', '/publisher/v1/data/risk/20180927/7/106/51/lerc', {}, True, 200, '']]}
+[2022-07-29 10:59:22,378][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 10:59:22,380][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 10:59:22,382][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 10:59:22,467][conftest.py 31][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2022-07-29 10:59:22,467][yaml_util1.py 46][INFO]: 重置 /extract_token.yaml文件.......
+[2022-07-29 10:59:22,471][test_login.py 33][INFO]: *************** 用户登录-开始执行用例 ***************
+[2022-07-29 10:59:22,471][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:22,471][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2022-07-29 10:59:22,471][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-07-29 10:59:22,471][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:22,472][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:22,472][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2022-07-29 10:59:22,472][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:22,472][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:22,472][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:23,199][test_screen.py 29][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-07-29 10:59:23,199][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:23,199][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-07-29 10:59:23,199][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:23,200][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:23,200][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:23,201][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "chimei",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-07-29 10:59:23,201][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:23,201][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:23,201][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:23,580][test_screen.py 57][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-07-29 10:59:23,580][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:23,581][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-07-29 10:59:23,581][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:23,581][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:23,581][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:23,581][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "daowen",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-07-29 10:59:23,581][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:23,582][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:23,582][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:24,037][test_recovery_plan.py 25][INFO]: *************** 获取小麦风险分布、指数-开始执行用例 ***************
+[2022-07-29 10:59:24,037][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:24,037][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/distributed
+[2022-07-29 10:59:24,037][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:24,038][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:24,038][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:24,038][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "crop_type": "wheat"
+}
+[2022-07-29 10:59:24,038][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:24,038][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:24,038][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:24,454][test_recovery_plan.py 50][INFO]: *************** 获取水稻风险分布、指数-开始执行用例 ***************
+[2022-07-29 10:59:24,454][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:24,454][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/distributed
+[2022-07-29 10:59:24,454][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:24,455][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:24,455][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:24,455][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "crop_type": "rice"
+}
+[2022-07-29 10:59:24,455][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:24,455][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:24,455][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:24,749][test_recovery_plan.py 74][INFO]: *************** 小麦-病害风险最高前十-开始执行用例 ***************
+[2022-07-29 10:59:24,749][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:24,749][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/top_ten
+[2022-07-29 10:59:24,750][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:24,750][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:24,751][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:24,751][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "crop_type": "wheat"
+}
+[2022-07-29 10:59:24,752][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:24,752][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:24,752][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:25,049][test_recovery_plan.py 98][INFO]: *************** 水稻-病害风险最高前十-开始执行用例 ***************
+[2022-07-29 10:59:25,050][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:25,050][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/top_ten
+[2022-07-29 10:59:25,050][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:25,050][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:25,050][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:25,050][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "crop_type": "rice"
+}
+[2022-07-29 10:59:25,050][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:25,050][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:25,050][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:25,363][test_lerc_service.py 22][INFO]: *************** 小麦-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:25,363][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:25,364][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/tave/20170510/7/106/51/lerc
+[2022-07-29 10:59:25,364][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:25,364][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:25,364][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:25,364][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:25,364][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:25,364][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:25,364][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:25,709][test_lerc_service.py 42][INFO]: *************** 水稻-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:25,709][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:25,709][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/tave/20170920/7/106/51/lerc
+[2022-07-29 10:59:25,709][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:25,709][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:25,710][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:25,710][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:25,710][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:25,710][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:25,710][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:26,054][test_lerc_service.py 62][INFO]: *************** 小麦-相对湿度地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:26,054][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:26,055][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/rh/20170510/7/106/51/lerc
+[2022-07-29 10:59:26,055][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:26,055][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:26,055][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:26,055][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:26,055][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:26,055][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:26,055][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:26,361][test_lerc_service.py 82][INFO]: *************** 水稻-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:26,361][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:26,361][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/rh/20170920/7/106/51/lerc
+[2022-07-29 10:59:26,361][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:26,361][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:26,361][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:26,361][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:26,361][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:26,362][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:26,362][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:26,669][test_lerc_service.py 102][INFO]: *************** 小麦-累计降水地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:26,670][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:26,670][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/apcp/20170510/7/106/51/lerc
+[2022-07-29 10:59:26,670][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:26,670][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:26,670][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:26,670][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:26,670][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:26,671][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:26,671][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:26,925][test_lerc_service.py 122][INFO]: *************** 水稻-累计降水地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:26,925][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:26,926][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/apcp/20170920/7/106/51/lerc
+[2022-07-29 10:59:26,926][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:26,926][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:26,926][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:26,926][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:26,926][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:26,926][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:26,926][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:27,226][test_lerc_service.py 142][INFO]: *************** 小麦-太阳辐射地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:27,226][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:27,227][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/ssrd/20170510/7/106/51/lerc
+[2022-07-29 10:59:27,227][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:27,227][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:27,227][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:27,227][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:27,227][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:27,227][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:27,227][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:27,525][test_lerc_service.py 162][INFO]: *************** 水稻-太阳辐射地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:27,527][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:27,527][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/ssrd/20170920/7/106/51/lerc
+[2022-07-29 10:59:27,527][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:27,527][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:27,527][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:27,528][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:27,528][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:27,528][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:27,528][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:27,848][test_lerc_service.py 182][INFO]: *************** 小麦-地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:27,848][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:27,848][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/wheatrisk/20180927/7/106/51/lerc
+[2022-07-29 10:59:27,848][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:27,849][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:27,849][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:27,849][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:27,849][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:27,849][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:27,849][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:28,169][test_lerc_service.py 202][INFO]: *************** 水稻-地图lerc-开始执行用例 ***************
+[2022-07-29 10:59:28,169][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 10:59:28,169][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/risk/20180927/7/106/51/lerc
+[2022-07-29 10:59:28,169][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:28,169][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:28,170][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:28,170][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 10:59:28,170][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:28,170][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:28,170][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 10:59:28,437][conftest.py 34][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2022-07-29 10:59:30,934][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124229Tk0tLjdG0HqtmugCoVqbgOnxx.send
+[2022-07-29 10:59:30,935][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 10:59:30,935][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 10:59:30,935][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 10:59:30,936][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数: 17\n 通过： 0\n 失败： 17\n 错误： 0\n 跳过： 0\n 省略： 0\n总运行时间： 6.134s"
+}
+[2022-07-29 10:59:30,936][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 10:59:30,936][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 10:59:30,936][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:34,480][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:31:34,597][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:31:34,602][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:31:34,604][yaml_util1.py 26][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/data_file/test_case.yaml文件.....
+[2022-07-29 11:31:34,628][yaml_util1.py 29][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']], 'test_02': [['侵染气象分区', '获取小麦：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'chimei', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, '5360']], 'test_03': [['侵染气象分区', '获取水稻：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'daowen', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, 4869]], 'test_04': [['病害风险地图', '获取小麦风险分布、指数', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'wheat'}, True, 200, 2138]], 'test_05': [['病害风险地图', '获取水稻风险分布、指数', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'rice'}, True, 200, 7251]], 'test_06': [['病害风险地图', '小麦-病害风险最高前十', 'get', '/api/zhibao/v1/disaster/history/risk_map/top_ten', {'crop_type': 'wheat'}, True, 200, '南京市']], 'test_07': [['病害风险地图', '水稻-病害风险最高前十', 'get', '/api/zhibao/v1/disaster/history/risk_map/top_ten', {'crop_type': 'rice'}, True, 200, '盐城市']], 'test_08': [['侵染气象分区', '小麦-平均温度地图lerc', 'get', '/publisher/v1/data/tave/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_09': [['侵染气象分区', '水稻-平均温度地图lerc', 'get', '/publisher/v1/data/tave/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_10': [['侵染气象分区', '小麦-相对湿度地图lerc', 'get', '/publisher/v1/data/rh/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_11': [['侵染气象分区', '水稻-平均温度地图lerc', 'get', '/publisher/v1/data/rh/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_12': [['侵染气象分区', '小麦-累计降水地图lerc', 'get', '/publisher/v1/data/apcp/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_13': [['侵染气象分区', '水稻-累计降水地图lerc', 'get', '/publisher/v1/data/apcp/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_14': [['侵染气象分区', '小麦-太阳辐射地图lerc', 'get', '/publisher/v1/data/ssrd/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_15': [['侵染气象分区', '水稻-太阳辐射地图lerc', 'get', '/publisher/v1/data/ssrd/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_16': [['病害风险地图', '小麦-地图lerc', 'get', '/publisher/v1/data/wheatrisk/20180927/7/106/51/lerc', {}, True, 200, '']], 'test_17': [['病害风险地图', '水稻-地图lerc', 'get', '/publisher/v1/data/risk/20180927/7/106/51/lerc', {}, True, 200, '']]}
+[2022-07-29 11:31:34,748][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:31:34,750][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:31:34,751][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:31:34,812][conftest.py 31][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2022-07-29 11:31:34,813][yaml_util1.py 46][INFO]: 重置 /extract_token.yaml文件.......
+[2022-07-29 11:31:34,814][test_login.py 33][INFO]: *************** 用户登录-开始执行用例 ***************
+[2022-07-29 11:31:34,815][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:34,815][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2022-07-29 11:31:34,815][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-07-29 11:31:34,816][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:34,817][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:34,817][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2022-07-29 11:31:34,817][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:34,817][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:34,817][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:35,252][test_screen.py 29][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-07-29 11:31:35,252][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:35,252][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-07-29 11:31:35,253][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:35,253][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:35,253][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:35,253][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "chimei",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-07-29 11:31:35,254][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:35,254][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:35,254][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:35,616][test_screen.py 57][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-07-29 11:31:35,616][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:35,617][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-07-29 11:31:35,617][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:35,617][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:35,617][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:35,617][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "daowen",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-07-29 11:31:35,617][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:35,617][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:35,617][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:36,085][test_recovery_plan.py 25][INFO]: *************** 获取小麦风险分布、指数-开始执行用例 ***************
+[2022-07-29 11:31:36,086][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:36,086][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/distributed
+[2022-07-29 11:31:36,087][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:36,087][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:36,087][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:36,091][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "crop_type": "wheat"
+}
+[2022-07-29 11:31:36,091][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:36,091][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:36,092][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:36,891][test_recovery_plan.py 50][INFO]: *************** 获取水稻风险分布、指数-开始执行用例 ***************
+[2022-07-29 11:31:36,895][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:36,895][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/distributed
+[2022-07-29 11:31:36,895][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:36,895][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:36,895][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:36,895][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "crop_type": "rice"
+}
+[2022-07-29 11:31:36,895][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:36,895][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:36,896][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:37,190][test_recovery_plan.py 74][INFO]: *************** 小麦-病害风险最高前十-开始执行用例 ***************
+[2022-07-29 11:31:37,190][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:37,190][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/top_ten
+[2022-07-29 11:31:37,191][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:37,191][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:37,191][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:37,191][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "crop_type": "wheat"
+}
+[2022-07-29 11:31:37,191][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:37,191][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:37,191][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:37,596][test_recovery_plan.py 98][INFO]: *************** 水稻-病害风险最高前十-开始执行用例 ***************
+[2022-07-29 11:31:37,597][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:37,597][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/top_ten
+[2022-07-29 11:31:37,597][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:37,597][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:37,597][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:37,598][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "crop_type": "rice"
+}
+[2022-07-29 11:31:37,598][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:37,598][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:37,598][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:37,944][test_lerc_service.py 22][INFO]: *************** 小麦-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:37,945][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:37,945][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/tave/20170510/7/106/51/lerc
+[2022-07-29 11:31:37,945][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:37,945][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:37,945][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:37,945][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:37,945][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:37,945][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:37,945][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:38,318][test_lerc_service.py 42][INFO]: *************** 水稻-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:38,318][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:38,318][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/tave/20170920/7/106/51/lerc
+[2022-07-29 11:31:38,318][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:38,319][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:38,319][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:38,319][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:38,319][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:38,319][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:38,319][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:38,735][test_lerc_service.py 62][INFO]: *************** 小麦-相对湿度地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:38,735][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:38,735][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/rh/20170510/7/106/51/lerc
+[2022-07-29 11:31:38,735][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:38,735][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:38,735][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:38,735][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:38,736][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:38,736][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:38,736][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:39,169][test_lerc_service.py 82][INFO]: *************** 水稻-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:39,170][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:39,170][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/rh/20170920/7/106/51/lerc
+[2022-07-29 11:31:39,170][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:39,170][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:39,170][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:39,170][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:39,170][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:39,170][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:39,170][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:39,473][test_lerc_service.py 102][INFO]: *************** 小麦-累计降水地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:39,474][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:39,474][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/apcp/20170510/7/106/51/lerc
+[2022-07-29 11:31:39,474][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:39,474][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:39,475][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:39,475][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:39,475][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:39,475][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:39,476][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:39,773][test_lerc_service.py 122][INFO]: *************** 水稻-累计降水地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:39,773][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:39,773][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/apcp/20170920/7/106/51/lerc
+[2022-07-29 11:31:39,773][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:39,773][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:39,773][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:39,774][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:39,774][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:39,774][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:39,774][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:40,123][test_lerc_service.py 142][INFO]: *************** 小麦-太阳辐射地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:40,124][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:40,124][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/ssrd/20170510/7/106/51/lerc
+[2022-07-29 11:31:40,124][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:40,125][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:40,125][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:40,125][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:40,125][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:40,126][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:40,126][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:40,407][test_lerc_service.py 162][INFO]: *************** 水稻-太阳辐射地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:40,407][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:40,408][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/ssrd/20170920/7/106/51/lerc
+[2022-07-29 11:31:40,408][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:40,409][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:40,409][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:40,409][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:40,409][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:40,409][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:40,409][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:40,713][test_lerc_service.py 182][INFO]: *************** 小麦-地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:40,714][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:40,714][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/wheatrisk/20180927/7/106/51/lerc
+[2022-07-29 11:31:40,714][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:40,714][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:40,714][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:40,714][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:40,714][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:40,714][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:40,714][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:41,058][test_lerc_service.py 202][INFO]: *************** 水稻-地图lerc-开始执行用例 ***************
+[2022-07-29 11:31:41,058][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:31:41,058][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/risk/20180927/7/106/51/lerc
+[2022-07-29 11:31:41,058][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:41,058][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:41,058][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:41,058][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:31:41,058][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:41,059][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:41,059][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:31:41,338][conftest.py 34][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2022-07-29 11:31:44,507][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124229Tk0tLjdG0HqtmugCoVqbgOnxx.send
+[2022-07-29 11:31:44,507][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:31:44,507][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:31:44,508][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:31:44,508][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数: 17\n 通过： 0\n 失败： 17\n 错误： 0\n 跳过： 0\n 省略： 0\n总运行时间： 6.674s"
+}
+[2022-07-29 11:31:44,508][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:31:44,508][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:31:44,509][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:31,964][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:32:32,086][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:32:32,090][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:32:32,091][yaml_util1.py 26][INFO]: 加载 ==>> /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/data_file/test_case.yaml文件.....
+[2022-07-29 11:32:32,113][yaml_util1.py 29][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']], 'test_02': [['侵染气象分区', '获取小麦：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'chimei', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, '5360']], 'test_03': [['侵染气象分区', '获取水稻：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'daowen', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, 4869]], 'test_04': [['病害风险地图', '获取小麦风险分布、指数', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'wheat'}, True, 200, 2138]], 'test_05': [['病害风险地图', '获取水稻风险分布、指数', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'rice'}, True, 200, 7251]], 'test_06': [['病害风险地图', '小麦-病害风险最高前十', 'get', '/api/zhibao/v1/disaster/history/risk_map/top_ten', {'crop_type': 'wheat'}, True, 200, '南京市']], 'test_07': [['病害风险地图', '水稻-病害风险最高前十', 'get', '/api/zhibao/v1/disaster/history/risk_map/top_ten', {'crop_type': 'rice'}, True, 200, '盐城市']], 'test_08': [['侵染气象分区', '小麦-平均温度地图lerc', 'get', '/publisher/v1/data/tave/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_09': [['侵染气象分区', '水稻-平均温度地图lerc', 'get', '/publisher/v1/data/tave/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_10': [['侵染气象分区', '小麦-相对湿度地图lerc', 'get', '/publisher/v1/data/rh/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_11': [['侵染气象分区', '水稻-平均温度地图lerc', 'get', '/publisher/v1/data/rh/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_12': [['侵染气象分区', '小麦-累计降水地图lerc', 'get', '/publisher/v1/data/apcp/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_13': [['侵染气象分区', '水稻-累计降水地图lerc', 'get', '/publisher/v1/data/apcp/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_14': [['侵染气象分区', '小麦-太阳辐射地图lerc', 'get', '/publisher/v1/data/ssrd/20170510/7/106/51/lerc', {}, True, 200, '']], 'test_15': [['侵染气象分区', '水稻-太阳辐射地图lerc', 'get', '/publisher/v1/data/ssrd/20170920/7/106/51/lerc', {}, True, 200, '']], 'test_16': [['病害风险地图', '小麦-地图lerc', 'get', '/publisher/v1/data/wheatrisk/20180927/7/106/51/lerc', {}, True, 200, '']], 'test_17': [['病害风险地图', '水稻-地图lerc', 'get', '/publisher/v1/data/risk/20180927/7/106/51/lerc', {}, True, 200, '']]}
+[2022-07-29 11:32:32,214][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:32:32,220][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:32:32,221][yaml_util1.py 49][INFO]: 加载 /Users/chenjiawei/Desktop/automation/gitlab/jiangsuzhibao/config/setting.ini 文件......
+[2022-07-29 11:32:32,288][conftest.py 31][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2022-07-29 11:32:32,288][yaml_util1.py 46][INFO]: 重置 /extract_token.yaml文件.......
+[2022-07-29 11:32:32,291][test_login.py 33][INFO]: *************** 用户登录-开始执行用例 ***************
+[2022-07-29 11:32:32,291][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:32,291][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2022-07-29 11:32:32,291][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-07-29 11:32:32,291][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:32,291][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:32,291][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2022-07-29 11:32:32,292][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:32,292][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:32,292][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:32,722][test_screen.py 29][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-07-29 11:32:32,722][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:32,722][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-07-29 11:32:32,723][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:32,723][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:32,723][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:32,723][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "chimei",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-07-29 11:32:32,723][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:32,723][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:32,723][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:33,181][test_screen.py 57][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-07-29 11:32:33,181][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:33,181][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-07-29 11:32:33,181][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:33,181][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:33,181][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:33,181][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "daowen",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-07-29 11:32:33,182][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:33,182][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:33,182][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:33,824][test_recovery_plan.py 25][INFO]: *************** 获取小麦风险分布、指数-开始执行用例 ***************
+[2022-07-29 11:32:33,824][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:33,825][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/distributed
+[2022-07-29 11:32:33,825][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:33,825][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:33,825][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:33,825][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "crop_type": "wheat"
+}
+[2022-07-29 11:32:33,825][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:33,825][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:33,826][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:34,945][test_recovery_plan.py 50][INFO]: *************** 获取水稻风险分布、指数-开始执行用例 ***************
+[2022-07-29 11:32:34,945][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:34,945][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/distributed
+[2022-07-29 11:32:34,945][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:34,946][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:34,946][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:34,946][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "crop_type": "rice"
+}
+[2022-07-29 11:32:34,946][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:34,946][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:34,946][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:35,387][test_recovery_plan.py 74][INFO]: *************** 小麦-病害风险最高前十-开始执行用例 ***************
+[2022-07-29 11:32:35,388][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:35,388][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/top_ten
+[2022-07-29 11:32:35,388][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:35,388][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:35,389][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:35,389][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "crop_type": "wheat"
+}
+[2022-07-29 11:32:35,389][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:35,389][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:35,389][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:35,945][test_recovery_plan.py 98][INFO]: *************** 水稻-病害风险最高前十-开始执行用例 ***************
+[2022-07-29 11:32:35,946][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:35,946][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/history/risk_map/top_ten
+[2022-07-29 11:32:35,946][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:35,946][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:35,946][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:35,946][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "crop_type": "rice"
+}
+[2022-07-29 11:32:35,946][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:35,946][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:35,946][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:36,316][test_lerc_service.py 22][INFO]: *************** 小麦-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:36,317][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:36,317][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/tave/20170510/7/106/51/lerc
+[2022-07-29 11:32:36,317][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:36,317][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:36,317][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:36,317][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:36,317][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:36,317][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:36,317][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:36,734][test_lerc_service.py 42][INFO]: *************** 水稻-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:36,734][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:36,734][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/tave/20170920/7/106/51/lerc
+[2022-07-29 11:32:36,734][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:36,734][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:36,734][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:36,734][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:36,735][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:36,735][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:36,735][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:37,099][test_lerc_service.py 62][INFO]: *************** 小麦-相对湿度地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:37,099][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:37,100][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/rh/20170510/7/106/51/lerc
+[2022-07-29 11:32:37,100][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:37,100][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:37,100][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:37,101][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:37,101][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:37,101][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:37,101][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:37,424][test_lerc_service.py 82][INFO]: *************** 水稻-平均温度地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:37,425][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:37,425][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/rh/20170920/7/106/51/lerc
+[2022-07-29 11:32:37,425][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:37,425][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:37,425][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:37,425][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:37,425][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:37,425][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:37,426][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:37,775][test_lerc_service.py 102][INFO]: *************** 小麦-累计降水地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:37,775][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:37,775][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/apcp/20170510/7/106/51/lerc
+[2022-07-29 11:32:37,776][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:37,776][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:37,776][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:37,776][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:37,776][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:37,776][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:37,776][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:38,154][test_lerc_service.py 122][INFO]: *************** 水稻-累计降水地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:38,155][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:38,155][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/apcp/20170920/7/106/51/lerc
+[2022-07-29 11:32:38,155][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:38,155][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:38,155][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:38,155][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:38,155][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:38,155][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:38,155][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:38,514][test_lerc_service.py 142][INFO]: *************** 小麦-太阳辐射地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:38,514][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:38,515][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/ssrd/20170510/7/106/51/lerc
+[2022-07-29 11:32:38,515][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:38,515][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:38,515][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:38,515][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:38,515][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:38,515][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:38,515][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:38,848][test_lerc_service.py 162][INFO]: *************** 水稻-太阳辐射地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:38,849][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:38,849][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/ssrd/20170920/7/106/51/lerc
+[2022-07-29 11:32:38,850][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:38,850][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:38,850][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:38,850][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:38,850][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:38,850][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:38,850][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:39,456][test_lerc_service.py 182][INFO]: *************** 小麦-地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:39,457][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:39,457][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/wheatrisk/20180927/7/106/51/lerc
+[2022-07-29 11:32:39,457][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:39,457][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:39,457][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:39,457][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:39,458][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:39,458][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:39,458][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:39,859][test_lerc_service.py 202][INFO]: *************** 水稻-地图lerc-开始执行用例 ***************
+[2022-07-29 11:32:39,859][yaml_util1.py 22][INFO]: 读到token ==>>  None
+[2022-07-29 11:32:39,859][all_requests.py 52][INFO]: 接口请求地址 ==>> https://api.gagogroup.cn/publisher/v1/data/risk/20180927/7/106/51/lerc
+[2022-07-29 11:32:39,859][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:39,859][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:39,859][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:39,859][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {}
+[2022-07-29 11:32:39,859][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:39,859][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:39,860][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-07-29 11:32:40,181][conftest.py 34][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2022-07-29 11:32:42,778][all_requests.py 52][INFO]: 接口请求地址 ==>> https://sctapi.ftqq.com/SCT124229Tk0tLjdG0HqtmugCoVqbgOnxx.send
+[2022-07-29 11:32:42,778][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-07-29 11:32:42,778][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-07-29 11:32:42,779][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-07-29 11:32:42,779][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "title": "自动化测试结果",
+    "desp": "用例总数: 17\n 通过： 0\n 失败： 17\n 错误： 0\n 跳过： 0\n 省略： 0\n总运行时间： 8.025s"
+}
+[2022-07-29 11:32:42,779][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-07-29 11:32:42,779][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-07-29 11:32:42,779][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null

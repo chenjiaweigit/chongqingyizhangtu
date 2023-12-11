@@ -1,0 +1,393 @@
+[2022-03-03 01:44:27,201][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 01:44:27,208][yaml_util1.py 25][INFO]: 加载 ==>> D:\python_project\gago_project\jiangsuzhibao\data_file\test_case.yaml文件.....
+[2022-03-03 01:44:27,215][yaml_util1.py 28][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']], 'test_02': [['侵染气象分区', '获取小麦：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'chimei', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, '5360']], 'test_03': [['侵染气象分区', '获取水稻：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'daowen', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, 4869]], 'test_04': [['病害风险地图', '获取小麦风险分布', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'wheat'}, True, 20, 2138]]}
+[2022-03-03 01:44:27,363][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 01:44:27,404][conftest.py 25][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2022-03-03 01:44:27,404][yaml_util1.py 45][INFO]: 重置 /extract_token.yaml文件.......
+[2022-03-03 01:44:27,406][test_login.py 32][INFO]: *************** 用户登录-开始执行用例 ***************
+[2022-03-03 01:44:27,407][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2022-03-03 01:44:27,407][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-03-03 01:44:27,407][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:44:27,407][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:44:27,408][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2022-03-03 01:44:27,408][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:44:27,408][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:44:27,408][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:44:28,086][yaml_util1.py 36][INFO]: 获取token：{'token': '25190bc797bb1f858510ffcbf14cdc10abc1189bb893f9919975859d2f3ca8f3df1a62349e5106d3e61e00a26dc59fdc'}......
+[2022-03-03 01:44:28,087][yaml_util1.py 39][INFO]: 已将{'token': '25190bc797bb1f858510ffcbf14cdc10abc1189bb893f9919975859d2f3ca8f3df1a62349e5106d3e61e00a26dc59fdc'}写入/extract_token.yaml文件......
+[2022-03-03 01:44:28,087][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"token":"25190bc797bb1f858510ffcbf14cdc10abc1189bb893f9919975859d2f3ca8f3df1a62349e5106d3e61e00a26dc59fdc","userId":21,"username":"sny","displayName":"苏农云","role":"admin","enterpriseId":1,"dataAuthorityId":3,"departments":[{"departmentId":1,"departmentName":"江苏省","haveUsers":true},{"departmentId":2,"departmentName":"南京市","haveUsers":false},{"departmentId":3,"departmentName":"市辖区","haveUsers":false},{"departmentId":4,"departmentName":"无锡市","haveUsers":false},{"departmentId":5,"departmentName":"市辖区","haveUsers":false},{"departmentId":6,"departmentName":"徐州市","haveUsers":false},{"departmentId":7,"departmentName":"市辖区","haveUsers":false},{"departmentId":8,"departmentName":"常州市","haveUsers":false},{"departmentId":9,"departmentName":"市辖区","haveUsers":false},{"departmentId":10,"departmentName":"苏州市","haveUsers":false},{"departmentId":11,"departmentName":"市辖区","haveUsers":false},{"departmentId":12,"departmentName":"南通市","haveUsers":false},{"departmentId":13,"departmentName":"市辖区","haveUsers":false},{"departmentId":14,"departmentName":"淮安市","haveUsers":false},{"departmentId":15,"departmentName":"市辖区","haveUsers":false},{"departmentId":16,"departmentName":"扬州市","haveUsers":false},{"departmentId":17,"departmentName":"市辖区","haveUsers":false},{"departmentId":18,"departmentName":"镇江市","haveUsers":false},{"departmentId":19,"departmentName":"市辖区","haveUsers":false},{"departmentId":20,"departmentName":"泰州市","haveUsers":false},{"departmentId":21,"departmentName":"市辖区","haveUsers":false},{"departmentId":22,"departmentName":"宿迁市","haveUsers":false},{"departmentId":23,"departmentName":"市辖区","haveUsers":false},{"departmentId":24,"departmentName":"连云港市","haveUsers":false},{"departmentId":25,"departmentName":"市辖区","haveUsers":false},{"departmentId":26,"departmentName":"盐城市","haveUsers":false},{"departmentId":27,"departmentName":"市辖区","haveUsers":false},{"departmentId":28,"departmentName":"锡山区","haveUsers":false},{"departmentId":29,"departmentName":"贾汪区","haveUsers":false},{"departmentId":30,"departmentName":"铜山县","haveUsers":false},{"departmentId":31,"departmentName":"睢宁县","haveUsers":false},{"departmentId":32,"departmentName":"邳州市","haveUsers":false},{"departmentId":33,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":34,"departmentName":"邗江区","haveUsers":false},{"departmentId":35,"departmentName":"维扬区","haveUsers":false},{"departmentId":36,"departmentName":"润州区","haveUsers":false},{"departmentId":37,"departmentName":"九里区","haveUsers":false},{"departmentId":38,"departmentName":"姜堰市","haveUsers":false},{"departmentId":39,"departmentName":"宿豫区","haveUsers":false},{"departmentId":40,"departmentName":"沭阳县","haveUsers":false},{"departmentId":41,"departmentName":"玄武区","haveUsers":false},{"departmentId":42,"departmentName":"白下区","haveUsers":false},{"departmentId":43,"departmentName":"浦口区","haveUsers":false},{"departmentId":44,"departmentName":"溧水县","haveUsers":false},{"departmentId":45,"departmentName":"栖霞区","haveUsers":false},{"departmentId":46,"departmentName":"雨花台区","haveUsers":false},{"departmentId":47,"departmentName":"北塘区","haveUsers":false},{"departmentId":48,"departmentName":"高淳县","haveUsers":false},{"departmentId":49,"departmentName":"崇安区","haveUsers":false},{"departmentId":50,"departmentName":"南长区","haveUsers":false},{"departmentId":51,"departmentName":"惠山区","haveUsers":false},{"departmentId":52,"departmentName":"滨湖区","haveUsers":false},{"departmentId":53,"departmentName":"江阴市","haveUsers":false},{"departmentId":54,"departmentName":"云龙区","haveUsers":false},{"departmentId":55,"departmentName":"宜兴市","haveUsers":false},{"departmentId":56,"departmentName":"启东市","haveUsers":false},{"departmentId":57,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":58,"departmentName":"丰县","haveUsers":false},{"departmentId":59,"departmentName":"丹徒区","haveUsers":false},{"departmentId":60,"departmentName":"扬中市","haveUsers":false},{"departmentId":61,"departmentName":"泗洪县","haveUsers":false},{"departmentId":62,"departmentName":"沛县","haveUsers":false},{"departmentId":63,"departmentName":"新沂市","haveUsers":false},{"departmentId":64,"departmentName":"钟楼区","haveUsers":false},{"departmentId":65,"departmentName":"金阊区","haveUsers":false},{"departmentId":66,"departmentName":"张家港市","haveUsers":false},{"departmentId":67,"departmentName":"新北区","haveUsers":false},{"departmentId":68,"departmentName":"丹阳市","haveUsers":false},{"departmentId":69,"departmentName":"溧阳市","haveUsers":false},{"departmentId":70,"departmentName":"金坛市","haveUsers":false},{"departmentId":71,"departmentName":"沧浪区","haveUsers":false},{"departmentId":72,"departmentName":"虎丘区","haveUsers":false},{"departmentId":73,"departmentName":"港闸区","haveUsers":false},{"departmentId":74,"departmentName":"相城区","haveUsers":false},{"departmentId":75,"departmentName":"崇川区","haveUsers":false},{"departmentId":76,"departmentName":"海门市","haveUsers":false},{"departmentId":77,"departmentName":"如东县","haveUsers":false},{"departmentId":78,"departmentName":"如皋市","haveUsers":false},{"departmentId":79,"departmentName":"清河区","haveUsers":false},{"departmentId":80,"departmentName":"金湖县","haveUsers":false},{"departmentId":81,"departmentName":"海州区","haveUsers":false},{"departmentId":82,"departmentName":"清浦区","haveUsers":false},{"departmentId":83,"departmentName":"赣榆县","haveUsers":false},{"departmentId":84,"departmentName":"灌南县","haveUsers":false},{"departmentId":85,"departmentName":"淮阴区","haveUsers":false},{"departmentId":86,"departmentName":"洪泽县","haveUsers":false},{"departmentId":87,"departmentName":"广陵区","haveUsers":false},{"departmentId":88,"departmentName":"盱眙县","haveUsers":false},{"departmentId":89,"departmentName":"京口区","haveUsers":false},{"departmentId":90,"departmentName":"亭湖区","haveUsers":false},{"departmentId":91,"departmentName":"盐都区","haveUsers":false},{"departmentId":92,"departmentName":"响水县","haveUsers":false},{"departmentId":93,"departmentName":"阜宁县","haveUsers":false},{"departmentId":94,"departmentName":"建湖县","haveUsers":false},{"departmentId":95,"departmentName":"东台市","haveUsers":false},{"departmentId":96,"departmentName":"大丰市","haveUsers":false},{"departmentId":97,"departmentName":"宝应县","haveUsers":false},{"departmentId":98,"departmentName":"江都市","haveUsers":false},{"departmentId":99,"departmentName":"海陵区","haveUsers":false},{"departmentId":100,"departmentName":"高港区","haveUsers":false},{"departmentId":101,"departmentName":"靖江市","haveUsers":false},{"departmentId":102,"departmentName":"泰兴市","haveUsers":false},{"departmentId":103,"departmentName":"宿城区","haveUsers":false},{"departmentId":104,"departmentName":"泗阳县","haveUsers":false},{"departmentId":105,"departmentName":"戚墅堰区","haveUsers":false},{"departmentId":106,"departmentName":"武进区","haveUsers":false},{"departmentId":107,"departmentName":"平江区","haveUsers":false},{"departmentId":108,"departmentName":"吴中区","haveUsers":false},{"departmentId":109,"departmentName":"海安县","haveUsers":false},{"departmentId":110,"departmentName":"常熟市","haveUsers":false},{"departmentId":111,"departmentName":"昆山市","haveUsers":false},{"departmentId":112,"departmentName":"吴江市","haveUsers":false},{"departmentId":113,"departmentName":"太仓市","haveUsers":false},{"departmentId":114,"departmentName":"秦淮区","haveUsers":false},{"departmentId":115,"departmentName":"通州市","haveUsers":false},{"departmentId":116,"departmentName":"连云区","haveUsers":false},{"departmentId":117,"departmentName":"新浦区","haveUsers":false},{"departmentId":118,"departmentName":"楚州区","haveUsers":false},{"departmentId":119,"departmentName":"建邺区","haveUsers":false},{"departmentId":120,"departmentName":"涟水县","haveUsers":false},{"departmentId":121,"departmentName":"东海县","haveUsers":false},{"departmentId":122,"departmentName":"灌云县","haveUsers":false},{"departmentId":123,"departmentName":"滨海县","haveUsers":false},{"departmentId":124,"departmentName":"射阳县","haveUsers":false},{"departmentId":125,"departmentName":"下关区","haveUsers":false},{"departmentId":126,"departmentName":"六合区","haveUsers":false},{"departmentId":127,"departmentName":"仪征市","haveUsers":false},{"departmentId":128,"departmentName":"高邮市","haveUsers":false},{"departmentId":129,"departmentName":"江宁区","haveUsers":false},{"departmentId":130,"departmentName":"天宁区","haveUsers":false},{"departmentId":131,"departmentName":"句容市","haveUsers":false},{"departmentId":132,"departmentName":"兴化市","haveUsers":false},{"departmentId":133,"departmentName":"泉山区","haveUsers":false}],"departmentId":1,"code":200}}
+[2022-03-03 01:44:28,089][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:44:28,089][keyword_request.py 54][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-03-03 01:44:28,089][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:44:28,090][test_login.py 34][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:44:28,090][test_login.py 38][INFO]: except_result数据为：sny
+[2022-03-03 01:44:28,090][test_login.py 41][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-03-03 01:44:28,100][test_screen.py 29][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 01:44:28,105][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 01:44:28,106][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 01:44:28,106][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:44:28,106][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:44:28,106][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "chimei",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 01:44:28,106][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:44:28,107][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:44:28,107][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:44:28,205][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤50":757.4894613479651,"50~65":4954.830939259358,"65~80":3771.811076230657,"80~95":3622.621059534833,"＞95":2519.770509098235},"rh":{"≤62%":640.5489347417972,"62~64%":4182.788268663884,"64~66%":3221.851491423027,"66~68%":5900.850457383989,"＞68%":1680.4838932522605},"ssrd":{"≤630":1113.5971416482314,"630~645":2819.117949575027,"645~660":3405.0363829832977,"660~675":3664.0216479454,"＞675":4624.74992331684},"tave":{"≤16.5":520.6054485750198,"16.5~17":1509.8429047924603,"17~17.5":2800.3066315025308,"17.5~18":5435.4248630931825,"＞18":5360.34319750734},"code":200}}
+[2022-03-03 01:44:28,205][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:44:28,205][keyword_request.py 54][INFO]: 获取小麦：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 01:44:28,206][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:44:28,206][test_screen.py 31][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:44:28,206][test_screen.py 35][INFO]: except_result数据为：5360
+[2022-03-03 01:44:28,309][test_screen.py 57][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 01:44:28,312][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 01:44:28,312][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 01:44:28,312][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:44:28,312][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:44:28,312][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "daowen",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 01:44:28,312][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:44:28,312][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:44:28,313][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:44:28,409][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤120":183.88461997294002,"120~140":747.163070671778,"140~160":2941.218034510612,"160~180":6169.508106864578,"＞180":5584.74921345338},"rh":{"≤77%":0,"77~78%":3157.54357350274,"78~79%":3692.3161467567043,"79~80%":3062.1716223783847,"＞80%":5714.49170283337},"ssrd":{"≤700":4409.213315218555,"700~715":4454.524885593127,"715~730":4067.7716017028793,"730~745":1899.1871775984011,"＞745":795.8260653598189},"tave":{"≤24.5":2432.4016794139197,"24.5~25":3287.7064145231643,"25~25.5":2642.252165370867,"25.5~26":2394.9121609123317,"＞26":4869.250625252608},"code":200}}
+[2022-03-03 01:44:28,409][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:44:28,410][keyword_request.py 54][INFO]: 获取水稻：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 01:44:28,410][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:44:28,411][test_screen.py 59][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:44:28,411][test_screen.py 63][INFO]: except_result数据为：4869
+[2022-03-03 01:44:28,423][conftest.py 28][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2022-03-03 01:51:36,964][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 01:51:36,965][yaml_util1.py 25][INFO]: 加载 ==>> D:\python_project\gago_project\jiangsuzhibao\data_file\test_case.yaml文件.....
+[2022-03-03 01:51:36,970][yaml_util1.py 28][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']], 'test_02': [['侵染气象分区', '获取小麦：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'chimei', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, '5360']], 'test_03': [['侵染气象分区', '获取水稻：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'daowen', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, 4869]], 'test_04': [['病害风险地图', '获取小麦风险分布', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'wheat'}, True, 20, 2138]]}
+[2022-03-03 01:51:37,061][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 01:51:37,096][conftest.py 25][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2022-03-03 01:51:37,097][yaml_util1.py 45][INFO]: 重置 /extract_token.yaml文件.......
+[2022-03-03 01:51:37,099][test_login.py 32][INFO]: *************** 用户登录-开始执行用例 ***************
+[2022-03-03 01:51:37,099][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2022-03-03 01:51:37,099][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-03-03 01:51:37,100][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:51:37,100][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:51:37,100][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2022-03-03 01:51:37,100][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:51:37,100][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:51:37,100][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:51:37,764][yaml_util1.py 36][INFO]: 获取token：{'token': '066a2070ee51e6a0e7cbc3ade85874a7cbff5dfdbb23c1f74b08162935b3558402119365081d2c4c9c4ffa8d5a742b74'}......
+[2022-03-03 01:51:37,765][yaml_util1.py 39][INFO]: 已将{'token': '066a2070ee51e6a0e7cbc3ade85874a7cbff5dfdbb23c1f74b08162935b3558402119365081d2c4c9c4ffa8d5a742b74'}写入/extract_token.yaml文件......
+[2022-03-03 01:51:37,765][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"token":"066a2070ee51e6a0e7cbc3ade85874a7cbff5dfdbb23c1f74b08162935b3558402119365081d2c4c9c4ffa8d5a742b74","userId":21,"username":"sny","displayName":"苏农云","role":"admin","enterpriseId":1,"dataAuthorityId":3,"departments":[{"departmentId":1,"departmentName":"江苏省","haveUsers":true},{"departmentId":2,"departmentName":"南京市","haveUsers":false},{"departmentId":3,"departmentName":"市辖区","haveUsers":false},{"departmentId":4,"departmentName":"无锡市","haveUsers":false},{"departmentId":5,"departmentName":"市辖区","haveUsers":false},{"departmentId":6,"departmentName":"徐州市","haveUsers":false},{"departmentId":7,"departmentName":"市辖区","haveUsers":false},{"departmentId":8,"departmentName":"常州市","haveUsers":false},{"departmentId":9,"departmentName":"市辖区","haveUsers":false},{"departmentId":10,"departmentName":"苏州市","haveUsers":false},{"departmentId":11,"departmentName":"市辖区","haveUsers":false},{"departmentId":12,"departmentName":"南通市","haveUsers":false},{"departmentId":13,"departmentName":"市辖区","haveUsers":false},{"departmentId":14,"departmentName":"淮安市","haveUsers":false},{"departmentId":15,"departmentName":"市辖区","haveUsers":false},{"departmentId":16,"departmentName":"扬州市","haveUsers":false},{"departmentId":17,"departmentName":"市辖区","haveUsers":false},{"departmentId":18,"departmentName":"镇江市","haveUsers":false},{"departmentId":19,"departmentName":"市辖区","haveUsers":false},{"departmentId":20,"departmentName":"泰州市","haveUsers":false},{"departmentId":21,"departmentName":"市辖区","haveUsers":false},{"departmentId":22,"departmentName":"宿迁市","haveUsers":false},{"departmentId":23,"departmentName":"市辖区","haveUsers":false},{"departmentId":24,"departmentName":"连云港市","haveUsers":false},{"departmentId":25,"departmentName":"市辖区","haveUsers":false},{"departmentId":26,"departmentName":"盐城市","haveUsers":false},{"departmentId":27,"departmentName":"市辖区","haveUsers":false},{"departmentId":28,"departmentName":"锡山区","haveUsers":false},{"departmentId":29,"departmentName":"贾汪区","haveUsers":false},{"departmentId":30,"departmentName":"铜山县","haveUsers":false},{"departmentId":31,"departmentName":"睢宁县","haveUsers":false},{"departmentId":32,"departmentName":"邳州市","haveUsers":false},{"departmentId":33,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":34,"departmentName":"邗江区","haveUsers":false},{"departmentId":35,"departmentName":"维扬区","haveUsers":false},{"departmentId":36,"departmentName":"润州区","haveUsers":false},{"departmentId":37,"departmentName":"九里区","haveUsers":false},{"departmentId":38,"departmentName":"姜堰市","haveUsers":false},{"departmentId":39,"departmentName":"宿豫区","haveUsers":false},{"departmentId":40,"departmentName":"沭阳县","haveUsers":false},{"departmentId":41,"departmentName":"玄武区","haveUsers":false},{"departmentId":42,"departmentName":"白下区","haveUsers":false},{"departmentId":43,"departmentName":"浦口区","haveUsers":false},{"departmentId":44,"departmentName":"溧水县","haveUsers":false},{"departmentId":45,"departmentName":"栖霞区","haveUsers":false},{"departmentId":46,"departmentName":"雨花台区","haveUsers":false},{"departmentId":47,"departmentName":"北塘区","haveUsers":false},{"departmentId":48,"departmentName":"高淳县","haveUsers":false},{"departmentId":49,"departmentName":"崇安区","haveUsers":false},{"departmentId":50,"departmentName":"南长区","haveUsers":false},{"departmentId":51,"departmentName":"惠山区","haveUsers":false},{"departmentId":52,"departmentName":"滨湖区","haveUsers":false},{"departmentId":53,"departmentName":"江阴市","haveUsers":false},{"departmentId":54,"departmentName":"云龙区","haveUsers":false},{"departmentId":55,"departmentName":"宜兴市","haveUsers":false},{"departmentId":56,"departmentName":"启东市","haveUsers":false},{"departmentId":57,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":58,"departmentName":"丰县","haveUsers":false},{"departmentId":59,"departmentName":"丹徒区","haveUsers":false},{"departmentId":60,"departmentName":"扬中市","haveUsers":false},{"departmentId":61,"departmentName":"泗洪县","haveUsers":false},{"departmentId":62,"departmentName":"沛县","haveUsers":false},{"departmentId":63,"departmentName":"新沂市","haveUsers":false},{"departmentId":64,"departmentName":"钟楼区","haveUsers":false},{"departmentId":65,"departmentName":"金阊区","haveUsers":false},{"departmentId":66,"departmentName":"张家港市","haveUsers":false},{"departmentId":67,"departmentName":"新北区","haveUsers":false},{"departmentId":68,"departmentName":"丹阳市","haveUsers":false},{"departmentId":69,"departmentName":"溧阳市","haveUsers":false},{"departmentId":70,"departmentName":"金坛市","haveUsers":false},{"departmentId":71,"departmentName":"沧浪区","haveUsers":false},{"departmentId":72,"departmentName":"虎丘区","haveUsers":false},{"departmentId":73,"departmentName":"港闸区","haveUsers":false},{"departmentId":74,"departmentName":"相城区","haveUsers":false},{"departmentId":75,"departmentName":"崇川区","haveUsers":false},{"departmentId":76,"departmentName":"海门市","haveUsers":false},{"departmentId":77,"departmentName":"如东县","haveUsers":false},{"departmentId":78,"departmentName":"如皋市","haveUsers":false},{"departmentId":79,"departmentName":"清河区","haveUsers":false},{"departmentId":80,"departmentName":"金湖县","haveUsers":false},{"departmentId":81,"departmentName":"海州区","haveUsers":false},{"departmentId":82,"departmentName":"清浦区","haveUsers":false},{"departmentId":83,"departmentName":"赣榆县","haveUsers":false},{"departmentId":84,"departmentName":"灌南县","haveUsers":false},{"departmentId":85,"departmentName":"淮阴区","haveUsers":false},{"departmentId":86,"departmentName":"洪泽县","haveUsers":false},{"departmentId":87,"departmentName":"广陵区","haveUsers":false},{"departmentId":88,"departmentName":"盱眙县","haveUsers":false},{"departmentId":89,"departmentName":"京口区","haveUsers":false},{"departmentId":90,"departmentName":"亭湖区","haveUsers":false},{"departmentId":91,"departmentName":"盐都区","haveUsers":false},{"departmentId":92,"departmentName":"响水县","haveUsers":false},{"departmentId":93,"departmentName":"阜宁县","haveUsers":false},{"departmentId":94,"departmentName":"建湖县","haveUsers":false},{"departmentId":95,"departmentName":"东台市","haveUsers":false},{"departmentId":96,"departmentName":"大丰市","haveUsers":false},{"departmentId":97,"departmentName":"宝应县","haveUsers":false},{"departmentId":98,"departmentName":"江都市","haveUsers":false},{"departmentId":99,"departmentName":"海陵区","haveUsers":false},{"departmentId":100,"departmentName":"高港区","haveUsers":false},{"departmentId":101,"departmentName":"靖江市","haveUsers":false},{"departmentId":102,"departmentName":"泰兴市","haveUsers":false},{"departmentId":103,"departmentName":"宿城区","haveUsers":false},{"departmentId":104,"departmentName":"泗阳县","haveUsers":false},{"departmentId":105,"departmentName":"戚墅堰区","haveUsers":false},{"departmentId":106,"departmentName":"武进区","haveUsers":false},{"departmentId":107,"departmentName":"平江区","haveUsers":false},{"departmentId":108,"departmentName":"吴中区","haveUsers":false},{"departmentId":109,"departmentName":"海安县","haveUsers":false},{"departmentId":110,"departmentName":"常熟市","haveUsers":false},{"departmentId":111,"departmentName":"昆山市","haveUsers":false},{"departmentId":112,"departmentName":"吴江市","haveUsers":false},{"departmentId":113,"departmentName":"太仓市","haveUsers":false},{"departmentId":114,"departmentName":"秦淮区","haveUsers":false},{"departmentId":115,"departmentName":"通州市","haveUsers":false},{"departmentId":116,"departmentName":"连云区","haveUsers":false},{"departmentId":117,"departmentName":"新浦区","haveUsers":false},{"departmentId":118,"departmentName":"楚州区","haveUsers":false},{"departmentId":119,"departmentName":"建邺区","haveUsers":false},{"departmentId":120,"departmentName":"涟水县","haveUsers":false},{"departmentId":121,"departmentName":"东海县","haveUsers":false},{"departmentId":122,"departmentName":"灌云县","haveUsers":false},{"departmentId":123,"departmentName":"滨海县","haveUsers":false},{"departmentId":124,"departmentName":"射阳县","haveUsers":false},{"departmentId":125,"departmentName":"下关区","haveUsers":false},{"departmentId":126,"departmentName":"六合区","haveUsers":false},{"departmentId":127,"departmentName":"仪征市","haveUsers":false},{"departmentId":128,"departmentName":"高邮市","haveUsers":false},{"departmentId":129,"departmentName":"江宁区","haveUsers":false},{"departmentId":130,"departmentName":"天宁区","haveUsers":false},{"departmentId":131,"departmentName":"句容市","haveUsers":false},{"departmentId":132,"departmentName":"兴化市","haveUsers":false},{"departmentId":133,"departmentName":"泉山区","haveUsers":false}],"departmentId":1,"code":200}}
+[2022-03-03 01:51:37,768][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:51:37,768][keyword_request.py 54][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-03-03 01:51:37,769][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:51:37,769][test_login.py 34][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:51:37,769][test_login.py 38][INFO]: except_result数据为：sny
+[2022-03-03 01:51:37,769][test_login.py 41][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-03-03 01:51:37,780][test_screen.py 29][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 01:51:37,787][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 01:51:37,787][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 01:51:37,788][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:51:37,788][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:51:37,788][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "chimei",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 01:51:37,788][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:51:37,788][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:51:37,788][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:51:37,897][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤50":757.4894613479651,"50~65":4954.830939259358,"65~80":3771.811076230657,"80~95":3622.621059534833,"＞95":2519.770509098235},"rh":{"≤62%":640.5489347417972,"62~64%":4182.788268663884,"64~66%":3221.851491423027,"66~68%":5900.850457383989,"＞68%":1680.4838932522605},"ssrd":{"≤630":1113.5971416482314,"630~645":2819.117949575027,"645~660":3405.0363829832977,"660~675":3664.0216479454,"＞675":4624.74992331684},"tave":{"≤16.5":520.6054485750198,"16.5~17":1509.8429047924603,"17~17.5":2800.3066315025308,"17.5~18":5435.4248630931825,"＞18":5360.34319750734},"code":200}}
+[2022-03-03 01:51:37,898][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:51:37,898][keyword_request.py 54][INFO]: 获取小麦：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 01:51:37,898][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:51:37,898][test_screen.py 31][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:51:37,898][test_screen.py 35][INFO]: except_result数据为：5360
+[2022-03-03 01:51:38,001][test_screen.py 57][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 01:51:38,002][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 01:51:38,002][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 01:51:38,003][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:51:38,003][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:51:38,003][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "daowen",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 01:51:38,003][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:51:38,003][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:51:38,003][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:51:38,108][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤120":183.88461997294002,"120~140":747.163070671778,"140~160":2941.218034510612,"160~180":6169.508106864578,"＞180":5584.74921345338},"rh":{"≤77%":0,"77~78%":3157.54357350274,"78~79%":3692.3161467567043,"79~80%":3062.1716223783847,"＞80%":5714.49170283337},"ssrd":{"≤700":4409.213315218555,"700~715":4454.524885593127,"715~730":4067.7716017028793,"730~745":1899.1871775984011,"＞745":795.8260653598189},"tave":{"≤24.5":2432.4016794139197,"24.5~25":3287.7064145231643,"25~25.5":2642.252165370867,"25.5~26":2394.9121609123317,"＞26":4869.250625252608},"code":200}}
+[2022-03-03 01:51:38,108][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:51:38,108][keyword_request.py 54][INFO]: 获取水稻：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 01:51:38,109][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:51:38,109][test_screen.py 59][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:51:38,109][test_screen.py 63][INFO]: except_result数据为：4869
+[2022-03-03 01:51:38,130][conftest.py 28][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2022-03-03 01:59:21,965][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 01:59:21,966][yaml_util1.py 25][INFO]: 加载 ==>> D:\python_project\gago_project\jiangsuzhibao\data_file\test_case.yaml文件.....
+[2022-03-03 01:59:21,972][yaml_util1.py 28][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']], 'test_02': [['侵染气象分区', '获取小麦：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'chimei', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, '5360']], 'test_03': [['侵染气象分区', '获取水稻：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'daowen', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, 4869]], 'test_04': [['病害风险地图', '获取小麦风险分布', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'wheat'}, True, 20, 2138]]}
+[2022-03-03 01:59:22,044][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 01:59:22,070][conftest.py 25][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2022-03-03 01:59:22,070][yaml_util1.py 45][INFO]: 重置 /extract_token.yaml文件.......
+[2022-03-03 01:59:22,072][test_login.py 32][INFO]: *************** 用户登录-开始执行用例 ***************
+[2022-03-03 01:59:22,072][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2022-03-03 01:59:22,073][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-03-03 01:59:22,073][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:59:22,073][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:59:22,073][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2022-03-03 01:59:22,073][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:59:22,073][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:59:22,073][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:59:22,663][yaml_util1.py 36][INFO]: 获取token：{'token': '7f24b14cf1feb66a9155842d5b03bf54866c5fbacf306661b8e47af5f0e493b57a5df25d6b7194a07355facf6769de2d'}......
+[2022-03-03 01:59:22,665][yaml_util1.py 39][INFO]: 已将{'token': '7f24b14cf1feb66a9155842d5b03bf54866c5fbacf306661b8e47af5f0e493b57a5df25d6b7194a07355facf6769de2d'}写入/extract_token.yaml文件......
+[2022-03-03 01:59:22,665][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"token":"7f24b14cf1feb66a9155842d5b03bf54866c5fbacf306661b8e47af5f0e493b57a5df25d6b7194a07355facf6769de2d","userId":21,"username":"sny","displayName":"苏农云","role":"admin","enterpriseId":1,"dataAuthorityId":3,"departments":[{"departmentId":1,"departmentName":"江苏省","haveUsers":true},{"departmentId":2,"departmentName":"南京市","haveUsers":false},{"departmentId":3,"departmentName":"市辖区","haveUsers":false},{"departmentId":4,"departmentName":"无锡市","haveUsers":false},{"departmentId":5,"departmentName":"市辖区","haveUsers":false},{"departmentId":6,"departmentName":"徐州市","haveUsers":false},{"departmentId":7,"departmentName":"市辖区","haveUsers":false},{"departmentId":8,"departmentName":"常州市","haveUsers":false},{"departmentId":9,"departmentName":"市辖区","haveUsers":false},{"departmentId":10,"departmentName":"苏州市","haveUsers":false},{"departmentId":11,"departmentName":"市辖区","haveUsers":false},{"departmentId":12,"departmentName":"南通市","haveUsers":false},{"departmentId":13,"departmentName":"市辖区","haveUsers":false},{"departmentId":14,"departmentName":"淮安市","haveUsers":false},{"departmentId":15,"departmentName":"市辖区","haveUsers":false},{"departmentId":16,"departmentName":"扬州市","haveUsers":false},{"departmentId":17,"departmentName":"市辖区","haveUsers":false},{"departmentId":18,"departmentName":"镇江市","haveUsers":false},{"departmentId":19,"departmentName":"市辖区","haveUsers":false},{"departmentId":20,"departmentName":"泰州市","haveUsers":false},{"departmentId":21,"departmentName":"市辖区","haveUsers":false},{"departmentId":22,"departmentName":"宿迁市","haveUsers":false},{"departmentId":23,"departmentName":"市辖区","haveUsers":false},{"departmentId":24,"departmentName":"连云港市","haveUsers":false},{"departmentId":25,"departmentName":"市辖区","haveUsers":false},{"departmentId":26,"departmentName":"盐城市","haveUsers":false},{"departmentId":27,"departmentName":"市辖区","haveUsers":false},{"departmentId":28,"departmentName":"锡山区","haveUsers":false},{"departmentId":29,"departmentName":"贾汪区","haveUsers":false},{"departmentId":30,"departmentName":"铜山县","haveUsers":false},{"departmentId":31,"departmentName":"睢宁县","haveUsers":false},{"departmentId":32,"departmentName":"邳州市","haveUsers":false},{"departmentId":33,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":34,"departmentName":"邗江区","haveUsers":false},{"departmentId":35,"departmentName":"维扬区","haveUsers":false},{"departmentId":36,"departmentName":"润州区","haveUsers":false},{"departmentId":37,"departmentName":"九里区","haveUsers":false},{"departmentId":38,"departmentName":"姜堰市","haveUsers":false},{"departmentId":39,"departmentName":"宿豫区","haveUsers":false},{"departmentId":40,"departmentName":"沭阳县","haveUsers":false},{"departmentId":41,"departmentName":"玄武区","haveUsers":false},{"departmentId":42,"departmentName":"白下区","haveUsers":false},{"departmentId":43,"departmentName":"浦口区","haveUsers":false},{"departmentId":44,"departmentName":"溧水县","haveUsers":false},{"departmentId":45,"departmentName":"栖霞区","haveUsers":false},{"departmentId":46,"departmentName":"雨花台区","haveUsers":false},{"departmentId":47,"departmentName":"北塘区","haveUsers":false},{"departmentId":48,"departmentName":"高淳县","haveUsers":false},{"departmentId":49,"departmentName":"崇安区","haveUsers":false},{"departmentId":50,"departmentName":"南长区","haveUsers":false},{"departmentId":51,"departmentName":"惠山区","haveUsers":false},{"departmentId":52,"departmentName":"滨湖区","haveUsers":false},{"departmentId":53,"departmentName":"江阴市","haveUsers":false},{"departmentId":54,"departmentName":"云龙区","haveUsers":false},{"departmentId":55,"departmentName":"宜兴市","haveUsers":false},{"departmentId":56,"departmentName":"启东市","haveUsers":false},{"departmentId":57,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":58,"departmentName":"丰县","haveUsers":false},{"departmentId":59,"departmentName":"丹徒区","haveUsers":false},{"departmentId":60,"departmentName":"扬中市","haveUsers":false},{"departmentId":61,"departmentName":"泗洪县","haveUsers":false},{"departmentId":62,"departmentName":"沛县","haveUsers":false},{"departmentId":63,"departmentName":"新沂市","haveUsers":false},{"departmentId":64,"departmentName":"钟楼区","haveUsers":false},{"departmentId":65,"departmentName":"金阊区","haveUsers":false},{"departmentId":66,"departmentName":"张家港市","haveUsers":false},{"departmentId":67,"departmentName":"新北区","haveUsers":false},{"departmentId":68,"departmentName":"丹阳市","haveUsers":false},{"departmentId":69,"departmentName":"溧阳市","haveUsers":false},{"departmentId":70,"departmentName":"金坛市","haveUsers":false},{"departmentId":71,"departmentName":"沧浪区","haveUsers":false},{"departmentId":72,"departmentName":"虎丘区","haveUsers":false},{"departmentId":73,"departmentName":"港闸区","haveUsers":false},{"departmentId":74,"departmentName":"相城区","haveUsers":false},{"departmentId":75,"departmentName":"崇川区","haveUsers":false},{"departmentId":76,"departmentName":"海门市","haveUsers":false},{"departmentId":77,"departmentName":"如东县","haveUsers":false},{"departmentId":78,"departmentName":"如皋市","haveUsers":false},{"departmentId":79,"departmentName":"清河区","haveUsers":false},{"departmentId":80,"departmentName":"金湖县","haveUsers":false},{"departmentId":81,"departmentName":"海州区","haveUsers":false},{"departmentId":82,"departmentName":"清浦区","haveUsers":false},{"departmentId":83,"departmentName":"赣榆县","haveUsers":false},{"departmentId":84,"departmentName":"灌南县","haveUsers":false},{"departmentId":85,"departmentName":"淮阴区","haveUsers":false},{"departmentId":86,"departmentName":"洪泽县","haveUsers":false},{"departmentId":87,"departmentName":"广陵区","haveUsers":false},{"departmentId":88,"departmentName":"盱眙县","haveUsers":false},{"departmentId":89,"departmentName":"京口区","haveUsers":false},{"departmentId":90,"departmentName":"亭湖区","haveUsers":false},{"departmentId":91,"departmentName":"盐都区","haveUsers":false},{"departmentId":92,"departmentName":"响水县","haveUsers":false},{"departmentId":93,"departmentName":"阜宁县","haveUsers":false},{"departmentId":94,"departmentName":"建湖县","haveUsers":false},{"departmentId":95,"departmentName":"东台市","haveUsers":false},{"departmentId":96,"departmentName":"大丰市","haveUsers":false},{"departmentId":97,"departmentName":"宝应县","haveUsers":false},{"departmentId":98,"departmentName":"江都市","haveUsers":false},{"departmentId":99,"departmentName":"海陵区","haveUsers":false},{"departmentId":100,"departmentName":"高港区","haveUsers":false},{"departmentId":101,"departmentName":"靖江市","haveUsers":false},{"departmentId":102,"departmentName":"泰兴市","haveUsers":false},{"departmentId":103,"departmentName":"宿城区","haveUsers":false},{"departmentId":104,"departmentName":"泗阳县","haveUsers":false},{"departmentId":105,"departmentName":"戚墅堰区","haveUsers":false},{"departmentId":106,"departmentName":"武进区","haveUsers":false},{"departmentId":107,"departmentName":"平江区","haveUsers":false},{"departmentId":108,"departmentName":"吴中区","haveUsers":false},{"departmentId":109,"departmentName":"海安县","haveUsers":false},{"departmentId":110,"departmentName":"常熟市","haveUsers":false},{"departmentId":111,"departmentName":"昆山市","haveUsers":false},{"departmentId":112,"departmentName":"吴江市","haveUsers":false},{"departmentId":113,"departmentName":"太仓市","haveUsers":false},{"departmentId":114,"departmentName":"秦淮区","haveUsers":false},{"departmentId":115,"departmentName":"通州市","haveUsers":false},{"departmentId":116,"departmentName":"连云区","haveUsers":false},{"departmentId":117,"departmentName":"新浦区","haveUsers":false},{"departmentId":118,"departmentName":"楚州区","haveUsers":false},{"departmentId":119,"departmentName":"建邺区","haveUsers":false},{"departmentId":120,"departmentName":"涟水县","haveUsers":false},{"departmentId":121,"departmentName":"东海县","haveUsers":false},{"departmentId":122,"departmentName":"灌云县","haveUsers":false},{"departmentId":123,"departmentName":"滨海县","haveUsers":false},{"departmentId":124,"departmentName":"射阳县","haveUsers":false},{"departmentId":125,"departmentName":"下关区","haveUsers":false},{"departmentId":126,"departmentName":"六合区","haveUsers":false},{"departmentId":127,"departmentName":"仪征市","haveUsers":false},{"departmentId":128,"departmentName":"高邮市","haveUsers":false},{"departmentId":129,"departmentName":"江宁区","haveUsers":false},{"departmentId":130,"departmentName":"天宁区","haveUsers":false},{"departmentId":131,"departmentName":"句容市","haveUsers":false},{"departmentId":132,"departmentName":"兴化市","haveUsers":false},{"departmentId":133,"departmentName":"泉山区","haveUsers":false}],"departmentId":1,"code":200}}
+[2022-03-03 01:59:22,668][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:59:22,668][keyword_request.py 54][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-03-03 01:59:22,668][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:59:22,669][test_login.py 34][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:59:22,669][test_login.py 38][INFO]: except_result数据为：sny
+[2022-03-03 01:59:22,669][test_login.py 41][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-03-03 01:59:22,679][test_screen.py 29][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 01:59:22,688][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 01:59:22,688][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 01:59:22,688][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:59:22,688][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:59:22,689][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "chimei",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 01:59:22,689][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:59:22,689][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:59:22,689][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:59:22,790][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤50":757.4894613479651,"50~65":4954.830939259358,"65~80":3771.811076230657,"80~95":3622.621059534833,"＞95":2519.770509098235},"rh":{"≤62%":640.5489347417972,"62~64%":4182.788268663884,"64~66%":3221.851491423027,"66~68%":5900.850457383989,"＞68%":1680.4838932522605},"ssrd":{"≤630":1113.5971416482314,"630~645":2819.117949575027,"645~660":3405.0363829832977,"660~675":3664.0216479454,"＞675":4624.74992331684},"tave":{"≤16.5":520.6054485750198,"16.5~17":1509.8429047924603,"17~17.5":2800.3066315025308,"17.5~18":5435.4248630931825,"＞18":5360.34319750734},"code":200}}
+[2022-03-03 01:59:22,791][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:59:22,791][keyword_request.py 54][INFO]: 获取小麦：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 01:59:22,791][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:59:22,791][test_screen.py 31][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:59:22,791][test_screen.py 35][INFO]: except_result数据为：5360
+[2022-03-03 01:59:22,899][test_screen.py 57][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 01:59:22,901][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 01:59:22,901][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 01:59:22,901][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 01:59:22,901][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 01:59:22,901][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "daowen",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 01:59:22,902][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 01:59:22,902][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 01:59:22,902][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 01:59:22,997][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤120":183.88461997294002,"120~140":747.163070671778,"140~160":2941.218034510612,"160~180":6169.508106864578,"＞180":5584.74921345338},"rh":{"≤77%":0,"77~78%":3157.54357350274,"78~79%":3692.3161467567043,"79~80%":3062.1716223783847,"＞80%":5714.49170283337},"ssrd":{"≤700":4409.213315218555,"700~715":4454.524885593127,"715~730":4067.7716017028793,"730~745":1899.1871775984011,"＞745":795.8260653598189},"tave":{"≤24.5":2432.4016794139197,"24.5~25":3287.7064145231643,"25~25.5":2642.252165370867,"25.5~26":2394.9121609123317,"＞26":4869.250625252608},"code":200}}
+[2022-03-03 01:59:22,997][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 01:59:22,997][keyword_request.py 54][INFO]: 获取水稻：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 01:59:22,998][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 01:59:22,998][test_screen.py 59][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 01:59:22,998][test_screen.py 63][INFO]: except_result数据为：4869
+[2022-03-03 01:59:23,010][conftest.py 28][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2022-03-03 02:01:04,740][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 02:01:04,741][yaml_util1.py 25][INFO]: 加载 ==>> D:\python_project\gago_project\jiangsuzhibao\data_file\test_case.yaml文件.....
+[2022-03-03 02:01:04,746][yaml_util1.py 28][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']], 'test_02': [['侵染气象分区', '获取小麦：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'chimei', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, '5360']], 'test_03': [['侵染气象分区', '获取水稻：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'daowen', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, 4869]], 'test_04': [['病害风险地图', '获取小麦风险分布', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'wheat'}, True, 20, 2138]]}
+[2022-03-03 02:01:04,818][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 02:01:04,848][conftest.py 25][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2022-03-03 02:01:04,848][yaml_util1.py 45][INFO]: 重置 /extract_token.yaml文件.......
+[2022-03-03 02:01:04,850][test_login.py 32][INFO]: *************** 用户登录-开始执行用例 ***************
+[2022-03-03 02:01:04,850][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2022-03-03 02:01:04,850][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-03-03 02:01:04,851][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 02:01:04,851][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 02:01:04,851][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2022-03-03 02:01:04,851][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 02:01:04,851][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 02:01:04,851][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 02:01:05,435][yaml_util1.py 36][INFO]: 获取token：{'token': 'f4c1ac99f3d6d05b9f30d3543d94f421586aaabf672995dda3c6789a25bd18741e4bfcd6c04e0a178e54aefc914e62cf'}......
+[2022-03-03 02:01:05,435][yaml_util1.py 39][INFO]: 已将{'token': 'f4c1ac99f3d6d05b9f30d3543d94f421586aaabf672995dda3c6789a25bd18741e4bfcd6c04e0a178e54aefc914e62cf'}写入/extract_token.yaml文件......
+[2022-03-03 02:01:05,436][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"token":"f4c1ac99f3d6d05b9f30d3543d94f421586aaabf672995dda3c6789a25bd18741e4bfcd6c04e0a178e54aefc914e62cf","userId":21,"username":"sny","displayName":"苏农云","role":"admin","enterpriseId":1,"dataAuthorityId":3,"departments":[{"departmentId":1,"departmentName":"江苏省","haveUsers":true},{"departmentId":2,"departmentName":"南京市","haveUsers":false},{"departmentId":3,"departmentName":"市辖区","haveUsers":false},{"departmentId":4,"departmentName":"无锡市","haveUsers":false},{"departmentId":5,"departmentName":"市辖区","haveUsers":false},{"departmentId":6,"departmentName":"徐州市","haveUsers":false},{"departmentId":7,"departmentName":"市辖区","haveUsers":false},{"departmentId":8,"departmentName":"常州市","haveUsers":false},{"departmentId":9,"departmentName":"市辖区","haveUsers":false},{"departmentId":10,"departmentName":"苏州市","haveUsers":false},{"departmentId":11,"departmentName":"市辖区","haveUsers":false},{"departmentId":12,"departmentName":"南通市","haveUsers":false},{"departmentId":13,"departmentName":"市辖区","haveUsers":false},{"departmentId":14,"departmentName":"淮安市","haveUsers":false},{"departmentId":15,"departmentName":"市辖区","haveUsers":false},{"departmentId":16,"departmentName":"扬州市","haveUsers":false},{"departmentId":17,"departmentName":"市辖区","haveUsers":false},{"departmentId":18,"departmentName":"镇江市","haveUsers":false},{"departmentId":19,"departmentName":"市辖区","haveUsers":false},{"departmentId":20,"departmentName":"泰州市","haveUsers":false},{"departmentId":21,"departmentName":"市辖区","haveUsers":false},{"departmentId":22,"departmentName":"宿迁市","haveUsers":false},{"departmentId":23,"departmentName":"市辖区","haveUsers":false},{"departmentId":24,"departmentName":"连云港市","haveUsers":false},{"departmentId":25,"departmentName":"市辖区","haveUsers":false},{"departmentId":26,"departmentName":"盐城市","haveUsers":false},{"departmentId":27,"departmentName":"市辖区","haveUsers":false},{"departmentId":28,"departmentName":"锡山区","haveUsers":false},{"departmentId":29,"departmentName":"贾汪区","haveUsers":false},{"departmentId":30,"departmentName":"铜山县","haveUsers":false},{"departmentId":31,"departmentName":"睢宁县","haveUsers":false},{"departmentId":32,"departmentName":"邳州市","haveUsers":false},{"departmentId":33,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":34,"departmentName":"邗江区","haveUsers":false},{"departmentId":35,"departmentName":"维扬区","haveUsers":false},{"departmentId":36,"departmentName":"润州区","haveUsers":false},{"departmentId":37,"departmentName":"九里区","haveUsers":false},{"departmentId":38,"departmentName":"姜堰市","haveUsers":false},{"departmentId":39,"departmentName":"宿豫区","haveUsers":false},{"departmentId":40,"departmentName":"沭阳县","haveUsers":false},{"departmentId":41,"departmentName":"玄武区","haveUsers":false},{"departmentId":42,"departmentName":"白下区","haveUsers":false},{"departmentId":43,"departmentName":"浦口区","haveUsers":false},{"departmentId":44,"departmentName":"溧水县","haveUsers":false},{"departmentId":45,"departmentName":"栖霞区","haveUsers":false},{"departmentId":46,"departmentName":"雨花台区","haveUsers":false},{"departmentId":47,"departmentName":"北塘区","haveUsers":false},{"departmentId":48,"departmentName":"高淳县","haveUsers":false},{"departmentId":49,"departmentName":"崇安区","haveUsers":false},{"departmentId":50,"departmentName":"南长区","haveUsers":false},{"departmentId":51,"departmentName":"惠山区","haveUsers":false},{"departmentId":52,"departmentName":"滨湖区","haveUsers":false},{"departmentId":53,"departmentName":"江阴市","haveUsers":false},{"departmentId":54,"departmentName":"云龙区","haveUsers":false},{"departmentId":55,"departmentName":"宜兴市","haveUsers":false},{"departmentId":56,"departmentName":"启东市","haveUsers":false},{"departmentId":57,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":58,"departmentName":"丰县","haveUsers":false},{"departmentId":59,"departmentName":"丹徒区","haveUsers":false},{"departmentId":60,"departmentName":"扬中市","haveUsers":false},{"departmentId":61,"departmentName":"泗洪县","haveUsers":false},{"departmentId":62,"departmentName":"沛县","haveUsers":false},{"departmentId":63,"departmentName":"新沂市","haveUsers":false},{"departmentId":64,"departmentName":"钟楼区","haveUsers":false},{"departmentId":65,"departmentName":"金阊区","haveUsers":false},{"departmentId":66,"departmentName":"张家港市","haveUsers":false},{"departmentId":67,"departmentName":"新北区","haveUsers":false},{"departmentId":68,"departmentName":"丹阳市","haveUsers":false},{"departmentId":69,"departmentName":"溧阳市","haveUsers":false},{"departmentId":70,"departmentName":"金坛市","haveUsers":false},{"departmentId":71,"departmentName":"沧浪区","haveUsers":false},{"departmentId":72,"departmentName":"虎丘区","haveUsers":false},{"departmentId":73,"departmentName":"港闸区","haveUsers":false},{"departmentId":74,"departmentName":"相城区","haveUsers":false},{"departmentId":75,"departmentName":"崇川区","haveUsers":false},{"departmentId":76,"departmentName":"海门市","haveUsers":false},{"departmentId":77,"departmentName":"如东县","haveUsers":false},{"departmentId":78,"departmentName":"如皋市","haveUsers":false},{"departmentId":79,"departmentName":"清河区","haveUsers":false},{"departmentId":80,"departmentName":"金湖县","haveUsers":false},{"departmentId":81,"departmentName":"海州区","haveUsers":false},{"departmentId":82,"departmentName":"清浦区","haveUsers":false},{"departmentId":83,"departmentName":"赣榆县","haveUsers":false},{"departmentId":84,"departmentName":"灌南县","haveUsers":false},{"departmentId":85,"departmentName":"淮阴区","haveUsers":false},{"departmentId":86,"departmentName":"洪泽县","haveUsers":false},{"departmentId":87,"departmentName":"广陵区","haveUsers":false},{"departmentId":88,"departmentName":"盱眙县","haveUsers":false},{"departmentId":89,"departmentName":"京口区","haveUsers":false},{"departmentId":90,"departmentName":"亭湖区","haveUsers":false},{"departmentId":91,"departmentName":"盐都区","haveUsers":false},{"departmentId":92,"departmentName":"响水县","haveUsers":false},{"departmentId":93,"departmentName":"阜宁县","haveUsers":false},{"departmentId":94,"departmentName":"建湖县","haveUsers":false},{"departmentId":95,"departmentName":"东台市","haveUsers":false},{"departmentId":96,"departmentName":"大丰市","haveUsers":false},{"departmentId":97,"departmentName":"宝应县","haveUsers":false},{"departmentId":98,"departmentName":"江都市","haveUsers":false},{"departmentId":99,"departmentName":"海陵区","haveUsers":false},{"departmentId":100,"departmentName":"高港区","haveUsers":false},{"departmentId":101,"departmentName":"靖江市","haveUsers":false},{"departmentId":102,"departmentName":"泰兴市","haveUsers":false},{"departmentId":103,"departmentName":"宿城区","haveUsers":false},{"departmentId":104,"departmentName":"泗阳县","haveUsers":false},{"departmentId":105,"departmentName":"戚墅堰区","haveUsers":false},{"departmentId":106,"departmentName":"武进区","haveUsers":false},{"departmentId":107,"departmentName":"平江区","haveUsers":false},{"departmentId":108,"departmentName":"吴中区","haveUsers":false},{"departmentId":109,"departmentName":"海安县","haveUsers":false},{"departmentId":110,"departmentName":"常熟市","haveUsers":false},{"departmentId":111,"departmentName":"昆山市","haveUsers":false},{"departmentId":112,"departmentName":"吴江市","haveUsers":false},{"departmentId":113,"departmentName":"太仓市","haveUsers":false},{"departmentId":114,"departmentName":"秦淮区","haveUsers":false},{"departmentId":115,"departmentName":"通州市","haveUsers":false},{"departmentId":116,"departmentName":"连云区","haveUsers":false},{"departmentId":117,"departmentName":"新浦区","haveUsers":false},{"departmentId":118,"departmentName":"楚州区","haveUsers":false},{"departmentId":119,"departmentName":"建邺区","haveUsers":false},{"departmentId":120,"departmentName":"涟水县","haveUsers":false},{"departmentId":121,"departmentName":"东海县","haveUsers":false},{"departmentId":122,"departmentName":"灌云县","haveUsers":false},{"departmentId":123,"departmentName":"滨海县","haveUsers":false},{"departmentId":124,"departmentName":"射阳县","haveUsers":false},{"departmentId":125,"departmentName":"下关区","haveUsers":false},{"departmentId":126,"departmentName":"六合区","haveUsers":false},{"departmentId":127,"departmentName":"仪征市","haveUsers":false},{"departmentId":128,"departmentName":"高邮市","haveUsers":false},{"departmentId":129,"departmentName":"江宁区","haveUsers":false},{"departmentId":130,"departmentName":"天宁区","haveUsers":false},{"departmentId":131,"departmentName":"句容市","haveUsers":false},{"departmentId":132,"departmentName":"兴化市","haveUsers":false},{"departmentId":133,"departmentName":"泉山区","haveUsers":false}],"departmentId":1,"code":200}}
+[2022-03-03 02:01:05,438][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 02:01:05,438][keyword_request.py 54][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-03-03 02:01:05,438][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 02:01:05,439][test_login.py 34][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 02:01:05,439][test_login.py 38][INFO]: except_result数据为：sny
+[2022-03-03 02:01:05,439][test_login.py 41][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-03-03 02:01:05,448][test_screen.py 29][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 02:01:05,461][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 02:01:05,461][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 02:01:05,462][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 02:01:05,462][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 02:01:05,462][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "chimei",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 02:01:05,462][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 02:01:05,462][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 02:01:05,462][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 02:01:05,570][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤50":757.4894613479651,"50~65":4954.830939259358,"65~80":3771.811076230657,"80~95":3622.621059534833,"＞95":2519.770509098235},"rh":{"≤62%":640.5489347417972,"62~64%":4182.788268663884,"64~66%":3221.851491423027,"66~68%":5900.850457383989,"＞68%":1680.4838932522605},"ssrd":{"≤630":1113.5971416482314,"630~645":2819.117949575027,"645~660":3405.0363829832977,"660~675":3664.0216479454,"＞675":4624.74992331684},"tave":{"≤16.5":520.6054485750198,"16.5~17":1509.8429047924603,"17~17.5":2800.3066315025308,"17.5~18":5435.4248630931825,"＞18":5360.34319750734},"code":200}}
+[2022-03-03 02:01:05,570][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 02:01:05,571][keyword_request.py 54][INFO]: 获取小麦：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 02:01:05,571][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 02:01:05,571][test_screen.py 31][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 02:01:05,571][test_screen.py 35][INFO]: except_result数据为：5360
+[2022-03-03 02:01:05,676][test_screen.py 57][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 02:01:05,678][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 02:01:05,678][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 02:01:05,678][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 02:01:05,679][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 02:01:05,679][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "daowen",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 02:01:05,679][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 02:01:05,679][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 02:01:05,679][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 02:01:05,787][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤120":183.88461997294002,"120~140":747.163070671778,"140~160":2941.218034510612,"160~180":6169.508106864578,"＞180":5584.74921345338},"rh":{"≤77%":0,"77~78%":3157.54357350274,"78~79%":3692.3161467567043,"79~80%":3062.1716223783847,"＞80%":5714.49170283337},"ssrd":{"≤700":4409.213315218555,"700~715":4454.524885593127,"715~730":4067.7716017028793,"730~745":1899.1871775984011,"＞745":795.8260653598189},"tave":{"≤24.5":2432.4016794139197,"24.5~25":3287.7064145231643,"25~25.5":2642.252165370867,"25.5~26":2394.9121609123317,"＞26":4869.250625252608},"code":200}}
+[2022-03-03 02:01:05,788][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 02:01:05,788][keyword_request.py 54][INFO]: 获取水稻：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 02:01:05,788][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 02:01:05,788][test_screen.py 59][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 02:01:05,788][test_screen.py 63][INFO]: except_result数据为：4869
+[2022-03-03 02:01:05,789][test_screen.py 70][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-结束执行用例 ***************
+[2022-03-03 02:01:05,795][conftest.py 28][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~
+[2022-03-03 02:02:16,800][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 02:02:16,801][yaml_util1.py 25][INFO]: 加载 ==>> D:\python_project\gago_project\jiangsuzhibao\data_file\test_case.yaml文件.....
+[2022-03-03 02:02:16,808][yaml_util1.py 28][INFO]: 读到数据 ==>>  {'test_01': [['登录', '用户登录', 'post', '/api/author/login', {'username': 'sny', 'password': 'sny123'}, True, 200, 'sny']], 'test_02': [['侵染气象分区', '获取小麦：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'chimei', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, '5360']], 'test_03': [['侵染气象分区', '获取水稻：温度，湿度，降水，太阳辐射数据', 'get', '/api/zhibao/v1/disaster/areas/statistics', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'disaster_type': 'daowen', 'feature': ['tave', 'rh', 'apcp', 'ssrd']}, True, 200, 4869]], 'test_04': [['病害风险地图', '获取小麦风险分布', 'get', '/api/zhibao/v1/disaster/history/risk_map/distributed', {'lat': '32.9661343135971', 'lon': '119.463308431282', 'crop_type': 'wheat'}, True, 20, 2138]]}
+[2022-03-03 02:02:16,884][yaml_util1.py 48][INFO]: 加载 D:\python_project\gago_project\jiangsuzhibao\config\setting.ini 文件......
+[2022-03-03 02:02:16,913][conftest.py 25][INFO]: ~~~~~~~~~~在所有请求之前执行一次~~~~~~~~~~~
+[2022-03-03 02:02:16,914][yaml_util1.py 45][INFO]: 重置 /extract_token.yaml文件.......
+[2022-03-03 02:02:16,916][test_login.py 32][INFO]: *************** 用户登录-开始执行用例 ***************
+[2022-03-03 02:02:16,916][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/author/login
+[2022-03-03 02:02:16,916][all_requests.py 53][INFO]: 接口请求方式 ==>> post
+[2022-03-03 02:02:16,916][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 02:02:16,916][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 02:02:16,917][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "username": "sny",
+    "password": "sny123"
+}
+[2022-03-03 02:02:16,917][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 02:02:16,917][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 02:02:16,917][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 02:02:17,530][yaml_util1.py 36][INFO]: 获取token：{'token': '1325aef523aa66f91ecb30b8a347b75b4d71f6dc2aaff82988f08105b1580e9ba85d717f7d1cd0c72449172630ce5e22'}......
+[2022-03-03 02:02:17,532][yaml_util1.py 39][INFO]: 已将{'token': '1325aef523aa66f91ecb30b8a347b75b4d71f6dc2aaff82988f08105b1580e9ba85d717f7d1cd0c72449172630ce5e22'}写入/extract_token.yaml文件......
+[2022-03-03 02:02:17,532][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"token":"1325aef523aa66f91ecb30b8a347b75b4d71f6dc2aaff82988f08105b1580e9ba85d717f7d1cd0c72449172630ce5e22","userId":21,"username":"sny","displayName":"苏农云","role":"admin","enterpriseId":1,"dataAuthorityId":3,"departments":[{"departmentId":1,"departmentName":"江苏省","haveUsers":true},{"departmentId":2,"departmentName":"南京市","haveUsers":false},{"departmentId":3,"departmentName":"市辖区","haveUsers":false},{"departmentId":4,"departmentName":"无锡市","haveUsers":false},{"departmentId":5,"departmentName":"市辖区","haveUsers":false},{"departmentId":6,"departmentName":"徐州市","haveUsers":false},{"departmentId":7,"departmentName":"市辖区","haveUsers":false},{"departmentId":8,"departmentName":"常州市","haveUsers":false},{"departmentId":9,"departmentName":"市辖区","haveUsers":false},{"departmentId":10,"departmentName":"苏州市","haveUsers":false},{"departmentId":11,"departmentName":"市辖区","haveUsers":false},{"departmentId":12,"departmentName":"南通市","haveUsers":false},{"departmentId":13,"departmentName":"市辖区","haveUsers":false},{"departmentId":14,"departmentName":"淮安市","haveUsers":false},{"departmentId":15,"departmentName":"市辖区","haveUsers":false},{"departmentId":16,"departmentName":"扬州市","haveUsers":false},{"departmentId":17,"departmentName":"市辖区","haveUsers":false},{"departmentId":18,"departmentName":"镇江市","haveUsers":false},{"departmentId":19,"departmentName":"市辖区","haveUsers":false},{"departmentId":20,"departmentName":"泰州市","haveUsers":false},{"departmentId":21,"departmentName":"市辖区","haveUsers":false},{"departmentId":22,"departmentName":"宿迁市","haveUsers":false},{"departmentId":23,"departmentName":"市辖区","haveUsers":false},{"departmentId":24,"departmentName":"连云港市","haveUsers":false},{"departmentId":25,"departmentName":"市辖区","haveUsers":false},{"departmentId":26,"departmentName":"盐城市","haveUsers":false},{"departmentId":27,"departmentName":"市辖区","haveUsers":false},{"departmentId":28,"departmentName":"锡山区","haveUsers":false},{"departmentId":29,"departmentName":"贾汪区","haveUsers":false},{"departmentId":30,"departmentName":"铜山县","haveUsers":false},{"departmentId":31,"departmentName":"睢宁县","haveUsers":false},{"departmentId":32,"departmentName":"邳州市","haveUsers":false},{"departmentId":33,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":34,"departmentName":"邗江区","haveUsers":false},{"departmentId":35,"departmentName":"维扬区","haveUsers":false},{"departmentId":36,"departmentName":"润州区","haveUsers":false},{"departmentId":37,"departmentName":"九里区","haveUsers":false},{"departmentId":38,"departmentName":"姜堰市","haveUsers":false},{"departmentId":39,"departmentName":"宿豫区","haveUsers":false},{"departmentId":40,"departmentName":"沭阳县","haveUsers":false},{"departmentId":41,"departmentName":"玄武区","haveUsers":false},{"departmentId":42,"departmentName":"白下区","haveUsers":false},{"departmentId":43,"departmentName":"浦口区","haveUsers":false},{"departmentId":44,"departmentName":"溧水县","haveUsers":false},{"departmentId":45,"departmentName":"栖霞区","haveUsers":false},{"departmentId":46,"departmentName":"雨花台区","haveUsers":false},{"departmentId":47,"departmentName":"北塘区","haveUsers":false},{"departmentId":48,"departmentName":"高淳县","haveUsers":false},{"departmentId":49,"departmentName":"崇安区","haveUsers":false},{"departmentId":50,"departmentName":"南长区","haveUsers":false},{"departmentId":51,"departmentName":"惠山区","haveUsers":false},{"departmentId":52,"departmentName":"滨湖区","haveUsers":false},{"departmentId":53,"departmentName":"江阴市","haveUsers":false},{"departmentId":54,"departmentName":"云龙区","haveUsers":false},{"departmentId":55,"departmentName":"宜兴市","haveUsers":false},{"departmentId":56,"departmentName":"启东市","haveUsers":false},{"departmentId":57,"departmentName":"鼓楼区","haveUsers":false},{"departmentId":58,"departmentName":"丰县","haveUsers":false},{"departmentId":59,"departmentName":"丹徒区","haveUsers":false},{"departmentId":60,"departmentName":"扬中市","haveUsers":false},{"departmentId":61,"departmentName":"泗洪县","haveUsers":false},{"departmentId":62,"departmentName":"沛县","haveUsers":false},{"departmentId":63,"departmentName":"新沂市","haveUsers":false},{"departmentId":64,"departmentName":"钟楼区","haveUsers":false},{"departmentId":65,"departmentName":"金阊区","haveUsers":false},{"departmentId":66,"departmentName":"张家港市","haveUsers":false},{"departmentId":67,"departmentName":"新北区","haveUsers":false},{"departmentId":68,"departmentName":"丹阳市","haveUsers":false},{"departmentId":69,"departmentName":"溧阳市","haveUsers":false},{"departmentId":70,"departmentName":"金坛市","haveUsers":false},{"departmentId":71,"departmentName":"沧浪区","haveUsers":false},{"departmentId":72,"departmentName":"虎丘区","haveUsers":false},{"departmentId":73,"departmentName":"港闸区","haveUsers":false},{"departmentId":74,"departmentName":"相城区","haveUsers":false},{"departmentId":75,"departmentName":"崇川区","haveUsers":false},{"departmentId":76,"departmentName":"海门市","haveUsers":false},{"departmentId":77,"departmentName":"如东县","haveUsers":false},{"departmentId":78,"departmentName":"如皋市","haveUsers":false},{"departmentId":79,"departmentName":"清河区","haveUsers":false},{"departmentId":80,"departmentName":"金湖县","haveUsers":false},{"departmentId":81,"departmentName":"海州区","haveUsers":false},{"departmentId":82,"departmentName":"清浦区","haveUsers":false},{"departmentId":83,"departmentName":"赣榆县","haveUsers":false},{"departmentId":84,"departmentName":"灌南县","haveUsers":false},{"departmentId":85,"departmentName":"淮阴区","haveUsers":false},{"departmentId":86,"departmentName":"洪泽县","haveUsers":false},{"departmentId":87,"departmentName":"广陵区","haveUsers":false},{"departmentId":88,"departmentName":"盱眙县","haveUsers":false},{"departmentId":89,"departmentName":"京口区","haveUsers":false},{"departmentId":90,"departmentName":"亭湖区","haveUsers":false},{"departmentId":91,"departmentName":"盐都区","haveUsers":false},{"departmentId":92,"departmentName":"响水县","haveUsers":false},{"departmentId":93,"departmentName":"阜宁县","haveUsers":false},{"departmentId":94,"departmentName":"建湖县","haveUsers":false},{"departmentId":95,"departmentName":"东台市","haveUsers":false},{"departmentId":96,"departmentName":"大丰市","haveUsers":false},{"departmentId":97,"departmentName":"宝应县","haveUsers":false},{"departmentId":98,"departmentName":"江都市","haveUsers":false},{"departmentId":99,"departmentName":"海陵区","haveUsers":false},{"departmentId":100,"departmentName":"高港区","haveUsers":false},{"departmentId":101,"departmentName":"靖江市","haveUsers":false},{"departmentId":102,"departmentName":"泰兴市","haveUsers":false},{"departmentId":103,"departmentName":"宿城区","haveUsers":false},{"departmentId":104,"departmentName":"泗阳县","haveUsers":false},{"departmentId":105,"departmentName":"戚墅堰区","haveUsers":false},{"departmentId":106,"departmentName":"武进区","haveUsers":false},{"departmentId":107,"departmentName":"平江区","haveUsers":false},{"departmentId":108,"departmentName":"吴中区","haveUsers":false},{"departmentId":109,"departmentName":"海安县","haveUsers":false},{"departmentId":110,"departmentName":"常熟市","haveUsers":false},{"departmentId":111,"departmentName":"昆山市","haveUsers":false},{"departmentId":112,"departmentName":"吴江市","haveUsers":false},{"departmentId":113,"departmentName":"太仓市","haveUsers":false},{"departmentId":114,"departmentName":"秦淮区","haveUsers":false},{"departmentId":115,"departmentName":"通州市","haveUsers":false},{"departmentId":116,"departmentName":"连云区","haveUsers":false},{"departmentId":117,"departmentName":"新浦区","haveUsers":false},{"departmentId":118,"departmentName":"楚州区","haveUsers":false},{"departmentId":119,"departmentName":"建邺区","haveUsers":false},{"departmentId":120,"departmentName":"涟水县","haveUsers":false},{"departmentId":121,"departmentName":"东海县","haveUsers":false},{"departmentId":122,"departmentName":"灌云县","haveUsers":false},{"departmentId":123,"departmentName":"滨海县","haveUsers":false},{"departmentId":124,"departmentName":"射阳县","haveUsers":false},{"departmentId":125,"departmentName":"下关区","haveUsers":false},{"departmentId":126,"departmentName":"六合区","haveUsers":false},{"departmentId":127,"departmentName":"仪征市","haveUsers":false},{"departmentId":128,"departmentName":"高邮市","haveUsers":false},{"departmentId":129,"departmentName":"江宁区","haveUsers":false},{"departmentId":130,"departmentName":"天宁区","haveUsers":false},{"departmentId":131,"departmentName":"句容市","haveUsers":false},{"departmentId":132,"departmentName":"兴化市","haveUsers":false},{"departmentId":133,"departmentName":"泉山区","haveUsers":false}],"departmentId":1,"code":200}}
+[2022-03-03 02:02:17,535][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 02:02:17,535][keyword_request.py 54][INFO]: 用户登录 ==>> 返回状态码为 >> 200
+[2022-03-03 02:02:17,535][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 02:02:17,536][test_login.py 34][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 02:02:17,536][test_login.py 38][INFO]: except_result数据为：sny
+[2022-03-03 02:02:17,536][test_login.py 41][INFO]: *************** 用户登录-结束执行用例 ***************
+[2022-03-03 02:02:17,547][test_screen.py 29][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 02:02:17,557][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 02:02:17,557][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 02:02:17,557][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 02:02:17,557][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 02:02:17,557][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "chimei",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 02:02:17,557][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 02:02:17,557][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 02:02:17,558][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 02:02:17,664][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤50":757.4894613479651,"50~65":4954.830939259358,"65~80":3771.811076230657,"80~95":3622.621059534833,"＞95":2519.770509098235},"rh":{"≤62%":640.5489347417972,"62~64%":4182.788268663884,"64~66%":3221.851491423027,"66~68%":5900.850457383989,"＞68%":1680.4838932522605},"ssrd":{"≤630":1113.5971416482314,"630~645":2819.117949575027,"645~660":3405.0363829832977,"660~675":3664.0216479454,"＞675":4624.74992331684},"tave":{"≤16.5":520.6054485750198,"16.5~17":1509.8429047924603,"17~17.5":2800.3066315025308,"17.5~18":5435.4248630931825,"＞18":5360.34319750734},"code":200}}
+[2022-03-03 02:02:17,665][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 02:02:17,665][keyword_request.py 54][INFO]: 获取小麦：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 02:02:17,665][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 02:02:17,665][test_screen.py 31][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 02:02:17,665][test_screen.py 35][INFO]: except_result数据为：5360
+[2022-03-03 02:02:17,665][test_screen.py 42][INFO]: *************** 获取小麦：温度，湿度，降水，太阳辐射数据-结束执行用例 ***************
+[2022-03-03 02:02:17,674][test_screen.py 57][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-开始执行用例 ***************
+[2022-03-03 02:02:17,676][all_requests.py 52][INFO]: 接口请求地址 ==>> https://zbapi.gagogroup.cn/api/zhibao/v1/disaster/areas/statistics
+[2022-03-03 02:02:17,676][all_requests.py 53][INFO]: 接口请求方式 ==>> get
+[2022-03-03 02:02:17,676][all_requests.py 55][INFO]: 接口请求头 ==>> null
+[2022-03-03 02:02:17,676][all_requests.py 56][INFO]: 接口请求 params 参数 ==>> null
+[2022-03-03 02:02:17,676][all_requests.py 57][INFO]: 接口请求体 data 参数 ==>> {
+    "lat": "32.9661343135971",
+    "lon": "119.463308431282",
+    "disaster_type": "daowen",
+    "feature": [
+        "tave",
+        "rh",
+        "apcp",
+        "ssrd"
+    ]
+}
+[2022-03-03 02:02:17,676][all_requests.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2022-03-03 02:02:17,676][all_requests.py 59][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-03-03 02:02:17,677][all_requests.py 60][INFO]: 接口 cookies 参数 ==>> null
+[2022-03-03 02:02:17,779][keyword_request.py 50][INFO]: 请求返回信息 >>> {"data":{"apcp":{"≤120":183.88461997294002,"120~140":747.163070671778,"140~160":2941.218034510612,"160~180":6169.508106864578,"＞180":5584.74921345338},"rh":{"≤77%":0,"77~78%":3157.54357350274,"78~79%":3692.3161467567043,"79~80%":3062.1716223783847,"＞80%":5714.49170283337},"ssrd":{"≤700":4409.213315218555,"700~715":4454.524885593127,"715~730":4067.7716017028793,"730~745":1899.1871775984011,"＞745":795.8260653598189},"tave":{"≤24.5":2432.4016794139197,"24.5~25":3287.7064145231643,"25~25.5":2642.252165370867,"25.5~26":2394.9121609123317,"＞26":4869.250625252608},"code":200}}
+[2022-03-03 02:02:17,779][keyword_request.py 52][INFO]: resulr.data数据为:True
+[2022-03-03 02:02:17,779][keyword_request.py 54][INFO]: 获取水稻：温度，湿度，降水，太阳辐射数据 ==>> 返回状态码为 >> 200
+[2022-03-03 02:02:17,779][keyword_request.py 55][INFO]: json.get方法获取状态码200
+[2022-03-03 02:02:17,779][test_screen.py 59][INFO]: 状态码 ==>> 期望结果：200， 实际结果：【 200 】
+[2022-03-03 02:02:17,779][test_screen.py 63][INFO]: except_result数据为：4869
+[2022-03-03 02:02:17,780][test_screen.py 70][INFO]: *************** 获取水稻：温度，湿度，降水，太阳辐射数据-结束执行用例 ***************
+[2022-03-03 02:02:17,786][conftest.py 28][INFO]: ~~~~~~~~~~在所有请求之后执行一次~~~~~~~~~~~

@@ -1,0 +1,745 @@
+[2022-02-15 00:00:32,066][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:00:32,066][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:00:32,067][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:00:32,067][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:00:32,067][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:00:32,067][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:00:32,067][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:00:32,067][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:00:48,005][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:00:48,005][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:00:48,005][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:00:48,005][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:00:48,006][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:00:48,006][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:00:48,006][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:00:48,006][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:00:57,912][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:00:57,912][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:00:57,913][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:00:57,913][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:00:57,913][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:00:57,913][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:00:57,913][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:00:57,913][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:03:40,654][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:03:40,654][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:03:40,654][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:03:40,654][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:03:40,655][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:03:40,655][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:03:40,655][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:03:40,655][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:07:53,945][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:07:53,945][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:07:53,945][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:07:53,946][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:07:53,946][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:07:53,946][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:07:53,946][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:07:53,946][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:08:10,171][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:08:10,171][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:08:10,171][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:08:10,171][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:08:10,171][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:08:10,171][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:08:10,172][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:08:10,172][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:09:00,633][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:09:00,633][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:09:00,633][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:09:00,634][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:09:00,634][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:09:00,634][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:09:00,634][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:09:00,634][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:13:52,951][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:13:52,952][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:13:52,952][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:13:52,952][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:13:52,952][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:13:52,952][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:13:52,952][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:13:52,953][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:19:05,603][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:19:05,603][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:19:05,603][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:19:05,603][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:19:05,604][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:19:05,604][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:19:05,604][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:19:05,604][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 00:53:49,179][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 00:53:49,180][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 00:53:49,180][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 00:53:49,181][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 00:53:49,181][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 00:53:49,181][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 00:53:49,182][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 00:53:49,182][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:06:24,929][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:06:24,929][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:06:24,929][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:06:24,929][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:06:24,929][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:06:24,930][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:06:24,930][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:06:24,930][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:06:41,572][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:06:41,572][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:06:41,572][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:06:41,572][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:06:41,572][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:06:41,572][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:06:41,572][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:06:41,572][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:07:38,542][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:07:38,542][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:07:38,542][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:07:38,542][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:07:38,543][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:07:38,543][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:07:38,543][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:07:38,543][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:07:38,729][keyword_request.py 56][INFO]: <function keyword_request at 0x00000285684B2E18>
+[2022-02-15 01:09:38,575][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:09:38,576][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:09:38,576][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:09:38,576][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:09:38,576][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:09:38,576][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:09:38,576][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:09:38,576][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:09:38,715][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:09:38,715][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:09:38,716][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:09:38,716][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:09:38,716][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:09:38,716][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:09:38,716][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:09:38,716][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:09:38,765][keyword_request.py 56][INFO]: {"code":200,"data":{"result":{"token":"58d9bf5c-4d87-471d-b7c4-394dfb968b2e","id":1,"nickname":"admin","isActive":true,"username":"admin","phone":"12345","updated_at":"2020-11-04T03:01:37.538Z","is_deleted":false,"role":{"id":1,"name":"admin","createdAt":null,"updatedAt":"2021-06-23T02:08:45.170Z","web":["/home-new","/home","/house-digital","/system-manage/user","/system-manage","/system-manage/permissions","/system-manage/devices","/system-manage/products","/device-control","/video-intelligent-monitoring","/farming-manage","/farming-manage/plant-standard-management","/farming-manage/recovery-plan","/farming-manage/farming-task-management","/farming-manage/digital-farmland-notes","/pest-disease-monitor","/quality-manage","/farming-origin","/data-analyse","/lot-device-monitoring","/model-explore","/model-explore/crop-growth","/model-explore/environment-analysis","/model-explore/aquatic-vegetables"],"app":["/home","/house-digital","/lot-device-monitoring"],"dataAuthority":"1","isDeleted":false},"departments":[{"id":3,"name":"分组a","parent_id":2,"createdAt":null,"updatedAt":null}]}}}
+[2022-02-15 01:09:48,418][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:09:48,419][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:09:48,419][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:09:48,419][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:09:48,419][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:09:48,419][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:09:48,419][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:09:48,419][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:09:48,530][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:09:48,530][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:09:48,530][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:09:48,531][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:09:48,531][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:09:48,531][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:09:48,531][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:09:48,531][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:15:26,792][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:15:26,792][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:15:26,792][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:15:26,792][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:15:26,792][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:15:26,792][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:15:26,792][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:15:26,792][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:15:31,314][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:15:31,324][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:17:15,265][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:17:15,265][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:17:15,265][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:17:15,266][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:17:15,266][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:17:15,266][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:17:15,266][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:17:15,266][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:17:15,408][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:17:15,413][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:18:09,484][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:18:09,484][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:18:09,484][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:18:09,484][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:18:09,484][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:18:09,485][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:18:09,485][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:18:09,485][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:18:09,597][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:18:09,602][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:20:29,491][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:20:29,491][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:20:29,491][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:20:29,491][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:20:29,492][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:20:29,492][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:20:29,492][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:20:29,492][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:20:35,193][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:20:35,198][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:22:38,915][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:22:38,915][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:22:38,915][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:22:38,916][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:22:38,916][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:22:38,916][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:22:38,916][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:22:38,916][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:22:39,068][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:22:39,073][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:22:39,580][yaml_util1.py 33][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 01:22:39,581][test_cjw1.py 12][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 01:23:10,148][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:23:10,148][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:23:10,148][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:23:10,148][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:23:10,149][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:23:10,149][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:23:10,149][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:23:10,149][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:23:10,277][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:23:10,283][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:23:10,802][yaml_util1.py 33][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 01:23:10,803][test_cjw1.py 12][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 01:25:13,711][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:25:13,711][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:25:13,711][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:25:13,711][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:25:13,711][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:25:13,711][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:25:13,711][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:25:13,711][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:25:13,855][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:25:13,860][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, True, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:25:14,380][yaml_util1.py 33][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 01:25:14,381][test_cjw1.py 12][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 01:26:29,444][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:26:29,444][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:26:29,444][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:26:29,444][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:26:29,444][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:26:29,444][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:26:29,444][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:26:29,444][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:26:29,616][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:26:29,621][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:26:30,163][yaml_util1.py 33][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 01:26:30,164][test_cjw1.py 12][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 01:27:09,549][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:27:09,557][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:27:09,753][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:27:09,753][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:27:09,753][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:27:09,753][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:27:09,753][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:27:09,754][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:27:09,754][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:27:09,754][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:27:09,826][yaml_util1.py 33][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 01:27:09,829][test_cjw1.py 12][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 01:30:40,679][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:30:40,679][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:30:40,679][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:30:40,679][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:30:40,679][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:30:40,679][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:30:40,679][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:30:40,680][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:31:00,738][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:31:00,738][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:31:00,738][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:31:00,738][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:31:00,738][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:31:00,738][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:31:00,738][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:31:00,738][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:31:07,492][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:31:07,493][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:31:07,493][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:31:07,493][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:31:07,493][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:31:07,493][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:31:07,493][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:31:07,493][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:32:18,172][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:32:18,172][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:32:18,172][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:32:18,172][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:32:18,172][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:32:18,172][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:32:18,172][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:32:18,172][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:32:18,306][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:32:18,307][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:32:18,307][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:32:18,307][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:32:18,307][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:32:18,307][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:32:18,307][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:32:18,307][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:32:18,358][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:32:18,364][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:32:18,899][yaml_util1.py 33][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 01:33:17,269][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:33:17,269][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:33:17,269][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:33:17,269][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:33:17,270][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:33:17,270][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:33:17,270][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:33:17,270][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:33:24,513][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:33:24,513][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:33:24,513][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:33:24,513][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:33:24,513][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:33:24,513][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:33:24,513][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:33:24,513][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:33:24,590][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:33:24,595][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:34:03,348][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:34:03,348][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:34:03,348][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:34:03,348][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:34:03,348][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:34:03,348][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:34:03,348][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:34:03,349][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:34:03,454][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:34:03,459][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:34:36,075][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:34:36,075][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:34:36,075][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:34:36,075][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:34:36,075][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:34:36,075][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:34:36,076][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:34:36,076][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:34:36,204][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:34:36,208][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:36:34,661][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:36:34,661][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:36:34,661][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:36:34,662][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:36:34,662][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:36:34,662][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:36:34,662][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:36:34,662][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:36:34,785][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:36:34,790][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:37:13,682][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:37:13,682][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:37:13,682][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:37:13,682][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:37:13,682][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:37:13,683][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:37:13,683][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:37:13,683][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:37:13,813][yaml_util1.py 15][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:37:13,818][yaml_util1.py 18][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 01:39:01,525][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:39:01,525][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:39:01,525][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:39:01,525][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:39:01,525][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:39:01,525][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:39:01,525][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:39:01,525][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:39:14,297][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:39:14,297][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:39:14,298][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:39:14,298][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:39:14,298][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:39:14,298][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:39:14,298][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:39:14,298][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:39:14,388][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:39:14,388][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:39:14,388][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:39:14,389][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:39:14,389][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:39:14,389][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:39:14,389][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:39:14,389][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:40:16,045][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:40:16,045][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:40:16,045][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:40:16,045][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:40:16,046][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:40:16,046][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:40:16,046][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:40:16,046][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:42:26,672][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:42:26,672][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:42:26,672][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:42:26,673][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:42:26,673][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:42:26,673][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:42:26,673][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:42:26,673][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:51:59,289][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:51:59,289][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:51:59,290][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:51:59,290][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:51:59,290][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:51:59,290][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:51:59,290][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:51:59,290][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:51:59,428][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:51:59,428][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:51:59,428][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:51:59,428][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:51:59,429][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:51:59,429][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:51:59,429][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:51:59,429][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:56:45,336][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:56:45,336][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:56:45,336][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:56:45,336][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:56:45,337][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:56:45,337][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:56:45,337][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:56:45,337][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:56:45,488][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:56:45,488][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:56:45,488][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:56:45,488][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:56:45,488][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:56:45,488][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:56:45,489][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:56:45,489][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:57:03,806][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:57:03,806][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:57:03,807][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:57:03,807][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:57:03,807][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:57:03,807][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:57:03,807][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:57:03,807][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:57:03,906][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:57:03,906][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:57:03,907][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:57:03,907][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:57:03,907][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:57:03,907][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:57:03,907][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:57:03,907][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:57:03,952][keyword_request.py 34][INFO]: 登录用户 ==>> 返回结果 ==>> {"code":200,"data":{"result":{"token":"530f6937-f53e-4f22-abce-9de90c0b2965","id":1,"nickname":"admin","isActive":true,"username":"admin","phone":"12345","updated_at":"2020-11-04T03:01:37.538Z","is_deleted":false,"role":{"id":1,"name":"admin","createdAt":null,"updatedAt":"2021-06-23T02:08:45.170Z","web":["/home-new","/home","/house-digital","/system-manage/user","/system-manage","/system-manage/permissions","/system-manage/devices","/system-manage/products","/device-control","/video-intelligent-monitoring","/farming-manage","/farming-manage/plant-standard-management","/farming-manage/recovery-plan","/farming-manage/farming-task-management","/farming-manage/digital-farmland-notes","/pest-disease-monitor","/quality-manage","/farming-origin","/data-analyse","/lot-device-monitoring","/model-explore","/model-explore/crop-growth","/model-explore/environment-analysis","/model-explore/aquatic-vegetables"],"app":["/home","/house-digital","/lot-device-monitoring"],"dataAuthority":"1","isDeleted":false},"departments":[{"id":3,"name":"分组a","parent_id":2,"createdAt":null,"updatedAt":null}]}}}
+[2022-02-15 01:57:28,184][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:57:28,184][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:57:28,184][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:57:28,184][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:57:28,184][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:57:28,184][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:57:28,184][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:57:28,184][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:57:31,264][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:57:31,264][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:57:31,264][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:57:31,264][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:57:31,264][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:57:31,264][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:57:31,264][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:57:31,264][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:57:31,309][keyword_request.py 34][INFO]: 登录用户 ==>> 返回结果 ==>> {"code":200,"data":{"result":{"token":"64bbae3d-7266-4cfc-8d88-69b34bdd642f","id":1,"nickname":"admin","isActive":true,"username":"admin","phone":"12345","updated_at":"2020-11-04T03:01:37.538Z","is_deleted":false,"role":{"id":1,"name":"admin","createdAt":null,"updatedAt":"2021-06-23T02:08:45.170Z","web":["/home-new","/home","/house-digital","/system-manage/user","/system-manage","/system-manage/permissions","/system-manage/devices","/system-manage/products","/device-control","/video-intelligent-monitoring","/farming-manage","/farming-manage/plant-standard-management","/farming-manage/recovery-plan","/farming-manage/farming-task-management","/farming-manage/digital-farmland-notes","/pest-disease-monitor","/quality-manage","/farming-origin","/data-analyse","/lot-device-monitoring","/model-explore","/model-explore/crop-growth","/model-explore/environment-analysis","/model-explore/aquatic-vegetables"],"app":["/home","/house-digital","/lot-device-monitoring"],"dataAuthority":"1","isDeleted":false},"departments":[{"id":3,"name":"分组a","parent_id":2,"createdAt":null,"updatedAt":null}]}}}
+[2022-02-15 01:57:42,159][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:57:42,159][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:57:42,159][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:57:42,160][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:57:42,160][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:57:42,160][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:57:42,160][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:57:42,160][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:57:42,268][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:57:42,268][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:57:42,268][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:57:42,268][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:57:42,268][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:57:42,268][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:57:42,268][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:57:42,268][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:57:42,312][keyword_request.py 34][INFO]: 登录用户 ==>> 返回结果 ==>> {"code":200,"data":{"result":{"token":"76689ab7-71be-4ced-a9ef-167c24bf4260","id":1,"nickname":"admin","isActive":true,"username":"admin","phone":"12345","updated_at":"2020-11-04T03:01:37.538Z","is_deleted":false,"role":{"id":1,"name":"admin","createdAt":null,"updatedAt":"2021-06-23T02:08:45.170Z","web":["/home-new","/home","/house-digital","/system-manage/user","/system-manage","/system-manage/permissions","/system-manage/devices","/system-manage/products","/device-control","/video-intelligent-monitoring","/farming-manage","/farming-manage/plant-standard-management","/farming-manage/recovery-plan","/farming-manage/farming-task-management","/farming-manage/digital-farmland-notes","/pest-disease-monitor","/quality-manage","/farming-origin","/data-analyse","/lot-device-monitoring","/model-explore","/model-explore/crop-growth","/model-explore/environment-analysis","/model-explore/aquatic-vegetables"],"app":["/home","/house-digital","/lot-device-monitoring"],"dataAuthority":"1","isDeleted":false},"departments":[{"id":3,"name":"分组a","parent_id":2,"createdAt":null,"updatedAt":null}]}}}
+[2022-02-15 01:59:31,663][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 01:59:31,664][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 01:59:31,664][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 01:59:31,664][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 01:59:31,664][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 01:59:31,664][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 01:59:31,664][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 01:59:31,664][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 01:59:31,838][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 01:59:31,842][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:02:02,284][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 02:02:02,284][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 02:02:02,284][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 02:02:02,284][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 02:02:02,284][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 02:02:02,284][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 02:02:02,284][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 02:02:02,284][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 02:02:11,010][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 02:02:11,015][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:02:47,761][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 02:02:47,762][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 02:02:47,762][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 02:02:47,762][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 02:02:47,762][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 02:02:47,762][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 02:02:47,762][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 02:02:47,762][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 02:02:50,085][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 02:02:50,090][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:03:10,332][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 02:03:10,333][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 02:03:10,333][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 02:03:10,333][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 02:03:10,333][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 02:03:10,333][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 02:03:10,333][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 02:03:10,333][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 02:03:10,460][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 02:03:10,465][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:10:06,931][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 02:10:06,931][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 02:10:06,931][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 02:10:06,931][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 02:10:06,931][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 02:10:06,931][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 02:10:06,931][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 02:10:06,932][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 02:10:08,508][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 02:10:08,512][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:10:09,023][yaml_util1.py 38][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 02:10:09,025][test_cjw1.py 12][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 02:11:03,805][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 02:11:03,805][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 02:11:03,805][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 02:11:03,805][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 02:11:03,805][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 02:11:03,805][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 02:11:03,805][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 02:11:03,806][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 02:11:03,922][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 02:11:03,928][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:11:04,434][yaml_util1.py 38][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 02:11:04,435][test_cjw1.py 12][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 02:15:42,779][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 02:15:42,780][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 02:15:42,780][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 02:15:42,780][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 02:15:42,780][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 02:15:42,780][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 02:15:42,780][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 02:15:42,780][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 02:15:42,933][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 02:15:42,938][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:15:43,452][yaml_util1.py 38][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 02:15:43,452][test_cjw1.py 13][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 02:16:18,741][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 02:16:18,741][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 02:16:18,741][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 02:16:18,741][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 02:16:18,742][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 02:16:18,742][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 02:16:18,742][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 02:16:18,742][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 02:16:18,883][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 02:16:18,888][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:16:19,381][yaml_util1.py 38][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 02:16:19,381][test_cjw1.py 13][INFO]: *************** 开始执行用例 ***************
+[2022-02-15 02:17:17,277][all_requests.py 84][INFO]: 接口请求地址 ==>> http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login
+[2022-02-15 02:17:17,277][all_requests.py 85][INFO]: 接口请求方式 ==>> post
+[2022-02-15 02:17:17,278][all_requests.py 87][INFO]: 接口请求头 ==>> null
+[2022-02-15 02:17:17,278][all_requests.py 88][INFO]: 接口请求 params 参数 ==>> null
+[2022-02-15 02:17:17,278][all_requests.py 89][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "lvfulong2021",
+    "username": "admin"
+}
+[2022-02-15 02:17:17,278][all_requests.py 90][INFO]: 接口请求体 json 参数 ==>> null
+[2022-02-15 02:17:17,278][all_requests.py 91][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-02-15 02:17:17,278][all_requests.py 92][INFO]: 接口 cookies 参数 ==>> null
+[2022-02-15 02:17:17,431][yaml_util1.py 20][INFO]: 加载D:\python_project\pytestdemo\data_file\test_case.yaml文件.....
+[2022-02-15 02:17:17,436][yaml_util1.py 23][INFO]: 读到数据 ==>>  {'test': [['获取采收计划', 'get', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}]], 'test_01': [['登录平台', 'post', 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', {'password': 'lvfulong2021', 'username': 'admin'}, 200, 'admin']], 'test_02': [{'name': '登录平台'}, {'requests': {'method': 'post', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/user/login', 'data': {'password': 'lvfulong2021', 'username': 'admin'}}}], 'test_03': [{'name': '获取采收计划'}, {'requests': {'method': 'get', 'url': 'http://lvfulong-server.fm-dev.gagogroup.cn:30449/api/v1/harvest_plan/list', 'data': {'year': '', 'page': 1, 'size': 15, 'product_name': '', 'sow_start_data': '', 'sow_end_data': '', 'house_type': '01'}}}]}
+[2022-02-15 02:17:17,950][yaml_util1.py 38][INFO]: 重置/extract_token.yaml文件.......
+[2022-02-15 02:17:17,951][test_cjw1.py 13][INFO]: *************** 开始执行用例 ***************
