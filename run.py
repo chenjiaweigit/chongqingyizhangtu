@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import locale
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+
 import shutil
 import pytest
 from common.set_title import *
