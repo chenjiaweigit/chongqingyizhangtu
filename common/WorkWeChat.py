@@ -7,6 +7,7 @@ import requests
 from common.Send_Email import locathost_ip
 from common.set_title import getrootdirectory
 from common.yaml_util1 import load_ini
+from colorama import init, Fore, Style
 
 data_file_path = os.path.join(getrootdirectory(), 'config', 'setting.ini')
 work_wechat = load_ini(data_file_path)["work_wechat"]
@@ -50,6 +51,8 @@ def send_workwhat(message):
 
 
 def send_workwhat_robot(message):
+    init()
+    title_text = Fore.RED + '重庆农业产业数字化一张图监控' + Style.RESET_ALL
     data1 = {
         "msgtype": "markdown",
         "markdown": {
@@ -63,10 +66,10 @@ def send_workwhat_robot(message):
     data = {
         "msgtype": "text",
         "text": {
-            "content": "重庆农业产业数字化一张图监控\n"
+            "content": title_text +"\n"
                        "" + now_time + "\n"
                                         "" + message + "\n"
-                                                        "Jenkins地址：" + locathost_ip + ")",
+                                                        "Jenkins地址：""\n" + locathost_ip,
             "mentioned_list": ["ChenJiaWei", "Anna"],
         }
     }
