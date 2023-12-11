@@ -50,7 +50,7 @@ def send_workwhat(message):
 
 
 def send_workwhat_robot(message):
-    data = {
+    data1 = {
         "msgtype": "markdown",
         "markdown": {
             "content": "<font color=\"warning\">重庆农业产业数字化一张图监控</font>\n"
@@ -58,6 +58,16 @@ def send_workwhat_robot(message):
                                         ">" + message + "\n"
                                                         ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")",
         "mentioned_list":["@all"]
+        }
+    }
+    data = {
+        "msgtype": "text",
+        "text": {
+            "content": "<font color=\"warning\">重庆农业产业数字化一张图监控</font>\n"
+                       ">" + now_time + "\n"
+                                        ">" + message + "\n"
+                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")",
+            "mentioned_list": ["ChenJiaWei", "@all"],
         }
     }
     if state == 'True':
