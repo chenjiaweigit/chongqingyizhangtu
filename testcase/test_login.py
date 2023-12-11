@@ -36,6 +36,7 @@ class Test_login:
         log.info("状态码 ==>> 期望结果：{}， 实际结果：【 {} 】".format(except_code, result.response.json()['code']))
         assert result.success == except_pt, result.error
         assert result.response.status_code == except_code
+        assert result.response.json()['code'] == except_code
         log.info(f'{json.dumps(result.response.json(), sort_keys=True, indent=2)}')   #将返回以json格式输出
         log.info("except_result数据为：{}".format(except_result))
         assert str(except_result) in result.data

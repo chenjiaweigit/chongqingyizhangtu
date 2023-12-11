@@ -64,3 +64,7 @@ def keyword_request(name,method,url,data):
     log.info("{} ==>> 返回状态码为 >> {}".format(name,result.response.status_code))
     # log.info("json.get方法获取状态码{}".format(result.response.json().get('data',{}).get('code')))
     return result
+
+if __name__ == '__main__':
+    a = keyword_request('测试','get','/captchaImage','')
+    print(a.response.json()['code'])
