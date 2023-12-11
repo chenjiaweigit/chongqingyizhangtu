@@ -56,7 +56,8 @@ def send_workwhat_robot(message):
             "content": "<font color=\"warning\">重庆农业产业数字化一张图监控</font>\n"
                        ">" + now_time + "\n"
                                         ">" + message + "\n"
-                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")"
+                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")",
+        "mentioned_mobile_list":["ChenJiaWei","Anna"]
         }
     }
     if state == 'True':

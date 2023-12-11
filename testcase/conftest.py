@@ -63,20 +63,8 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
                 "省略： {}\n "
                 "重试： {}\n "
                 "总运行时间： {:.3f}s".format(total, passed, failed, error, skipped, deselected, rerun, duration))
-    sum_list_error = ("用例总数: {}\n "
-                "通过： {}\n "
-                "失败： {}\n "
-                "错误： {}\n "
-                "跳过： {}\n "
-                "省略： {}\n "
-                "重试： {}\n "
-                "总运行时间： {:.3f}s\n"
-                "@陈家伟 @安娜".format(total, passed, failed, error, skipped, deselected, rerun, duration))
     # send_workwhat(sum_list)
-    if failed == 0:
-        send_workwhat_robot(sum_list)
-    elif failed > 0:
-        send_workwhat_robot(sum_list_error)
+    send_workwhat_robot(sum_list)
 
     if failed > 0:
         sendServerChan(sum_list)
