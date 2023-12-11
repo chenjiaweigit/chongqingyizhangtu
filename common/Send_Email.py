@@ -15,7 +15,7 @@ server_email = load_ini(data_file_path)["server_email"]
 html_report_path = os.path.join(getrootdirectory(), 'html_report')
 zip_file(html_report_path)
 html_report = os.path.join(getrootdirectory(), 'html_report.zip')
-locathost_ip = 'http://39.100.74.45:9090/'
+locathost_ip = 'http://39.100.74.45:9090'
 
 
 class Send_email:

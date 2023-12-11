@@ -53,17 +53,16 @@ def send_workwhat(message):
 def send_workwhat_robot(message):
     init()
     title_text = Fore.RED + '重庆农业产业数字化一张图监控' + Style.RESET_ALL
-    data1 = {
+    data = {
         "msgtype": "markdown",
         "markdown": {
             "content": "<font color=\"warning\">重庆农业产业数字化一张图监控</font>\n"
                        ">" + now_time + "\n"
                                         ">" + message + "\n"
-                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")",
-        "mentioned_list":["@all"]
-        }
+                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")"},
+        "mentioned_list": ["ChenJiaWei", "Anna"],
     }
-    data = {
+    data1 = {
         "msgtype": "text",
         "text": {
             "content": title_text +"\n"
