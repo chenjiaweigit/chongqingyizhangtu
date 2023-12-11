@@ -57,7 +57,7 @@ def send_workwhat_robot(message):
                        ">" + now_time + "\n"
                                         ">" + message + "\n"
                                                         ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")",
-        "mentioned_list":["ChenJiaWei","Anna"]
+        "mentioned_list":["@all"]
         }
     }
     if state == 'True':
