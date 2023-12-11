@@ -63,11 +63,11 @@ def send_workwhat_robot(message):
     data = {
         "msgtype": "text",
         "text": {
-            "content": "<font color=\"warning\">重庆农业产业数字化一张图监控</font>\n"
-                       ">" + now_time + "\n"
-                                        ">" + message + "\n"
-                                                        ">[点击登录Jenkins查看报告详情](" + locathost_ip + ")",
-            "mentioned_list": ["ChenJiaWei", "@all"],
+            "content": "重庆农业产业数字化一张图监控\n"
+                       "" + now_time + "\n"
+                                        "" + message + "\n"
+                                                        "Jenkins地址：" + locathost_ip + ")",
+            "mentioned_list": ["ChenJiaWei", "Anna"],
         }
     }
     if state == 'True':
