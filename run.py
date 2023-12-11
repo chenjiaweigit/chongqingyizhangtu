@@ -14,7 +14,7 @@ if __name__ == '__main__':
         report_title = get_json_data("自动化测试报告")
         write_json_data(report_title)
     except:
-        print("Allur Report generation failure ！")
+        print("Allur Report generation failure!")
     # 支持本地查看allure报告
     '''
     os.system('chomd 777 doubleClickReadReport.sh')
