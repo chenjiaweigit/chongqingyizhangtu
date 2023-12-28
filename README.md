@@ -15,7 +15,7 @@
 ## 项目部署
 
 - 全部项目源码来源于此项目：http://git.azure.gagogroup.cn/agri-test-group/jiangsuzhibao
-- Git仓库下载：git@git.azure.gagogroup.cn:agri-test-group/jiangsuzhibao.git
+- Git仓库下载：git@git.azure.xxxx:agri-test-group/jiangsuzhibao.git
 - 安装项目依赖：在根目录下找到 [requirements.txt](requirements.txt)文件，然后通过 pip 工具安装 requirements.txt 依赖，执行命令：
 ```pip3 install -r requirements.txt```
 - 安装allure：如果是直接使用jenkins上的插件，并不需要下载安装，如果想在本地查看，则需要自行安装：
